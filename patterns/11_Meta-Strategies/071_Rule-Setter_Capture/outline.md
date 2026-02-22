@@ -1,84 +1,93 @@
 # Rule-Setter Capture
 
-**Summary:** <!-- 3–5 sentences: what this pattern is, why it recurs across domains, what structural feature makes it recognizable. Descriptive voice — no advocacy. -->
+**Summary:** Rule-Setter Capture is a meta-strategy pattern in which a deploying actor gains control over the body or authority that writes, interprets, or enforces the rules governing the deployer's own domain of operation, so that future rules come to reflect the deployer's interests and constraints rather than being imposed on the deployer from outside. The pattern is structurally distinct from operating optimally within existing rules (as in Process Capture and Rule-Setting, 021, which captures the procedures of a single deliberation) because it targets the rule-writing authority itself, producing durable advantage across all future deliberations within the captured rule-set's jurisdiction. It recurs across regulatory agency capture, constitutional interpretation, international standards-setting bodies, host-cell hijacking in molecular biology, and common law doctrine formation because any domain with a defined rule-writing authority presents the structural opportunity for that authority to be reached by actors subject to it. The pattern's analytical signature is that the rules produced by a captured rule-setter systematically diverge from those that would be produced by an independent authority serving the full population of rule-subjects, in the direction of the capturing actor's interests.
 
-**Mechanism in one sentence:** <!-- ≤ 30 words. How the pattern operates at its core. -->
+**Mechanism in one sentence:** The deploying actor captures the personnel, agenda, or interpretive authority of the rule-setting body, so that all rules produced by the body reflect the deployer's interests rather than imposing external constraints.
 
 ### Actors and deployment context
 
-<!-- Who deploys this pattern, against what, and in what structural position. List deploying actor, target actor, and any enabling actors. Each bullet: name → role → incentive → constraint. Claim label required. -->
-
-- **[Deploying actor type]** — [role]; incentive: [what drives deployment]; constraint: [what limits deployment]. [claim label]
-- **[Target actor type]** — [role]; response options: [what target can do]; constraint: [what limits response]. [claim label]
+- **Capturing actor (deploying actor)** — the regulated entity or rule-subject that gains influence over the rule-setting body; incentive: convert an external constraint into an internal function — rules that would restrict the deployer's behavior are instead written to permit, entrench, or subsidize it; constraint: the capture must occur before the rule-setting body becomes independently resourced or the rule-governed population organizes counter-pressure; capture is most accessible to concentrated, well-resourced actors relative to the diffuse population of rule-subjects. [Observed — Stigler 1971]
+- **Rule-setting body (target)** — the regulatory commission, legislative drafting authority, judicial appointment process, international standards committee, or any other body with authority to write, interpret, or enforce rules in the relevant domain; the body's institutional design — appointment procedures, term lengths, resource dependence, expertise sourcing — determines its structural vulnerability to capture; response options: develop independent expertise to reduce information asymmetry, build civil society or counter-industry constituencies that provide alternative political resources, implement cooling-off periods and conflict-of-interest rules. [Observed]
+- **Rule-governed population (bears costs)** — the full set of actors subject to the rules produced by the captured body; typically more diffuse and less well-organized than the capturing actor; constraint: collective action problems reduce the population's capacity to monitor and resist incremental capture relative to the concentrated actor's capacity to pursue it. [Observed — Olson 1965; Bernstein 1955]
+- **Appointing/confirming authority (enabler)** — the actor with authority to select the rule-setting body's personnel (executive, legislature, board); the capturing actor's influence over the appointing authority is the primary structural mechanism of personnel-based capture; role: the appointing authority's independence from the capturing actor is the first line of structural defense. [Observed — Carpenter & Moss 2013]
 
 ### Operational sequence
 
-<!-- Minimum 4 steps. Each step: name → concrete action → who does it → what changes in the environment. Claim label required. -->
-
-- **Step 1 — [Phase name]:** [action]. [claim label]
-- **Step 2 — [Phase name]:** [action]. [claim label]
-- **Step 3 — [Phase name]:** [action]. [claim label]
-- **Step 4 — [Outcome phase]:** [how advantage is locked in or extended]. [claim label]
+- **Step 1 — Information asymmetry establishment:** The capturing actor exploits its position as the primary source of technical expertise about the regulated domain — through staff secondment to the rule-setting body, revolving-door personnel flows, comment-period dominance, and technical advisory committee control — making the rule-setting body functionally dependent on the capturing actor's framing of what rules are technically feasible and economically rational. [Observed — Laffont & Tirole 1991]
+- **Step 2 — Personnel infiltration:** The capturing actor cultivates influence over the appointing authority's selection process — through campaign contributions, lobbying, advisory relationships, and revolving-door placement of former agency staff in industry positions and former industry figures in agency roles — so that the rule-setting body's membership increasingly consists of actors with aligned interests or professional obligations to the capturing actor. [Observed — Stigler 1971; Dal Bó 2006]
+- **Step 3 — Agenda and interpretive control:** Once personnel alignment is established, the captured rule-setting body exercises its agenda and interpretive authority in the capturing actor's interest — declining to initiate rulemaking that would restrict the capturing actor, interpreting existing rules narrowly where they impose costs on the capturing actor, and defining the evidentiary standards for rule-triggering in ways that prevent adverse findings. [Observed — Bernstein 1955]
+- **Step 4 — Rule entrenchment:** Rules produced by the captured body are formally promulgated through the rule-setting process, giving them the legal force of the body's full authority; these rules then generate regulated-party reliance interests that make future reversal costly even if the capture is subsequently disrupted, producing the lock-in dynamic characteristic of Ratchet Mechanisms (054). [Inferred]
+- **Step 5 — Counter-capture defense:** The capturing actor uses the captured body's procedural and legal authority to resist reform efforts — challenging competing rule proposals through the body's own processes, using the body's enforcement resources against reformers, and characterizing independence-restoration efforts as attacks on the rule-setter's institutional integrity. [Observed — Carpenter & Moss 2013]
 
 ### Where leverage concentrates
 
-<!-- Chokepoints, bottlenecks, veto points. Where in the sequence does the deploying actor gain disproportionate control? Claim label required. -->
-
-- **Chokepoints:** [claim label]
-- **Bottlenecks:** [claim label]
-- **Veto points:** [claim label]
+- **Chokepoints:** The appointing authority's selection process is the primary capture chokepoint — influence over who is appointed to the rule-setting body is more durable than influence over any particular rulemaking, because appointed members produce rules across their full tenure; the confirmation/appointment process is where the capturing actor's political investment has the highest leverage-to-cost ratio. [Observed — Stigler 1971]
+- **Bottlenecks:** The information production bottleneck — the rule-setting body's access to data about the regulated domain, which is controlled by the regulated entities themselves — creates structural dependence that persists even when personnel are not captured; a technically independent body with limited independent data access will systematically produce rules consistent with the regulated industry's information inputs. This is the Laffont-Tirole mechanism operating independently of personnel capture. [Observed — Laffont & Tirole 1991]
+- **Veto points:** Independent expertise generation by the rule-governed population or by civil society organizations — through academic research, nonprofit technical analysis, or government-funded independent review bodies — holds a structural veto over information-asymmetry-based capture; when the rule-setting body has access to independent expert analysis, the industry's framing loses its monopoly on technical credibility. [Observed — Carpenter & Moss 2013]
 
 ### Conditions of applicability
 
 **Enabling conditions** — documented when the pattern operates:
 
-- [Structural condition 1]. [claim label]
-- [Structural condition 2]. [claim label]
-- [Structural condition 3]. [claim label]
+- The regulated domain is technically complex, creating an expertise asymmetry in which the regulated entities are the primary source of technical knowledge about what is feasible and what the consequences of rules will be; the rule-setting body cannot independently verify these claims without replicating the regulated industry's analytical infrastructure. [Observed — Laffont & Tirole 1991]
+- The regulated population is highly concentrated — a small number of large actors subject to the rules — while the rule-governed public (bearing costs of inadequate regulation) is diffuse; concentrated actors face lower per-actor collective action costs for capture investment relative to diffuse rule-governed populations. [Observed — Stigler 1971; Olson 1965]
+- The appointing authority for rule-setting body personnel is itself susceptible to influence by the capturing actor through campaign finance, lobbying, or revolving-door mechanisms; independence of the appointing authority is the first structural defense against personnel-based capture. [Observed]
+- The rule-setting body is resource-constrained relative to the regulated industry, making industry-provided expertise (seconded staff, comment period data, technical advisory committees) a necessary input to the body's rulemaking capacity; resource dependence generates capture as a structural byproduct even without intent. [Observed — Bernstein 1955]
+- The rule-governed public lacks organized monitoring capacity for the rule-setting body's outputs, allowing gradual pro-capturing-actor drift in rule interpretation to proceed without external challenge. [Observed — Bernstein 1955]
 
 **Disabling conditions** — documented when the pattern fails or degrades:
 
-- [Condition under which the pattern collapses or reverses]. [claim label]
-- [Second disabling condition]. [claim label]
+- A crisis event attributed to inadequate regulation generates sufficient public and political salience to override the collective action advantage of the capturing actor; historically, major regulatory failures (financial crises, industrial disasters, public health emergencies) have been the primary driver of de-capture episodes. [Observed]
+- Independent technical expertise develops within civil society, academic institutions, or government-funded research that reduces the rule-setting body's dependence on industry information inputs; the Laffont-Tirole mechanism is disrupted when the information monopoly is broken. [Observed — Carpenter & Moss 2013]
+- The capturing actor's concentration decreases — industry fragmentation produces multiple competing actors with conflicting rule preferences, preventing a unified capture coalition from forming or maintaining control over the rule-setter. [Observed — Stigler 1971]
+- Structural reforms (cooling-off periods, conflict-of-interest rules, public funding of rule-setting body operations) reduce the appointing authority's and information channel's permeability to capturing-actor influence. [Observed]
 
 ### Common failure modes
 
-<!-- How and why the pattern breaks down. Name the failure mode, label the claim, describe what triggers failure and what the pattern degrades into. -->
-
-- **[Mode name]** — [claim label] — [explanation; what it degrades into]
-- **[Mode name]** — [claim label] — [explanation]
+- **Crisis-triggered de-capture** — [Observed] — A major adverse event attributed to inadequate regulation generates sufficient political and public salience to overcome the collective action advantage of the capturing actor; the crisis makes the divergence between captured rules and the public interest visible and politically costly to maintain. Historically documented: the 2008 financial crisis generating Dodd-Frank financial regulatory reform; the Deepwater Horizon disaster generating (partial) BSEE reform; FDA strengthening following thalidomide and Vioxx. Degrades into temporarily independent rulemaking, often followed by renewed capture over time (Bernstein's regulatory lifecycle). [Observed — Bernstein 1955]
+- **Capture coalition fracture** — [Observed] — The capturing industry's preferences diverge across its members — due to technological change, market entry, or competitive dynamics — producing multiple competing capture coalitions with conflicting rule preferences; the rule-setter gains de facto independence because no single coalition can sustain dominant control. Documented in telecommunications regulatory politics following competitive entry enabled by FCC spectrum allocation reforms in the 1990s. Degrades into contested capture or genuine regulatory independence.
+- **Information asymmetry reversal** — [Observed] — Independent technical expertise generated by civil society organizations, academic researchers, or government-funded independent review bodies reaches parity with the regulated industry's analytical capacity, eliminating the information dependence that sustains capture even when personnel remain aligned; the rule-setting body can now reject industry technical claims without losing analytical credibility. Documented in environmental regulation contexts where EPA technical analysis developed independent of industry input (Carpenter & Moss 2013).
+- **Partial de-capture followed by counter-capture** — [Inferred] — Reform episodes that succeed in displacing the captured personnel without structural reform of the appointing-authority and information-channel vulnerabilities generate a temporary independent rule-setting period followed by renewed capture by the same or different concentrated actors; Bernstein 1955 documents this lifecycle as characteristic of independent regulatory commissions. Degrades into reinstatement of capture with different capturing actor.
 
 ### What evidence would prove/disprove key claims
 
-<!-- Dataset, case record, or cross-domain comparison that would confirm or refute the central mechanism claim. What would a contrary finding look like? -->
-
-- [Confirming evidence type]
-- [Disconfirming evidence type]
-- [Comparative test across domains]
+- **Confirms central mechanism:** Systematic comparison of rules produced by regulatory bodies with documented capture indicators (revolving-door rates, industry comment dominance, advisory committee composition) against rules produced by bodies with low capture indicators, controlling for regulated domain, would test whether capture indicators predict rule content in the direction of capturing-actor interests. Dal Bó 2006 and Stigler 1971 provide the theoretical framework; empirical tests are available in Dal Bó's revolving-door studies and in Yackee & Yackee 2006 (industry comment dominance).
+- **Disconfirms:** Systematic evidence that rules produced during documented high-capture periods do not systematically favor the capturing industry relative to low-capture baseline periods would challenge the central mechanism; this is the appropriate null hypothesis for empirical regulatory capture research.
+- **Tests Bernstein lifecycle hypothesis:** Longitudinal analysis of a sample of independent regulatory commissions across their full history would test Bernstein's 1955 regulatory lifecycle hypothesis that commissions systematically progress through independence → capture → capture consolidation; the theory predicts that initial independence is followed by capture over the body's first decade of operation in the absence of structural protective reforms.
+- **Tests cross-domain generalization:** Comparison of viral host-cell hijacking (molecular rule-setter capture of transcription machinery), immune evasion strategies (disruption of MHC presentation rules), and institutional regulatory capture would test whether the asymmetric-information-based capture mechanism generalizes across biological and institutional domains.
 
 ### Instantiations
 
-<!-- Cross-domain documented examples. Domain → specific case → source → which aspect of the pattern it illustrates. Minimum 2 domains. -->
+- **Political / US Federal — Interstate Commerce Commission lifecycle:** Bernstein 1955 documented the ICC as the paradigm case of regulatory lifecycle capture: established 1887 as an independent rate-setting authority over railroads (adversarial relationship), the ICC progressively became dependent on railroad-provided data, staffed by former railroad attorneys and executives, and by the early 20th century was primarily producing rules that stabilized railroad rates against competition and new entrants rather than regulating them in shippers' interests. The agency is the foundational case in the capture literature. [Observed — Bernstein 1955; Kolko 1965 *Railroads and Regulation*]
 
-- **[Domain A]:** [specific case]. [claim label — source]
-- **[Domain B]:** [specific case]. [claim label — source]
-- **[Domain C]:** [specific case]. [claim label — source]
+- **Financial regulation — Pre-2008 securities and derivatives rule-setting:** The Commodity Futures Trading Commission's 1998–2000 retreat from regulating over-the-counter derivatives — driven by industry pressure on CFTC Chair Brooksley Born, the Federal Reserve, and Treasury, culminating in the Commodity Futures Modernization Act of 2000 that exempted OTC derivatives from CFTC/SEC jurisdiction — represents a rule-setter's jurisdiction being contracte by the captured appointing-authority-and-Congress system; the rules governing OTC derivatives were written primarily by industry participants through the International Swaps and Derivatives Association (ISDA) rather than by the public regulators. [Observed — Financial Crisis Inquiry Commission 2011]
+
+- **International standards / Technical — ISO/IEEE standards committee capture:** Technical standards bodies for telecommunications, financial data, and pharmaceutical manufacturing are composed primarily of representatives from the largest industry participants; standards produced by these bodies systematically reflect large-incumbent-firm interests (e.g., patent pooling terms, interoperability requirements, testing protocol specifications) rather than entrant, consumer, or public-interest actor preferences. The European Telecommunications Standards Institute (ETSI) FRAND licensing controversy documents this structure directly. [Observed — Shapiro 2000; Layne-Farrar et al. 2007]
+
+- **Legal / Constitutional — Judicial appointment and constitutional interpretation:** The judicial appointment process in Article III courts is the constitutional rule-setter capture mechanism for constitutional law: appointing authorities (presidents and senators) select judges with anticipated constitutional interpretation preferences, so that over multi-decade appointment periods the rule-setter (the judiciary) comes to produce constitutional doctrine reflecting the ideological preferences of prior appointing coalitions. The 1937 "switch in time" (avoidance of FDR's court-packing proposal) and the post-1980 judicial selection systems document the relationship between appointing-authority preferences and subsequent rule-setting output. [Observed — Epstein & Mershon 1996]
+
+- **Biological / Molecular — Viral RNA polymerase hijacking:** RNA viruses (influenza, SARS-CoV-2, HIV) capture the host cell's transcription machinery — the rule-setter for which genetic sequences are expressed into proteins — by introducing viral RNA that outcompetes host mRNA for ribosome access, or by directly subverting the RNA polymerase to preferentially replicate viral sequences; the "rules" of the cell (which sequences are transcribed and translated) are systematically redirected to serve the virus's replication interests rather than the host cell's function. This is a structural analog: the rule-setter (transcription/translation machinery) is captured by the subject entity (virus) to produce outcomes in the captor's interest. [Observed — Flint et al. 2015 *Principles of Virology*]
 
 *Modframe links:* See `Modframe instances` in README for specific federal power module IDs.
 
 ### Suggested sources
 
-<!-- Full citation format: [Title]. [Author / Issuing body], [Year]. [URL or identifier]. -->
-
--
--
--
+- The Theory of Economic Regulation. George J. Stigler, Bell Journal of Economics and Management Science, 2(1), 1971. https://doi.org/10.2307/3003160
+- Regulating Business by Independent Commission. Marver H. Bernstein, Princeton University Press, 1955. ISBN 978-0837174471.
+- Preventing Regulatory Capture: Special Interest Influence and How to Limit It. Daniel Carpenter & David A. Moss (eds.), Cambridge University Press, 2013. ISBN 978-1107646704.
+- The Politics of Structural Choice: Toward a Theory of Public Bureaucracy. Terry M. Moe, Organization Science, 1(2), 1990. https://doi.org/10.1287/orsc.1.2.171
+- A Theory of Incentives in Procurement and Regulation. Jean-Jacques Laffont & Jean Tirole, MIT Press, 1993. ISBN 978-0262121743.
+- Regulatory Capture: An Overview. Ernesto Dal Bó, Oxford Review of Economic Policy, 22(2), 2006. https://doi.org/10.1093/oxrep/grj013
+- Who Participates in Agency Rulemaking? An Empirical Assessment. Susan Webb Yackee & Sean Gailmard, Journal of Policy Analysis and Management, 25(3), 2006. https://doi.org/10.1002/pam.20184
+- The Financial Crisis Inquiry Report. Financial Crisis Inquiry Commission, US Government Printing Office, 2011. https://www.govinfo.gov/content/pkg/GPO-FCIC/pdf/GPO-FCIC.pdf
+- Railroads and Regulation, 1877–1916. Gabriel Kolko, Princeton University Press, 1965. ISBN 978-0393003833.
+- Principles of Virology. S. Jane Flint et al., ASM Press, 4th edition, 2015. ISBN 978-1555819378.
 
 ### Analysis outline (6 parts)
 
-1. **Pattern** — [what this pattern is and what relationship structure it operates on]
-2. **Mechanism** — [why the pattern works — the structural logic]
-3. **Instantiation** — [a specific, real cross-domain case study — name it and name the domain]
-4. **Evidence** — [primary sources or data to show across domains]
-5. **Countermeasures** — [≥ 2 documented structural responses or reforms that have altered pattern outcomes — describe neutrally]
-6. **Takeaway** — [the structural insight a reader should retain]
+1. **Pattern** — Rule-Setter Capture is a meta-strategy pattern operating on the relationship between a concentrated regulated actor, the rule-setting body with authority over the actor's domain, the appointing authority that staffs the body, and the diffuse rule-governed public that bears costs when the body's output diverges from its nominal mandate; the pattern's structural substrate is the information asymmetry and collective action asymmetry that favor concentrated rule-subjects over diffuse rule-governed populations in competition for rule-setter influence.
+2. **Mechanism** — The pattern operates through two reinforcing mechanisms: personnel capture (controlling who occupies the rule-setting body so that the body's members have interests aligned with the capturing actor) and information capture (controlling the rule-setting body's access to technical knowledge about the regulated domain so that the body is structurally dependent on the capturing actor's framing of what is feasible and what consequences rules will have); both mechanisms produce rules that systematically favor the capturing actor without requiring explicit corruption.
+3. **Instantiation** — Pre-2008 OTC derivatives regulation (Financial regulation domain): the CFTC's jurisdiction over OTC derivatives was contracte through industry pressure on the CFTC, Federal Reserve, and Treasury from 1998–2000, culminating in the Commodity Futures Modernization Act of 2000; the rules governing the $600 trillion OTC derivatives market were subsequently written primarily by ISDA (an industry body) rather than public regulators; the Financial Crisis Inquiry Commission documented the regulatory vacuum as a contributing factor in the 2008 crisis.
+4. **Evidence** — Stigler 1971 (foundational economic theory); Bernstein 1955 (ICC lifecycle, regulatory aging hypothesis); Laffont & Tirole 1993 (information asymmetry mechanism); Dal Bó 2006 (empirical capture indicators); Yackee & Gailmard 2006 (comment period dominance); FCIC 2011 (derivatives case).
+5. **Countermeasures** — Structural independence mechanisms — fixed terms for rule-setter members, for-cause removal limitations, public funding of the rule-setting body, and prohibition on post-service industry employment of former rule-setters (cooling-off periods) — reduce the appointing-authority and revolving-door channels through which personnel capture operates; these are documented in administrative law as the standard toolkit for independent agency design (Moe 1990). Independent technical review bodies — government-funded scientific panels, academic review boards, and civil society technical organizations with explicit conflict-of-interest controls — reduce the information asymmetry that sustains capture independent of personnel alignment; the Congressional Budget Office and EPA Science Advisory Board represent this structural response within the federal system.
+6. **Takeaway** — The highest-leverage intervention in any rule-governed domain is not winning arguments within the existing rules but capturing the authority that writes the rules; once rule-setter capture is established, it generates a self-reinforcing system in which the rules produced by the captured body entrench the conditions that sustain the capture.
