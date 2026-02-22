@@ -2,9 +2,9 @@
 
 Purpose: Gain control over the platforms, systems, or organizations through which others operate.
 
-Status: empty
+Status: draft
 
-Tags:
+Tags: infrastructure, capture, network-effects, switching-costs, weaponized-interdependence, leverage, meta-strategy
 
 Pattern class: 11 Meta-Strategies
 
@@ -12,18 +12,27 @@ Outline: see `outline.md`
 
 Contributors:
 
-Related patterns:
-Often combined with:
-Degrades into:
-Modframe instances:
-Last reviewed:
+Related patterns: 039, 054, 071, 047, 034
+Often combined with: 039, 047
+Degrades into: 039, 034
+Modframe instances: [pending — requires Modframe INDEX review]
+Last reviewed: 2026-02
 
 Domains:
-  -
+  - International financial (SWIFT exclusion as sanctions lever)
+  - Telecommunications (AT&T Bell System pre-1984)
+  - Digital/Cloud (AWS, Azure, GCP platform infrastructure leverage)
+  - Biological/Ecological (mycorrhizal network nutrient infrastructure)
 
 Actors:
-  - name:
-    type:
+  - name: Infrastructure controller
+    type: Deploying
+  - name: Infrastructure-dependent actors
+    type: Target
+  - name: Regulating authority
+    type: Enabler/Adversarial
+  - name: Alternative infrastructure builders
+    type: Adversarial
 
 How to contribute:
 

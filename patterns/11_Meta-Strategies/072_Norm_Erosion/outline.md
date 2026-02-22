@@ -1,84 +1,88 @@
 # Norm Erosion
 
-**Summary:** <!-- 3–5 sentences: what this pattern is, why it recurs across domains, what structural feature makes it recognizable. Descriptive voice — no advocacy. -->
+**Summary:** Norm Erosion is a meta-strategy pattern in which a deploying actor incrementally degrades a behavioral norm — a mutual expectation of conduct that coordinates actors without formal enforcement — by repeatedly violating it with insufficient sanction, thereby revising other actors' expectations about what conduct is actually expected and enforced until the norm no longer coordinates behavior at its prior equilibrium. The pattern is structurally distinct from formal rule-breaking because norms lack formal enforcement machinery; erosion operates entirely through expectation revision and the collective action problem of norm enforcement — any individual's decision to sanction a norm violator is costly, while the benefits of restored coordination are distributed across all norm-dependent actors. It recurs across legislative procedural norms, diplomatic convention, market conduct standards, ecological mutualism, and microbial quorum sensing because any domain coordinated through shared expectations rather than formal rules is structurally exposed to incremental expectation-revision by actors willing to bear the cost of initial violations. The pattern's signature is that each violation shifts the baseline expectation slightly, so that the erosion proceeds in steps too small to trigger the sanction responses that larger initial violations would have produced.
 
-**Mechanism in one sentence:** <!-- ≤ 30 words. How the pattern operates at its core. -->
+**Mechanism in one sentence:** The deploying actor makes incremental norm violations that each fall below the sanction threshold, cumulatively shifting other actors' expectations about what conduct is enforced until the norm no longer coordinates at its prior level.
 
 ### Actors and deployment context
 
-<!-- Who deploys this pattern, against what, and in what structural position. List deploying actor, target actor, and any enabling actors. Each bullet: name → role → incentive → constraint. Claim label required. -->
-
-- **[Deploying actor type]** — [role]; incentive: [what drives deployment]; constraint: [what limits deployment]. [claim label]
-- **[Target actor type]** — [role]; response options: [what target can do]; constraint: [what limits response]. [claim label]
+- **Norm violator (deploying actor)** — the actor who makes incremental norm violations calibrated to fall below the sanction threshold; incentive: gain the advantage forbidden by the norm while others continue to observe it, exploiting the coordination value the norm generates without bearing the coordination cost; constraint: violations must be incremental enough to avoid triggering the sanction response that a larger initial violation would produce — the deployer must calibrate violation size against the sanction threshold, which may itself shift as the norm erodes. [Observed — Axelrod 1986]
+- **Norm-dependent actors (target)** — actors whose behavior is coordinated by the norm and who must decide, for each violation, whether to impose informal sanction (costly to the sanctioner), update their expectations about what conduct is required (reducing the coordinating force of the norm), or exit the norm-governed domain; constraint: the collective action problem of norm enforcement — each actor's individual sanction cost is positive while the coordination benefit of the restored norm is distributed — systematically produces under-enforcement. [Observed — Fehr & Gächter 2000]
+- **Norm-enforcing community (structural enabler/disabler)** — the broader set of actors whose collective willingness to sanction violations determines the effective sanction threshold; role in the pattern: erosion proceeds when this community fails to coordinate on sanction in response to incremental violations, either because sanction costs are high relative to benefits or because each actor waits for others to sanction first; the erosion dynamic is a collective action failure within the norm-enforcing community. [Observed — Axelrod 1986]
+- **Norm-restoring actor (adversarial)** — an actor who attempts to re-establish the norm by imposing visible sanction, publicly calling out the violation, or introducing formal enforcement mechanisms; constraint: faces the legitimacy challenge that the "norm" has already partially eroded — the baseline expectation has shifted enough that the norm-restorer appears to be imposing a new higher standard rather than enforcing an existing one. [Inferred]
 
 ### Operational sequence
 
-<!-- Minimum 4 steps. Each step: name → concrete action → who does it → what changes in the environment. Claim label required. -->
-
-- **Step 1 — [Phase name]:** [action]. [claim label]
-- **Step 2 — [Phase name]:** [action]. [claim label]
-- **Step 3 — [Phase name]:** [action]. [claim label]
-- **Step 4 — [Outcome phase]:** [how advantage is locked in or extended]. [claim label]
+- **Step 1 — Sanction threshold mapping:** The norm violator identifies the violation size that the norm-enforcing community will tolerate without imposing sanction — either through observation of prior under-enforced violations by others, or through deliberate probe violations that test the community's response threshold without committing to a full norm departure. [Inferred]
+- **Step 2 — Sub-threshold violation:** The violator makes a norm violation calibrated to fall just below the observed sanction threshold; the violation is large enough to gain advantage but small enough to avoid triggering coordinated sanction; the norm-enforcing community observes the violation but does not organize sanction, either because individual sanction costs exceed individual benefits or because each actor defers to others. [Observed — Fehr & Gächter 2000]
+- **Step 3 — Expectation revision:** Other actors revise their expectations about what conduct the norm actually requires, incorporating the un-sanctioned violation as evidence that the effective norm is less demanding than the nominal norm; the baseline expectation shifts downward in proportion to the violation size and its un-sanctioned status. [Observed — Finnemore & Sikkink 1998]
+- **Step 4 — Sanction threshold shift:** As the baseline expectation shifts, the sanction threshold shifts with it — the same violation that was sub-threshold before the expectation revision is now below the new threshold; this creates structural space for the next incremental violation, enabling a ratchet dynamic in which each un-sanctioned violation creates room for the next. [Inferred]
+- **Step 5 — Norm replacement or collapse:** The cumulative expectation revisions either produce a new lower-level norm equilibrium (where the previously-forbidden conduct is now expected to occur at some reduced frequency) or produce full norm collapse (where no coordination equilibrium persists and behavior becomes unpredictable for all participants). [Observed]
 
 ### Where leverage concentrates
 
-<!-- Chokepoints, bottlenecks, veto points. Where in the sequence does the deploying actor gain disproportionate control? Claim label required. -->
-
-- **Chokepoints:** [claim label]
-- **Bottlenecks:** [claim label]
-- **Veto points:** [claim label]
+- **Chokepoints:** The sanction threshold is the leverage concentration point: the norm violator's advantage depends on accurately identifying the threshold and calibrating violations to remain below it; the sanction threshold is not observable directly and must be inferred, creating uncertainty that the violator manages through probe violations and anticipation of the enforcing community's collective action capacity. [Inferred]
+- **Bottlenecks:** The collective action problem within the norm-enforcing community is the primary bottleneck: effective sanction requires sufficient coordinators willing to bear individual sanction costs; the norm violator's leverage increases as the enforcing community's size grows (larger communities have higher coordination costs) and as the violation becomes more frequent (normalization reduces each observer's sense that this particular violation requires response). [Observed — Fehr & Gächter 2000]
+- **Veto points:** Strong third-party sanction actors — institutional enforcers with both the authority and incentive to sanction norm violations independent of the collective action problem (regulators, reputation intermediaries, courts) — hold a structural veto over norm erosion by decoupling sanction from collective action; their presence or absence is the primary structural variable governing erosion speed. [Observed]
 
 ### Conditions of applicability
 
 **Enabling conditions** — documented when the pattern operates:
 
-- [Structural condition 1]. [claim label]
-- [Structural condition 2]. [claim label]
-- [Structural condition 3]. [claim label]
+- The norm lacks a formal enforcement mechanism — sanction depends entirely on the collective action of norm-dependent actors with individual sanction costs; the absence of institutional sanction authority is the primary enabling condition. [Observed — Axelrod 1986]
+- The norm-enforcing community is large and diffuse, producing high coordination costs for organized sanction responses to incremental violations; smaller, repeated-interaction communities are better able to sustain norm enforcement because each actor's individual sanction cost is offset by the continuity of the enforcement relationship. [Observed — Ostrom 1990]
+- The norm violator's advantage from each individual violation is concentrated and privately captured, while the cost of the violation (norm degradation) is distributed across all norm-dependent actors; this asymmetry sustains the violator's incentive across multiple violation steps while each enforcement actor's sanction incentive remains weak. [Observed — Fehr & Gächter 2000]
+- The norm is informal and its content is not precisely codified, creating definitional uncertainty about what exactly constitutes a violation versus a permissible departure, which the violator exploits by arguing that their conduct falls within permissible variation. [Inferred]
 
 **Disabling conditions** — documented when the pattern fails or degrades:
 
-- [Condition under which the pattern collapses or reverses]. [claim label]
-- [Second disabling condition]. [claim label]
+- Third-party institutional enforcers with authority and incentives to sanction independently of the collective action problem impose visible costs on the norm violator, restoring the effective sanction threshold without requiring community coordination. [Observed]
+- A "tipping point" violation occurs that is large enough, visible enough, or consequential enough to overcome the collective action problem and generate coordinated sanction response; Finnemore & Sikkink 1998 document that norm cascades — rapid shifts in norm observance — often follow a single high-salience violation that crystallizes the erosion as a crisis. [Observed — Finnemore & Sikkink 1998]
+- The norm is codified as a formal rule, converting the collective-action sanction problem into an institutional enforcement problem and eliminating the erosion pathway. The conversion is typically triggered by prior erosion. [Observed]
+- A competing norm violator from a different direction produces a second erosion that threatens the norm-eroding actor as well, inducing the original violator to support norm restoration to prevent full collapse. [Inferred]
 
 ### Common failure modes
 
-<!-- How and why the pattern breaks down. Name the failure mode, label the claim, describe what triggers failure and what the pattern degrades into. -->
-
-- **[Mode name]** — [claim label] — [explanation; what it degrades into]
-- **[Mode name]** — [claim label] — [explanation]
+- **Cascade violation** — [Observed] — Other actors observe the un-sanctioned violation and update both their expectations about the norm and their incentives to invest in norm observance; they begin violating the same norm (or related norms), producing cascade erosion that exceeds the original violator's intended scope and removes the coordination benefits the original violator was free-riding on. Documented in market conduct norm erosion preceding financial crises: early entrants into sub-prime structures gained advantage; the subsequent cascade removed the broader credit quality norms that made the structures viable. Degrades into full norm collapse.
+- **Tipping-point sanction** — [Observed] — A sequence of incremental violations accumulates to a threshold where the norm-enforcing community's coordination problem is overcome by a single high-salience event that crystallizes the erosion as a crisis; the coordinated sanction response that follows is typically disproportionate to any individual violation and may produce formal codification. Senate norm erosion on judicial confirmation eventually produced the 2013/2017 nuclear option rule changes — formal codification triggered by cascade norm erosion. Degrades into codification and formal enforcement.
+- **Self-undermining free-riding** — [Inferred] — The norm violator's advantage depends on other actors continuing to observe the norm while the violator departs from it; if erosion progresses to full collapse, the violator loses the coordination benefit it was extracting through selective departure; this self-undermining dynamic constrains rational norm violators to measured erosion rather than full collapse pursuit, and is documentable in biological defection in mutualistic systems. Degrades into mutual defection equilibrium.
+- **Institutional conversion** — [Observed] — Norm erosion triggers formal codification of the norm as a binding rule, converting the collective-action enforcement problem into an institutional one and eliminating the erosion pathway; the violator is now constrained by formal enforcement rather than by the now-degraded social expectation. This is the most common long-run outcome of sustained norm erosion in institutional contexts.
 
 ### What evidence would prove/disprove key claims
 
-<!-- Dataset, case record, or cross-domain comparison that would confirm or refute the central mechanism claim. What would a contrary finding look like? -->
-
-- [Confirming evidence type]
-- [Disconfirming evidence type]
-- [Comparative test across domains]
+- **Confirms central mechanism:** Controlled public goods / punishment game experiments (Fehr & Gächter 2000, 2002) directly test whether the collective action problem in norm enforcement produces systematic under-punishment of violations, and whether repeated under-enforcement leads to behavioral norm erosion in subsequent rounds; results confirm both propositions.
+- **Disconfirms:** Evidence that norm-dependent communities consistently coordinate sanction in response to incremental violations — that the collective action problem is routinely overcome without third-party institutional support — would challenge the enabling condition analysis; ethnographic evidence from stable small-community norm enforcement (Ostrom 1990 CPR case studies) provides partial disconfirmation for small-community contexts.
+- **Tests incremental calibration:** Observation studies of norm-eroding actors' violation sequences would test whether violations are in fact incrementally sized just below the sanction threshold, or whether this incrementalism is a post-hoc rationalization; this requires fine-grained longitudinal behavioral data on norm-violating sequences in naturalistic settings.
+- **Tests biological quorum-sensing analog:** In vitro and in vivo studies of cheater strains in quorum-sensing bacterial populations would test whether cheaters exploit gradual quorum threshold variation rather than making large defections, consistent with the sub-threshold incremental violation mechanism.
 
 ### Instantiations
 
-<!-- Cross-domain documented examples. Domain → specific case → source → which aspect of the pattern it illustrates. Minimum 2 domains. -->
+- **Political / US Senate — Judicial confirmation norm erosion:** Senate norms around judicial confirmation (Senatorial courtesy, blue slips, committee hearing requirements) eroded incrementally from the 1980s through the 2010s through a sequence of initially sub-sanction-threshold violations that each shifted the baseline expectation; by 2016-2017 the process had eroded to the point where cloture on Supreme Court nominees was eliminated by a majority vote ("nuclear option"). Each step was justified by reference to prior erosion as establishing the new baseline. [Observed — Binder 2014; Koger 2010]
 
-- **[Domain A]:** [specific case]. [claim label — source]
-- **[Domain B]:** [specific case]. [claim label — source]
-- **[Domain C]:** [specific case]. [claim label — source]
+- **Market conduct — Sub-prime lending standards erosion 1995–2006:** Mortgage origination underwriting norms (income verification, debt-to-income standards, loan-to-value thresholds) eroded incrementally through competitive pressure as early sub-threshold violations (reduced documentation, higher LTV ratios) went un-sanctioned by regulators and rating agencies, shifting industry baseline expectations; each originator's departure was calibrated to match competitors' prior violations rather than making large individual departures; the cascade produced full norm collapse by 2005–2006. [Observed — FCIC 2011]
+
+- **International diplomacy — Nuclear test ban norm erosion:** The CTBT norm against nuclear weapons testing has been maintained by non-testing by established nuclear powers since 1998 (India/Pakistan tests), but has eroded in specificity as North Korea conducted six tests (2006–2017) with progressively reduced multilateral sanction response; each subsequent test normalized a lower sanction expectation than the prior test would have produced. [Observed — Sagan & Waltz 2003]
+
+- **Biological / Quorum sensing — Cheater strains in biofilm populations:** Quorum-sensing bacteria coordinate group behaviors (biofilm formation, virulence factor production, antibiotic resistance) through chemical signaling at population density thresholds; cheater strains that suppress their own signal production but exploit signal-dependent group behaviors have been documented in both in vitro and in vivo settings, degrading the quorum-sensing norm through individual free-riding in proportion to cheater frequency. [Observed — Diggle et al. 2007]
 
 *Modframe links:* See `Modframe instances` in README for specific federal power module IDs.
 
 ### Suggested sources
 
-<!-- Full citation format: [Title]. [Author / Issuing body], [Year]. [URL or identifier]. -->
-
--
--
--
+- An Evolutionary Approach to Norms. Robert Axelrod, American Political Science Review, 80(4), 1986. https://doi.org/10.2307/1960845
+- International Norm Dynamics and Political Change. Martha Finnemore & Kathryn Sikkink, International Organization, 52(4), 1998. https://doi.org/10.1162/002081898550789
+- Altruistic Punishment in Humans. Ernst Fehr & Simon Gächter, Nature, 415(6868), 2002. https://doi.org/10.1038/415137a
+- Cooperation and Punishment in Public Goods Experiments. Ernst Fehr & Simon Gächter, American Economic Review, 90(4), 2000. https://doi.org/10.1257/aer.90.4.980
+- Governing the Commons: The Evolution of Institutions for Collective Action. Elinor Ostrom, Cambridge University Press, 1990. ISBN 978-0521405997.
+- Going Nuclear: Senate Rule Changes and the Origins of the Nuclear Option. Gregory Koger, American Politics Research, 38(5), 2010. https://doi.org/10.1177/1532673X09332434
+- Quorum Sensing and the Population-Level Control of Virulence in Pseudomonas aeruginosa. Scott A. Diggle et al., Nature, 450(7171), 2007. https://doi.org/10.1038/nature06279
+- The Spread of Nuclear Weapons: A Debate Renewed. Scott D. Sagan & Kenneth N. Waltz, W. W. Norton, 2003. ISBN 978-0393977479.
 
 ### Analysis outline (6 parts)
 
-1. **Pattern** — [what this pattern is and what relationship structure it operates on]
-2. **Mechanism** — [why the pattern works — the structural logic]
-3. **Instantiation** — [a specific, real cross-domain case study — name it and name the domain]
-4. **Evidence** — [primary sources or data to show across domains]
-5. **Countermeasures** — [≥ 2 documented structural responses or reforms that have altered pattern outcomes — describe neutrally]
-6. **Takeaway** — [the structural insight a reader should retain]
+1. **Pattern** — Norm Erosion is a meta-strategy pattern operating on the relationship between a norm violator, the norm-enforcing community facing a collective action problem in sanctioning violations, and the shared baseline expectations that constitute the norm; the pattern's structural substrate is the gap between the nominal norm (what conduct is stated as expected) and the effective norm (what conduct actually generates sanction).
+2. **Mechanism** — The pattern operates through cumulative expectation revision: each un-sanctioned violation shifts other actors' beliefs about the effective sanction threshold downward, creating structural space for the next incremental violation; the mechanism is self-amplifying because lower effectiveness sanctions reduce individual actors' willingness to invest in sanction, further reducing the threshold, in a feedback loop that the collective action problem prevents from being interrupted at any individual step.
+3. **Instantiation** — Senate judicial confirmation norm erosion (Political / US Federal domain): beginning with incremental violations of Senatorial courtesy and blue slip traditions in the 1980s-1990s, each un-sanctioned departure shifted the baseline expectation; by 2016 the Merrick Garland confirmation refusal was within the range of what the incrementally-revised baseline could absorb without triggering organized sanction; the 2017 elimination of cloture for Supreme Court nominees represents the cascade tipping point where the cumulative erosion produced codification of the previously-violated norm as no longer operative.
+4. **Evidence** — Axelrod 1986 (evolutionary norm theory); Fehr & Gächter 2000, 2002 (experimental collective action in norm enforcement); Finnemore & Sikkink 1998 (international norm dynamics); Ostrom 1990 (small-community enforcement capacity); Diggle et al. 2007 (quorum-sensing cheater dynamics).
+5. **Countermeasures** — Third-party institutional enforcement — independent bodies with authority and incentives to sanction norm violations independently of the collective action problem — removes the core enabling condition by restoring individual sanction credibility; documented as effective in market conduct contexts (SEC enforcement) relative to purely social norm contexts. Formal codification of the norm converts the collective action enforcement problem into an institutional one; typically triggered by prior erosion (loss of the norm generates demand for formal protection), though codification also reduces norm flexibility. Both countermeasures are documented in post-financial-crisis regulatory reform and in Senate rules reform.
+6. **Takeaway** — The collective action problem in norm enforcement is the structural engine of norm erosion: no individual actor's sanction investment is privately sufficient to restore a norm that is collectively valuable, so un-sanctioned violations accumulate until the norm is replaced by formal rules, collapses entirely, or triggers a coordinated tipping-point response that is typically disproportionate to the final marginal violation.

@@ -2,9 +2,9 @@
 
 Purpose: Create structural positions from which future actions can be blocked.
 
-Status: empty
+Status: draft
 
-Tags:
+Tags: veto, blocking, threshold, status-quo, institutional-design, supermajority, constraint
 
 Pattern class: 05 Constraint and Boundary Patterns
 
@@ -12,22 +12,31 @@ Outline: see `outline.md`
 
 Contributors:
 
-Related patterns:
-Often combined with:
-Degrades into:
-Modframe instances:
-Last reviewed:
+Related patterns: 010, 021, 039, 054, 016
+Often combined with: 010, 021, 054
+Degrades into: 072, 016
+Modframe instances: [pending — requires Modframe INDEX review]
+Last reviewed: 2026-02
 
 Domains:
-  -
+  - Political / US Constitutional
+  - Corporate governance
+  - International / Treaty
+  - Ecological
+  - Regulatory / US Federal
 
 Actors:
-  - name:
-    type:
+  - name: Veto point installer
+    type: Deploying actor
+  - name: Veto holder
+    type: Subsequent occupant of blocking position
+  - name: Change-seeker
+    type: Target
+  - name: Threshold-enforcing authority
+    type: Enabler
 
 How to contribute:
 
-- Use docs/prompts/draft_module.md to generate initial content
-- Add citations under "Suggested sources" in outline.md
-- Populate Modframe instances with relevant Modframe module IDs
-- Propose visuals in figures/ and link from here
+- Add Modframe instance IDs once Modframe INDEX is reviewed
+- Add comparative constitutional design dataset citations (cross-national veto player study)
+- Extend figures/ with veto player count vs. policy change rate scatterplot reference

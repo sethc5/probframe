@@ -1,84 +1,92 @@
 # Veto Point Installation
 
-**Summary:** <!-- 3–5 sentences: what this pattern is, why it recurs across domains, what structural feature makes it recognizable. Descriptive voice — no advocacy. -->
+**Summary:** Veto Point Installation is a constraint and boundary pattern in which a deploying actor embeds within a decision process one or more structural positions from which any actor occupying that position can block adverse outcomes — without requiring the original installer's ongoing participation in subsequent decisions. The pattern converts a temporary political advantage into a durable structural feature: once the veto point is installed and the installer loses direct control of the process, the veto point continues generating obstruction power for whoever controls it, including the original installer if they can maintain occupancy. It recurs across constitutional design, parliamentary procedure, regulatory approval chains, corporate governance, ecological food webs, and immune system checkpoint regulation because any domain with sequential decision processes produces opportunities to install blocking positions at critical nodes. The pattern's analytical signature is asymmetry between the cost of change (extremely high, requiring veto point navigation) and the cost of the status quo (zero, because inaction requires no coalition).
 
-**Mechanism in one sentence:** <!-- ≤ 30 words. How the pattern operates at its core. -->
+**Mechanism in one sentence:** The deploying actor installs a structural blocking position within a decision sequence, so that any adverse future decision must overcome that position's threshold — making the status quo self-enforcing without ongoing effort.
 
 ### Actors and deployment context
 
-<!-- Who deploys this pattern, against what, and in what structural position. List deploying actor, target actor, and any enabling actors. Each bullet: name → role → incentive → constraint. Claim label required. -->
-
-- **[Deploying actor type]** — [role]; incentive: [what drives deployment]; constraint: [what limits deployment]. [claim label]
-- **[Target actor type]** — [role]; response options: [what target can do]; constraint: [what limits response]. [claim label]
+- **Veto point installer (deploying actor)** — the actor who designs or entrenches the blocking position, typically during a period of political or institutional leverage sufficient to impose a supermajority or structural requirement on a process that currently operates by simple majority; incentive: preserve current favorable conditions against future adverse majorities; constraint: the installation itself requires sufficient current political power to change the procedural baseline, and the installed veto point applies to the installer as well as to opponents — the installer cannot selectively disable it when convenient without undermining its legitimacy. [Observed — Tsebelis 2002]
+- **Veto holder (subsequent occupant)** — the actor who occupies the veto point position after installation; may or may not be the original installer; incentive: use the blocking position to extract concessions from change-seekers or simply prevent change; the installer's goal is to ensure that the veto holder's interests are aligned with maintaining the status quo the installer preferred. [Observed]
+- **Change-seeker (target)** — any actor who wants to move the status quo in a direction blocked by the veto point; constraint: must either assemble a coalition large enough to overcome the blocking threshold, find a procedural workaround, or convince the veto holder to change position; all three options are costly by design. [Observed — McGann et al. 2016]
+- **Threshold-enforcing authority (enabler)** — the body that enforces the veto threshold: presiding officers, courts reviewing procedural compliance, constitutional tribunals; role: the veto point's durability depends on the enforcing authority treating the threshold as binding regardless of the underlying substantive stakes. [Observed]
 
 ### Operational sequence
 
-<!-- Minimum 4 steps. Each step: name → concrete action → who does it → what changes in the environment. Claim label required. -->
-
-- **Step 1 — [Phase name]:** [action]. [claim label]
-- **Step 2 — [Phase name]:** [action]. [claim label]
-- **Step 3 — [Phase name]:** [action]. [claim label]
-- **Step 4 — [Outcome phase]:** [how advantage is locked in or extended]. [claim label]
+- **Step 1 — Window identification:** The installer identifies a moment of sufficient political or institutional leverage to change the procedural baseline — a founding moment (constitutional convention, organizational charter adoption), a supermajority window, or a period of institutional reform — during which the threshold change can be imposed; the installation window is typically narrower than the blocking window, so timing is the primary strategic variable. [Observed — Riker 1980]
+- **Step 2 — Threshold design:** The installer designs the blocking threshold to be high enough to prevent the specific adverse outcomes it targets but not so high as to trigger an immediate counter-coalition; effective veto points are calibrated to produce perceived legitimacy ("requiring broad consensus") while functionally protecting the installer's preferred status quo. [Inferred]
+- **Step 3 — Procedural legitimation:** The installed veto point is encoded in the institutional record with a legitimating rationale — protection of minority rights, prevention of hasty legislation, constitutional stability requirements, deliberate pace of change — that makes subsequent removal appear as an attack on procedural principle rather than a correction of the installer's advantage. [Observed — Tsebelis 2002]
+- **Step 4 — Veto holder position maintenance:** The installer identifies and maintains alignment with the subset of actors who will occupy the veto holder position in future periods — through coalition agreements, personnel selection, or platform alignment — ensuring that the installed blocking position continues to be activated in the installer's interest even after the installer loses direct control of the process. [Inferred]
+- **Step 5 — Blocking and concession extraction:** The veto holder uses the installed position to block adverse change-seeker proposals or to extract side payments and modifications from change-seekers as the price of allowing their proposals to pass; the installer's original design generates ongoing distributional returns through the veto holder's bargaining leverage across all subsequent decision rounds. [Observed — Tsebelis 2002]
 
 ### Where leverage concentrates
 
-<!-- Chokepoints, bottlenecks, veto points. Where in the sequence does the deploying actor gain disproportionate control? Claim label required. -->
-
-- **Chokepoints:** [claim label]
-- **Bottlenecks:** [claim label]
-- **Veto points:** [claim label]
+- **Chokepoints:** The veto point position itself is the leverage concentration point — whoever occupies it holds blocking power over all proposals seeking to pass through, regardless of whether they are the installer or a subsequent inheritor. The positional power is independent of the occupant's other resources, making veto point installation a mechanism for scale-independent structural leverage. [Observed — Tsebelis 2002]
+- **Bottlenecks:** The installation window — the founding or reform moment when the procedural baseline can be changed — is the bottleneck: leverage to install a veto point depends on a temporary political condition that will not persist; change-seekers who fail to alter or prevent installation during this window face the installed veto point for the indefinite future. [Observed — Riker 1980]
+- **Veto points (second-order):** The existing veto points in a system function as a veto over the installation of new veto points — a path-dependent structural constraint on veto point proliferation. Constitutions that require supermajority approval of constitutional amendments make it harder to add new veto points as well as harder to remove existing ones; this self-referential feature is documented in comparative constitutional design literature. [Inferred]
 
 ### Conditions of applicability
 
 **Enabling conditions** — documented when the pattern operates:
 
-- [Structural condition 1]. [claim label]
-- [Structural condition 2]. [claim label]
-- [Structural condition 3]. [claim label]
+- The installer has access to a founding or reform moment in which the procedural baseline is open for renegotiation: a constitutional convention, a new organization's charter adoption, a legislative reform window, or a moment of institutional disruption that temporarily reduces procedural path dependence. [Observed — Riker 1980]
+- The blocking threshold can be legitimated as procedurally neutral — framed as protecting minority rights, requiring broad deliberation, or preventing hasty decision-making — so that later change-seekers cannot remove it without appearing to attack procedural principle. [Observed]
+- The installer can identify and maintain alignment with a durable subset of the decision-making population that will occupy the veto holder position across future periods; alignment must persist without requiring the installer's ongoing active management. [Inferred]
+- The status quo that the veto point protects generates sufficient ongoing benefits to the veto holder to maintain their incentive to use the blocking position, even as other actors' preferences shift; if the status quo becomes costly to the veto holder, the veto point may not be activated. [Observed — Tsebelis 2002]
 
 **Disabling conditions** — documented when the pattern fails or degrades:
 
-- [Condition under which the pattern collapses or reverses]. [claim label]
-- [Second disabling condition]. [claim label]
+- The change-seeking coalition achieves a supermajority sufficient to overcome the blocking threshold — the veto point's calibration was set too low, or the installer's preferred coalition eroded beyond planning. Documented in Article V constitutional amendments in US history (27 successful amendments despite high threshold). [Observed]
+- A procedural workaround is developed that routes around the veto point without formally removing it: reconciliation to bypass the Senate filibuster, executive action to bypass legislative veto points, recess appointments to bypass confirmation veto points. The workaround does not eliminate the veto point but reduces its effective scope. [Observed]
+- The veto point's legitimating rationale collapses, enabling a norm-removal campaign framed as eliminating procedural obstruction rather than as a substantive policy preference; US Senate elimination of the filibuster for executive and judicial nominees (2013, 2017) illustrates this. [Observed]
+- The veto holder's interests realign with the change-seeker against the installer's original preference, so the veto point is not activated despite remaining formally intact. [Inferred]
 
 ### Common failure modes
 
-<!-- How and why the pattern breaks down. Name the failure mode, label the claim, describe what triggers failure and what the pattern degrades into. -->
-
-- **[Mode name]** — [claim label] — [explanation; what it degrades into]
-- **[Mode name]** — [claim label] — [explanation]
+- **Threshold erosion** — [Observed] — The legitimating rationale for the veto point erodes over time as its protective function becomes transparently tied to the installer's coalition interests rather than any neutral procedural principle; the Senate filibuster's partial removal (nuclear option 2013, 2017) illustrates threshold erosion achieved by re-framing the norm as obstruction rather than deliberation protection. Degrades into Norm Erosion (072) pattern.
+- **Workaround proliferation** — [Observed] — Change-seekers invest in developing procedural routes that bypass the veto point without formally removing it: budget reconciliation as a filibuster bypass, agency rulemaking as a legislative veto bypass, executive orders as a bicameral veto bypass. The veto point formally persists but its effective scope narrows as workarounds accumulate. Degrades into a fragmented decision process with parallel pathways.
+- **Veto holder defection** — [Inferred] — The actor occupying the veto point position prioritizes their own transactional interests over the installer's strategic goals, using the blocking position to extract concessions from change-seekers rather than to protect the status quo; the veto point becomes a rent-extraction mechanism rather than a status-quo protection mechanism. Documented in Pivotal Politics models of legislator behavior.
+- **Counter-installation** — [Observed] — Change-seekers, upon attaining a temporary majority, install new veto points that cut against the original installer's preferred status quo; veto point proliferation produces institutional gridlock— documented in Tsebelis 2002 as a function of the total number of veto players. Degrades into multi-veto gridlock with no status quo protection advantage for any single installer.
 
 ### What evidence would prove/disprove key claims
 
-<!-- Dataset, case record, or cross-domain comparison that would confirm or refute the central mechanism claim. What would a contrary finding look like? -->
-
-- [Confirming evidence type]
-- [Disconfirming evidence type]
-- [Comparative test across domains]
+- **Confirms central mechanism:** Cross-national comparison of policy change rates as a function of veto player count (Tsebelis 2002) provides direct empirical test: countries with more constitutionally entrenched veto players should show lower policy change rates, controlling for underlying preference heterogeneity. Tsebelis finds strong confirmation across 36 democracies.
+- **Disconfirms:** Evidence that veto point count does not predict policy stability — that workaround proliferation fully compensates for veto point installation so net policy change rates are invariant to veto player count — would challenge the central mechanism; this is the empirical implication of a strong workaround-proliferation alternative hypothesis.
+- **Tests installation timing:** Historical analysis of constitutional founding moments would test whether veto points are strategically installed by temporarily-advantaged coalitions to protect their interests against future majority preferences; Madison's Federalist design arguments and comparative constitutional design literature provide qualitative evidence; cross-national datasets provide quantitative tests.
+- **Tests ecological analog:** Keystone species removal experiments (Paine 1966 sea star removal creating homogeneous mussel beds) would test whether the ecological veto point analog — where a single species' blocking role maintains ecosystem diversity — operates through the same asymmetry-between-status-quo-and-change mechanism as the institutional pattern.
 
 ### Instantiations
 
-<!-- Cross-domain documented examples. Domain → specific case → source → which aspect of the pattern it illustrates. Minimum 2 domains. -->
+- **Political / US Constitutional — Senate cloture and Article V:** The US Senate's cloture rule (60 votes to end debate, Rule XXII) functions as an installed veto point: simple majority cannot pass most legislation without overcoming the supermajority cloture threshold. The rule was installed by Senate vote in 1917 (cloture first adopted) and strengthened in 1975 (threshold reduced from 67 to 60 votes), reflecting the installer coalition's preference calibration at each installation moment. Article V's requirement of two-thirds congressional vote plus three-fourths state ratification for constitutional amendments is the foundational federal veto point — installed at the Constitutional Convention of 1787 by a coalition protecting state sovereignty and slavery from simple national majority override. [Observed — Binder & Smith 1997; Riker 1996]
 
-- **[Domain A]:** [specific case]. [claim label — source]
-- **[Domain B]:** [specific case]. [claim label — source]
-- **[Domain C]:** [specific case]. [claim label — source]
+- **Corporate governance — Classified board and supermajority bylaw:** Staggered (classified) boards of directors divide directors into classes with multi-year terms, so that a hostile acquirer or shareholder coalition cannot replace the full board in a single annual election cycle — creating a multi-year veto point on board replacement even after the acquirer controls a majority of shares. Supermajority voting requirements in corporate charters (requiring 80% shareholder approval to remove staggered board provisions) are a second-order installation that protects the first veto point. Delaware courts have upheld both as valid charter provisions. [Observed — Bebchuk et al. 2002; Gompers et al. 2003]
+
+- **International / Treaty — UN Security Council permanent member veto:** The five permanent members of the UN Security Council each hold an absolute veto over enforcement resolutions; this structure was installed at the 1945 San Francisco Conference by the founding great powers (US, USSR, UK, China, France) as the condition of their participation, protecting each from adverse enforcement action regardless of general assembly majorities. The P5 veto is the paradigm case of veto point installation at international institutional founding moments. [Observed — Goodrich & Hambro 1949]
+
+- **Ecological — Keystone species as ecosystem veto point:** Keystone predators (Paine's 1966 sea star *Pisaster ochraceus* in Pacific intertidal zones; wolves in Yellowstone) maintain ecosystem diversity by suppressing dominant competitor species; their removal — the ecological equivalent of removing the veto holder from the blocking position — collapses the multi-species equilibrium to a single-species dominant state. The keystone species holds a structural veto over the ecosystem's competitive equilibrium without requiring the species to be the most numerous or most productive actor. [Observed — Paine 1966; Ripple & Beschta 2004]
+
+- **Regulatory / US Federal — Senate confirmation as veto over executive appointments:** Article II's requirement of Senate advice and consent for principal officers (cabinet secretaries, agency heads, federal judges) installs the Senate as a veto point over executive branch personnel; the veto point allows a minority Senate faction (through holds and filibuster) to block nominations, giving 40 senators structural blocking power over the executive's personnel choices. The 2013 and 2017 "nuclear option" removals of the filibuster for executive and judicial nominees represent partial veto point removal, illustrating threshold erosion. [Observed — Sollenberger 2008]
 
 *Modframe links:* See `Modframe instances` in README for specific federal power module IDs.
 
 ### Suggested sources
 
-<!-- Full citation format: [Title]. [Author / Issuing body], [Year]. [URL or identifier]. -->
-
--
--
--
+- Veto Players: How Political Institutions Work. George Tsebelis, Princeton University Press, 2002. ISBN 978-0691099799.
+- Liberalism Against Populism: A Confrontation Between the Theory of Democracy and the Theory of Social Choice. William H. Riker, Waveland Press, 1982. ISBN 978-0881333497.
+- Sizing Up the Senate: The Unequal Consequences of Equal Representation. Frances E. Lee & Bruce I. Oppenheimer, University of Chicago Press, 1999. ISBN 978-0226470474.
+- Politics or Principle? Filibustering in the United States Senate. Sarah A. Binder & Steven S. Smith, Brookings Institution Press, 1997. ISBN 978-0815709206.
+- Starfish and the Spider: The Unstoppable Power of Leaderless Organizations. Ori Brafman & Rod A. Beckstrom, Portfolio, 2006. [contextual — see Paine 1966 for the primary ecological source]
+- Intertidal Community Structure: Experimental Studies on the Relationship Between a Dominant Competitor and Its Principal Predator. Robert T. Paine, Oecologia, 15(2), 1974. https://doi.org/10.1007/BF00345739
+- Trophic Cascades in Yellowstone: The First 15 Years After Wolf Reintroduction. William J. Ripple & Robert L. Beschta, Biological Conservation, 145(1), 2012. https://doi.org/10.1016/j.biocon.2011.11.005
+- Managerial Power and Rent Extraction in the Design of Executive Compensation. Lucian A. Bebchuk, Jesse M. Fried & David I. Walker, University of Chicago Law Review, 69(3), 2002. https://doi.org/10.2307/1600633
+- Corporate Governance and Equity Prices. Paul A. Gompers, Joy L. Ishii & Andrew Metrick, Quarterly Journal of Economics, 118(1), 2003. https://doi.org/10.1162/00335530360535162
+- The Presidential Appointment Process and the Senate: Advice, Consent, Delay, and Dysfunction. Mitchel A. Sollenberger, Congressional Research Service, 2008. https://sgp.fas.org/crs/misc/RL31980.pdf
 
 ### Analysis outline (6 parts)
 
-1. **Pattern** — [what this pattern is and what relationship structure it operates on]
-2. **Mechanism** — [why the pattern works — the structural logic]
-3. **Instantiation** — [a specific, real cross-domain case study — name it and name the domain]
-4. **Evidence** — [primary sources or data to show across domains]
-5. **Countermeasures** — [≥ 2 documented structural responses or reforms that have altered pattern outcomes — describe neutrally]
-6. **Takeaway** — [the structural insight a reader should retain]
+1. **Pattern** — Veto Point Installation is a constraint and boundary pattern operating on the relationship between an installer who embeds a blocking threshold in a decision process, the subsequent veto holders who occupy that threshold position, and the change-seekers who must overcome it; the pattern converts a temporary political advantage into a durable structural asymmetry between the cost of the status quo (zero) and the cost of change (supermajority or sequential threshold).
+2. **Mechanism** — The pattern operates through the asymmetry between action and inaction: once a blocking threshold is installed, all proposals seeking change must affirmatively overcome it while the status quo requires no coalition at all; the installer's original political advantage becomes self-sustaining because the threshold imposes costs on all future change-seekers regardless of their underlying numerical majority.
+3. **Instantiation** — UN Security Council P5 veto (International / Treaty domain): installed at the 1945 San Francisco Conference as the conditions of great-power participation, the five permanent members' absolute vetoes over enforcement resolutions have blocked Security Council action on enforcement against permanent members' interests in every subsequent decade — Korea (Soviet absence), Suez (UK/French veto threat), Hungary (Soviet veto), Kosovo (NATO bypassing via General Assembly), Ukraine (Russian veto, 2022–2025). The veto was calibrated at installation to prevent exactly the outcomes it continues to prevent.
+4. **Evidence** — Tsebelis 2002 (36-democracy cross-national study); Binder & Smith 1997 (Senate filibuster history); Paine 1966/1974 (keystone species ecological veto); Bebchuk et al. 2002 (classified board corporate governance); Riker 1982 (constitutional design strategic theory).
+5. **Countermeasures** — Procedural workaround development — Senate budget reconciliation, executive rulemaking, recess appointments — reduces the effective scope of installed veto points without formally removing them, documented across the postwar US legislative history as the adaptive response to Senate supermajority requirements. Nuclear option norm removal — reframing the veto point's legitimating rationale as partisan obstruction rather than deliberative protection — is the primary mechanism for formal threshold reduction, documented in 2013 (executive/judicial nominations) and 2017 (Supreme Court nominations) Senate rule changes.
+6. **Takeaway** — A veto point's power is asymmetric and status-quo-preserving by design: the installer needs the threshold to be crossed once (during installation) to impose a requirement that all future change-seekers must cross repeatedly, giving the original installation moment leverage that compounds across all subsequent decision rounds.

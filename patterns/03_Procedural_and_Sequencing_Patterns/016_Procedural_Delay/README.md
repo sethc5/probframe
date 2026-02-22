@@ -2,9 +2,9 @@
 
 Purpose: Use the rules of the process to slow or stop an outcome.
 
-Status: empty
+Status: draft
 
-Tags:
+Tags: procedural, delay, filibuster, obstruction, cost-asymmetry, rulemaking, litigation, sequencing
 
 Pattern class: 03 Procedural and Sequencing Patterns
 
@@ -12,18 +12,28 @@ Outline: see `outline.md`
 
 Contributors:
 
-Related patterns:
-Often combined with:
-Degrades into:
-Modframe instances:
-Last reviewed:
+Related patterns: 034, 054, 021, 039, 029
+Often combined with: 034, 021
+Degrades into: 034, 072
+Modframe instances: [pending — requires Modframe INDEX review]
+Last reviewed: 2026-02
 
 Domains:
-  -
+  - Political/US Senate (filibuster and holds)
+  - Regulatory/Administrative (APA notice-and-comment, NEPA FEIS)
+  - Legal/Litigation (multi-forum serial challenge)
+  - International/Treaty (Senate reservation procedure)
+  - Biological/Immune evasion (viral latency)
 
 Actors:
-  - name:
-    type:
+  - name: Delaying actor
+    type: Deploying
+  - name: Decision-seeking actor
+    type: Target
+  - name: Presiding authority
+    type: Enabler
+  - name: Third-party procedural advocates
+    type: Adversarial
 
 How to contribute:
 

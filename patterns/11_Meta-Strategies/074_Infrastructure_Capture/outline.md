@@ -1,84 +1,87 @@
 # Infrastructure Capture
 
-**Summary:** <!-- 3–5 sentences: what this pattern is, why it recurs across domains, what structural feature makes it recognizable. Descriptive voice — no advocacy. -->
+**Summary:** Infrastructure Capture is a meta-strategy pattern in which a deploying actor gains control of the underlying physical, digital, or institutional infrastructure through which essential functions of a domain flow — communications networks, financial settlement systems, energy distribution grids, judicial case-management systems, data standards — so that all actors dependent on the infrastructure must transact on terms set by the infrastructure controller, without the controller needing to compete in the domain's substantive activities. The pattern is related to but structurally distinct from Chokepoint Control (039), which operates at a single flow bottleneck within an already-operating system; Infrastructure Capture targets the carrying medium itself, producing leverage over all flows simultaneously rather than at a single transit point. It recurs across international financial systems, telecommunications networks, energy infrastructure, internet backbone architecture, and mycorrhizal forest networks because any domain organized around shared infrastructure produces structural leverage for whoever controls that infrastructure, independent of performance in the domain's substantive competition. The pattern's analytical signature is that changes in the terms of infrastructure access affect all dependent actors simultaneously — leverage is systemic rather than transactional.
 
-**Mechanism in one sentence:** <!-- ≤ 30 words. How the pattern operates at its core. -->
+**Mechanism in one sentence:** The deploying actor acquires control of the infrastructure through which a domain's essential flows pass, setting the terms of access for all dependent actors simultaneously without participating in the domain's substantive competition.
 
 ### Actors and deployment context
 
-<!-- Who deploys this pattern, against what, and in what structural position. List deploying actor, target actor, and any enabling actors. Each bullet: name → role → incentive → constraint. Claim label required. -->
-
-- **[Deploying actor type]** — [role]; incentive: [what drives deployment]; constraint: [what limits deployment]. [claim label]
-- **[Target actor type]** — [role]; response options: [what target can do]; constraint: [what limits response]. [claim label]
+- **Infrastructure controller (deploying actor)** — the actor who acquires or builds and then controls the shared infrastructure; incentive: leverage over all dependent actors simultaneously without requiring substantive competitive advantage in the domain; terms of access (pricing, availability, interoperability, permissibility of use) become a structural tax on all flows; constraint: infrastructure provision typically carries regulatory exposure (common carrier obligations, utility regulation) that limits the controller's ability to discriminate among users or set maximally extractive terms. [Observed — Farrell & Newman 2019]
+- **Infrastructure-dependent actors (target)** — all actors whose domain participation requires using the infrastructure; response options: develop alternative infrastructure (high cost, time-intensive); use the infrastructure on the controller's terms; accept exclusion from the domain; organize collectively to impose common carrier or utility regulation on the infrastructure; constraint: the switching cost from captured infrastructure is typically high enough, and the time required to build alternatives long enough, that short-to-medium-term compliance with controller terms is the dominant response. [Observed]
+- **Regulating authority (structural veto holder)** — the government or international body with jurisdiction to impose common carrier obligations, interoperability mandates, or rate regulation on the infrastructure; role in the pattern: the controller's leverage depends on avoiding utility or common carrier status; the regulating authority's willingness to impose such status is the primary structural check. [Observed]
+- **Alternative infrastructure builders (adversarial)** — actors constructing competing infrastructure to reduce dependent actors' switching costs and undermine the controller's leverage; constraint: scale requirements for infrastructure mean that alternatives must reach sufficient capacity before they can offer comparable reliability, giving the controller time to consolidate leverage before alternatives become available. [Inferred — Farrell & Newman 2019]
 
 ### Operational sequence
 
-<!-- Minimum 4 steps. Each step: name → concrete action → who does it → what changes in the environment. Claim label required. -->
-
-- **Step 1 — [Phase name]:** [action]. [claim label]
-- **Step 2 — [Phase name]:** [action]. [claim label]
-- **Step 3 — [Phase name]:** [action]. [claim label]
-- **Step 4 — [Outcome phase]:** [how advantage is locked in or extended]. [claim label]
+- **Step 1 — Infrastructure acquisition or construction:** The deploying actor acquires control of existing shared infrastructure (through purchase, merger, regulatory approval, or de facto network-effect monopolization) or builds new infrastructure designed to become the domain standard; the critical variable is reaching the scale at which dependent actors cannot practically route around the infrastructure. [Observed]
+- **Step 2 — Switching cost entrenchment:** The controller increases dependent actors' switching costs through technical standards lock-in, contractual exclusivity, interoperability restriction with competing infrastructure, or simply the time and capital required to build alternatives; each measure increases the interval during which the controller can extract leverage before alternatives become viable. [Observed — Farrell & Newman 2019]
+- **Step 3 — Terms of access imposition:** The controller imposes terms of infrastructure access — pricing, permissibility conditions, data access requirements, exclusion of certain counterparties or uses — that reflect the controller's strategic interests rather than neutral carrier obligations; dependent actors cannot exit so they comply. [Observed]
+- **Step 4 — Leverage externalization:** The controller uses infrastructure access control as leverage in domains beyond the infrastructure itself: the US government's ability to exclude actors from SWIFT financial messaging provides leverage over sanctions compliance regardless of whether those actors are party to US-jurisdiction transactions; the infrastructure's physical location in a high-regulatory-capacity jurisdiction is the mechanism. [Observed — Farrell & Newman 2019]
+- **Step 5 — Alternative-building deterrence:** The controller uses pricing, contractual terms, or political influence to deter dependent actors from investing in alternative infrastructure, preserving the switching-cost moat by making the ex ante return on alternative-building appear insufficient to justify the investment. [Inferred]
 
 ### Where leverage concentrates
 
-<!-- Chokepoints, bottlenecks, veto points. Where in the sequence does the deploying actor gain disproportionate control? Claim label required. -->
-
-- **Chokepoints:** [claim label]
-- **Bottlenecks:** [claim label]
-- **Veto points:** [claim label]
+- **Chokepoints:** The infrastructure bottleneck — the point at which all domain flows converge for processing, routing, or settlement — concentrates leverage: SWIFT's role as the global interbank message router, internet exchange points as backbone routing chokepoints, Federal Reserve's role in dollar-denominated settlement. Control of the bottleneck grants leverage over all upstream and downstream flows simultaneously. [Observed — Farrell & Newman 2019]
+- **Bottlenecks:** Standards and interoperability specifications function as the technical bottleneck through which infrastructure leverage is sustained: an infrastructure controller who sets the dominant technical standard can require compliance with that standard as a condition of access, converting voluntary technical coordination into a structural access condition. USB, SWIFT messaging format, TCP/IP, and financial API standards are documented examples. [Observed]
+- **Veto points:** Common carrier and public utility regulation holds the primary structural veto over maximum infrastructure leverage: imposing non-discrimination and rate regulation limits the controller's ability to condition access on compliance with strategic terms. The history of telecommunications regulation provides the most documented version of this veto mechanism at scale. [Observed]
 
 ### Conditions of applicability
 
 **Enabling conditions** — documented when the pattern operates:
 
-- [Structural condition 1]. [claim label]
-- [Structural condition 2]. [claim label]
-- [Structural condition 3]. [claim label]
+- The infrastructure exhibits strong network effects or scale economies, so that a controller who reaches critical mass faces no viable competitive challenge from smaller alternatives; dependent actors have no practical option but to use the dominant infrastructure regardless of access terms. [Observed]
+- The infrastructure's physical or institutional location is in a high-regulatory-capacity jurisdiction that can credibly enforce exclusion from the infrastructure as a sanction mechanism against external actors; SWIFT's Belgian location within EU regulatory jurisdiction is the mechanism that enables US Treasury exclusion orders to reach global banks. [Observed — Farrell & Newman 2019]
+- Dependent actors face high switching costs — contractual lock-in, technical standards dependence, network-effect advantages of the dominant infrastructure — that make alternative-building insufficient in the short to medium term. [Observed]
+- The regulating authority lacks jurisdiction, capacity, or political will to impose common carrier or utility obligations that limit the controller's access discrimination. [Observed]
 
 **Disabling conditions** — documented when the pattern fails or degrades:
 
-- [Condition under which the pattern collapses or reverses]. [claim label]
-- [Second disabling condition]. [claim label]
+- A sufficiently large coalition of dependent actors collectively funds alternative infrastructure to a scale that reduces switching costs below the threshold that sustains the controller's leverage; BRICS alternative payment system development (2014–present) and China's CIPS partial alternative to SWIFT are documented examples of alternative-building in response to SWIFT exclusion leverage. [Observed]
+- The regulating authority imposes common carrier obligations or interoperability mandates that prevent the controller from conditioning access on strategic compliance; US net neutrality rules (2015, repealed 2017) and EU Digital Markets Act (2022) are documents of this regulatory response. [Observed]
+- Technical architecture shifts reduce the control value of the existing infrastructure: distributed ledger technology reducing centralized settlement infrastructure dependence, mesh network design reducing backbone chokepoint dependence. [Inferred]
 
 ### Common failure modes
 
-<!-- How and why the pattern breaks down. Name the failure mode, label the claim, describe what triggers failure and what the pattern degrades into. -->
-
-- **[Mode name]** — [claim label] — [explanation; what it degrades into]
-- **[Mode name]** — [claim label] — [explanation]
+- **Leverage over-extension** — [Observed] — The infrastructure controller imposes access conditions so onerous that the sanction of exclusion becomes more attractive to dependent actors than compliance, triggering the alternative-building investment that switching costs were designed to prevent; the 2022 exclusion of Russian banks from SWIFT accelerated development of CIPS and alternative transaction mechanisms by actors concerned about future exclusion risk. Degrades into alternative-infrastructure proliferation and reduced leverage.
+- **Regulatory reclassification** — [Observed] — The infrastructure controller's market power and strategic access conditioning triggers regulatory reclassification as a common carrier or public utility, imposing non-discrimination obligations that limit the access-conditioning mechanism; AT&T's reclassification and breakup (1984), FCC net neutrality Orders (2015), and EU DMA Article 6 obligations on gatekeepers are documented examples. Degrades into regulated infrastructure with limited strategic leverage.
+- **Technical displacement** — [Inferred] — A new technical architecture that does not route through the existing infrastructure at any point captures sufficient dependent actor adoption to reduce the existing infrastructure's chokepoint status; the historical shift from telegraph to telephone networks, and from circuit-switched to packet-switched data networks, are documented cases of technical displacement of prior infrastructure leverage positions.
+- **Counter-jurisdiction arbitrage** — [Observed] — Dependent actors route flows through jurisdictions outside the regulating authority's reach, using infrastructure outside the high-capacity jurisdiction to avoid exclusion sanctions; effectiveness depends on whether the flows can be completed without touching the captured infrastructure. [Farrell & Newman 2019]
 
 ### What evidence would prove/disprove key claims
 
-<!-- Dataset, case record, or cross-domain comparison that would confirm or refute the central mechanism claim. What would a contrary finding look like? -->
-
-- [Confirming evidence type]
-- [Disconfirming evidence type]
-- [Comparative test across domains]
+- **Confirms central mechanism:** Measurement of behavioral compliance rates with infrastructure controller-imposed conditions across a sample of dependent actors — controlling for whether compliance was legally required or only a condition of infrastructure access — would test whether infrastructure leverage produces compliance independently of formal legal obligation; SWIFT exclusion compliance by non-US banks provides a partial natural experiment (Farrell & Newman 2019 data).
+- **Disconfirms:** Evidence that infrastructure control does not produce compliance with strategic access conditions — that dependent actors systematically circumvent access conditions while maintaining infrastructure access, or that the threat of exclusion is routinely called rather than complied with — would challenge the leverage mechanism.
+- **Tests switching cost hypothesis:** Measurement of the time elapsed between SWIFT exclusion orders and meaningful CIPS adoption by target actors would test whether switching costs constrain the alternative-building response in the short to medium term as the mechanism predicts.
+- **Tests biological analog:** Measurement of mycorrhizal network control over nutrient flux to competing plant species in forest ecosystems would test whether the infrastructure (fungal network) controller exercises preferential allocation consistent with the infrastructure capture mechanism (Simard et al. 1997 provide partial data).
 
 ### Instantiations
 
-<!-- Cross-domain documented examples. Domain → specific case → source → which aspect of the pattern it illustrates. Minimum 2 domains. -->
+- **International financial / SWIFT:** The SWIFT financial messaging network — routing interbank payment instructions for 11,000+ financial institutions in 200+ countries — is controlled by a Belgian cooperative subject to EU regulatory jurisdiction and responsive to US Treasury requests for transaction data and exclusion orders. The US Treasury's ability to exclude Iranian banks from SWIFT (2012) and Russian banks (2022) as sanctions-enforcement mechanisms exemplifies infrastructure leverage: non-US entities with no US-jurisdiction transactions were compelled to comply with US policy preferences by the threat of exclusion from a network they depended on for global dollar-denominated transactions. [Observed — Farrell & Newman 2019]
 
-- **[Domain A]:** [specific case]. [claim label — source]
-- **[Domain B]:** [specific case]. [claim label — source]
-- **[Domain C]:** [specific case]. [claim label — source]
+- **Telecommunications / AT&T pre-1984:** AT&T's control of the Bell System's physical local loop — the copper wire infrastructure connecting end users to the telephone network — gave it infrastructure leverage over all long-distance and equipment providers who needed to access that loop to reach customers; this leverage persisted until the 1982 Consent Decree and 1984 divestiture imposed structural separation. MCI and Sprint's long-distance service required AT&T's local loop access, for which AT&T set terms until regulatory intervention. [Observed — Wu 2010 *The Master Switch*]
+
+- **Digital / Cloud infrastructure platform leverage:** Amazon Web Services, Microsoft Azure, and Google Cloud provide the compute and storage infrastructure for an estimated 65%+ of internet services; platform terms of service and API design function as infrastructure access conditions for dependent application developers and enterprise users. The 2021 AWS deplatforming of Parler (denied compute/DNS/content delivery services) is a documented case of infrastructure control producing immediate operational consequence for a dependent actor without any formal legal mechanism. [Observed — Khan 2017]
+
+- **Biological / Mycorrhizal network — Forest nutrient infrastructure:** Mycorrhizal fungal networks connect the root systems of multiple tree species in forest ecosystems, functioning as shared nutrient and carbon transfer infrastructure; the fungal network exercises preferential allocation — directing carbon and nutrient flows toward host tree species and withholding from non-mycorrhizal competitors — consistent with the infrastructure capture leverage mechanism. Simard et al. 1997 documented inter-tree carbon transfer through mycorrhizal networks; subsequent research documents preferential allocation by network-controlling fungal species. [Observed — Simard et al. 1997; Song et al. 2015]
 
 *Modframe links:* See `Modframe instances` in README for specific federal power module IDs.
 
 ### Suggested sources
 
-<!-- Full citation format: [Title]. [Author / Issuing body], [Year]. [URL or identifier]. -->
-
--
--
--
+- Of Privacy and Power: The Transatlantic Struggle over Freedom and Security. Henry Farrell & Abraham Newman, Princeton University Press, 2019. ISBN 978-0691182773.
+- The Master Switch: The Rise and Fall of Information Empires. Tim Wu, Knopf, 2010. ISBN 978-0307269935.
+- Amazon's Antitrust Paradox. Lina M. Khan, Yale Law Journal, 126(3), 2017. https://www.yalelawjournal.org/note/amazons-antitrust-paradox
+- Net Neutrality and Platform Neutrality. Barbara van Schewick, Stanford Law Review, 67(1), 2015. https://review.law.stanford.edu/wp-content/uploads/sites/3/2015/01/67-Stan.-L.-Rev.-1-van-Schewick.pdf
+- Net Transfer of Carbon Between Ectomycorrhizal Tree Species in the Field. Suzanne W. Simard et al., Nature, 388(6642), 1997. https://doi.org/10.1038/41557
+- Interplant Communication of Tomato Plants through Underground Common Mycorrhizal Networks. Ren Sen Zeng et al. [see also Song et al. 2010]. Yiqi Song et al., PLOS ONE, 5(10), 2010. https://doi.org/10.1371/journal.pone.0013324
+- Weapons of Mass Disruption: Sanctions, Financial Infrastructure, and Statecraft. Daniel McDowell, Cornell University Press, 2023. ISBN 978-1501771484.
+- The Digital Silk Road: China's Effort to Wire the World and Win the Future. Jonathan E. Hillman, Harper Business, 2021. ISBN 978-0062915801.
 
 ### Analysis outline (6 parts)
 
-1. **Pattern** — [what this pattern is and what relationship structure it operates on]
-2. **Mechanism** — [why the pattern works — the structural logic]
-3. **Instantiation** — [a specific, real cross-domain case study — name it and name the domain]
-4. **Evidence** — [primary sources or data to show across domains]
-5. **Countermeasures** — [≥ 2 documented structural responses or reforms that have altered pattern outcomes — describe neutrally]
-6. **Takeaway** — [the structural insight a reader should retain]
+1. **Pattern** — Infrastructure Capture is a meta-strategy pattern operating on the relationship between an infrastructure controller, the dependent actors who must use the infrastructure to participate in the domain, and the regulating authority whose utility or common-carrier classification decisions determine the limits of the controller's access-conditioning leverage; the pattern's structural substrate is the combination of network effects (making alternatives difficult) and jurisdictional scope (determining lever reach).
+2. **Mechanism** — The pattern operates through the combination of high switching costs (which trap dependent actors on the existing infrastructure regardless of access terms) and low regulatory constraints (which allow the controller to condition access on strategic compliance rather than merely providing neutral service); the controller converts the infrastructure's technical centrality into political and economic leverage by attaching conditions to the neutral carriage function.
+3. **Instantiation** — SWIFT exclusion as US sanctions lever (International financial domain): the US Treasury's use of SWIFT exclusion to enforce sanctions against Iran (2012) and Russia (2022) exemplifies the systemic leverage structure — non-US banks with no US-jurisdiction transactions face exclusion from global dollar-denominated interbank messaging, effectively cutting them off from the international financial system, because SWIFT's Belgian location and US dollar-clearing system dependence place it within reach of US policy pressure regardless of the target banks' legal US nexus (Farrell & Newman 2019).
+4. **Evidence** — Farrell & Newman 2019 (SWIFT/financial infrastructure leverage theory and cases); Wu 2010 (AT&T infrastructure history); Khan 2017 (platform infrastructure leverage); Simard et al. 1997 (mycorrhizal network nutrient infrastructure); McDowell 2023 (sanctions/financial infrastructure statecraft).
+5. **Countermeasures** — Common carrier/utility regulation — imposing non-discrimination and rate regulation on essential infrastructure — limits the controller's ability to attach strategic conditions to access; this is documented across telecommunications (Communications Act 1934, Telecom Act 1996), internet (FCC Open Internet Orders), and EU digital platform (DMA 2022) regulatory histories. Alternative infrastructure coalitions — coordinated multi-party investment in competing infrastructure to reduce switching costs below the controller's leverage threshold — is the primary market-based countermeasure; CIPS, mBridge, and BRICS payment system development represent documented examples in the financial infrastructure domain.
+6. **Takeaway** — Infrastructure leverage operates upstream of substantive competition: the controller who sets the terms of access for all participants in a domain shapes the domain's competitive outcomes without needing to outperform any individual participant, producing leverage that is systemic, persistent, and largely invisible to analyses that focus only on within-domain competitive dynamics.
