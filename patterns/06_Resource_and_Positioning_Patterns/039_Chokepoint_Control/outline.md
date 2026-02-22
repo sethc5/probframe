@@ -1,84 +1,92 @@
 # Chokepoint Control
 
-**Summary:** <!-- 3–5 sentences: what this pattern is, why it recurs across domains, what structural feature makes it recognizable. Descriptive voice — no advocacy. -->
+**Summary:** Chokepoint Control is a structural pattern in which an actor occupies a position at which essential flows — of resources, information, decisions, access, or traffic — concentrate, granting that actor disproportionate leverage over all actors whose operations depend on passage through that point. The pattern's leverage derives from position rather than intrinsic resource accumulation: the controlling actor need not own or produce what flows through the chokepoint, only the passage itself. It recurs across domain boundaries including maritime geography, legislative committee systems, commercial platform architectures, biological trophic networks, and financial clearing infrastructure because the structural logic — positional monopoly over a necessary conduit — is domain-independent. Each instantiation shares a common feature: the concentration of a necessary flow through a point that a single actor controls, multiplying that actor's effective leverage beyond what its direct resources alone would support.
 
-**Mechanism in one sentence:** <!-- ≤ 30 words. How the pattern operates at its core. -->
+**Mechanism in one sentence:** An actor at a structural bottleneck through which essential flows must pass gains leverage over all dependent actors regardless of their intrinsic resource levels.
 
 ### Actors and deployment context
 
-<!-- Who deploys this pattern, against what, and in what structural position. List deploying actor, target actor, and any enabling actors. Each bullet: name → role → incentive → constraint. Claim label required. -->
-
-- **[Deploying actor type]** — [role]; incentive: [what drives deployment]; constraint: [what limits deployment]. [claim label]
-- **[Target actor type]** — [role]; response options: [what target can do]; constraint: [what limits response]. [claim label]
+- **Chokepoint holder (deploying actor)** — occupies or establishes control over a structural bottleneck position; incentive: extract tolls, compliance, information, or concessions from dependent actors as the price of passage; constraint: must hold the position against challengers and maintain non-circumventability of the bottleneck. [Observed]
+- **Flow-dependent actor (target)** — actor whose operations require passage through the controlled point; response options: pay the toll or comply; fund bypass alternatives; coordinate with other dependents to share bypass costs; seek regulatory intervention; accept inferior substitutes; constraint: transition costs, collective action problem among dependents, and high fixed costs of bypass keep most dependents captive in the short run. [Observed]
+- **Bypass provider or alternative conduit (enabling/adversarial actor)** — actor with capacity to create or fund alternative routes around the bottleneck (competing platform, state infrastructure program, technological substitute); incentive: capture flows from the chokepoint holder or relieve dependent actors for political or commercial benefit; constraint: high fixed costs, network effects favoring the incumbent route, and possible legal or physical barriers erected by the chokepoint holder. [Inferred]
+- **Regulatory or adjudicatory body** — actor with authority to impose access terms, mandate interoperability, or otherwise alter the chokepoint holder's leverage; role: latent threat that disciplines extraction rates even when not acting; constraint: action requires political will, evidence of harm, and jurisdictional reach. [Observed]
 
 ### Operational sequence
 
-<!-- Minimum 4 steps. Each step: name → concrete action → who does it → what changes in the environment. Claim label required. -->
-
-- **Step 1 — [Phase name]:** [action]. [claim label]
-- **Step 2 — [Phase name]:** [action]. [claim label]
-- **Step 3 — [Phase name]:** [action]. [claim label]
-- **Step 4 — [Outcome phase]:** [how advantage is locked in or extended]. [claim label]
+- **Step 1 — Identification:** The deploying actor identifies a pre-existing structural bottleneck (geographic narrows, legal jurisdiction, technical interface, trophic position) or designs a system with topology that concentrates flows through a point it can control before competitors establish position. [Observed]
+- **Step 2 — Occupation or installation:** The actor establishes its position at the bottleneck — through physical presence, legal claim, technical architecture, or first-mover investment — before alternatives are funded or flow-dependent actors recognize the dependency being created. In platform contexts this often occurs during growth phases when the platform's value proposition attracts dependents before lock-in is visible. [Observed]
+- **Step 3 — Dependency accumulation:** Flow-dependent actors integrate their operations around the controlled point; switching costs accumulate through technical integration, contractual commitments, and the absence of funded alternatives; the chokepoint position becomes self-reinforcing as network effects reward the incumbent route. [Observed]
+- **Step 4 — Leverage exercise:** The chokepoint holder sets terms of passage — pricing, compliance requirements, information disclosure, access conditions — and adjusts them over time; the magnitude of leverage is proportional to the essentiality of the flow and the switch cost borne by dependents. In legislative committee systems this manifests as agenda power: the committee chair sets hearing schedules, markup timing, and amendment rules. [Observed]
+- **Step 5 — Consolidation:** The holder erects barriers to bypass — through regulatory capture, exclusive contracts, technical lock-in, legal action against alternative providers, or lobbying against infrastructure investment that would route flows around the bottleneck — to extend the position's durability against erosion. [Observed]
 
 ### Where leverage concentrates
 
-<!-- Chokepoints, bottlenecks, veto points. Where in the sequence does the deploying actor gain disproportionate control? Claim label required. -->
-
-- **Chokepoints:** [claim label]
-- **Bottlenecks:** [claim label]
-- **Veto points:** [claim label]
+- **Chokepoints:** The bottleneck position itself — where passage terms are set and where the chokepoint holder can observe, record, condition, delay, or deny all flows passing through. In financial systems (SWIFT) this position also provides intelligence value: the holder sees transaction metadata for all participating institutions. [Observed]
+- **Bottlenecks:** The accumulated dependency relationship — where flow-dependent actors have sunk costs in integration that make bypass more expensive than continued compliance; the bottleneck may be technical (APIs, standards), contractual (exclusive agreements), or positional (geography, regulatory jurisdiction). [Observed]
+- **Veto points:** Actors with capacity to create alternative conduits — competing platform operators, state infrastructure agencies, regulatory bodies with access mandate authority — are the primary structural check on chokepoint leverage. Their capacity to act depends on political will, resources, and jurisdictional reach. [Inferred]
 
 ### Conditions of applicability
 
 **Enabling conditions** — documented when the pattern operates:
 
-- [Structural condition 1]. [claim label]
-- [Structural condition 2]. [claim label]
-- [Structural condition 3]. [claim label]
+- The flow through the bottleneck is essential to dependent actors and non-substitutable in the short-to-medium run — dependent actors cannot redirect operations to alternatives without prohibitive cost or delay. [Observed]
+- Network, physical, or legal topology concentrates the flow through a narrow set of points structurally, reducing the enforcement cost the chokepoint holder must bear — nature or architecture does the concentrating, not continuous coercion. [Observed]
+- The fixed cost of establishing alternative conduits is prohibitively high for individual dependent actors, creating a collective action problem among those who might fund bypass — no single dependent bears enough individual benefit to justify the full bypass investment. [Observed]
+- The chokepoint position can be held against challengers through legal, physical, technical, or political barriers to entry — the holder can erect or maintain barriers that increase the cost of competitive occupation. [Inferred]
+- The volume of flows through the bottleneck is large enough that the chokepoint position yields substantial leverage, making the holding costs worthwhile for the occupying actor. [Inferred]
 
 **Disabling conditions** — documented when the pattern fails or degrades:
 
-- [Condition under which the pattern collapses or reverses]. [claim label]
-- [Second disabling condition]. [claim label]
+- Alternative conduits emerge — through technological change, sufficiently motivated investment, or state action — that reroute flows around the controlled point at acceptable cost, dissolving the positional monopoly. [Observed]
+- Regulatory intervention mandates access terms (common carrier rules, antitrust remedies, interoperability requirements) that eliminate the holder's ability to exercise discretionary leverage over passage — the position remains but its leverageability is curtailed. [Observed]
+- Over-extraction by the holder provides flow-dependent actors with sufficient incentive to absorb the high fixed cost of bypass investment or coordinate to fund alternatives, overcoming the collective action problem. [Inferred]
+- Flow volume through the bottleneck declines through substitution — the type of flow becomes obsolete or is replaced by a different flow type that does not pass through the controlled point (air freight bypassing maritime chokepoints for high-value cargo). [Observed]
 
 ### Common failure modes
 
-<!-- How and why the pattern breaks down. Name the failure mode, label the claim, describe what triggers failure and what the pattern degrades into. -->
-
-- **[Mode name]** — [claim label] — [explanation; what it degrades into]
-- **[Mode name]** — [claim label] — [explanation]
+- **Bypass development** — [Observed] — The most common disabling pathway: the chokepoint holder extracts sufficient value that bypass investment becomes economically rational for one or more flow-dependent actors or external investors; the bypass dissolves the concentration that sustained the chokepoint's leverage. The Internet's packet-routing architecture (designed to route around failures) and the emergence of commercial air freight routing around maritime narrows are documented cases of technological bypass. The pattern degrades toward a contested access market where no single actor retains positional monopoly.
+- **Regulatory chokepoint inversion** — [Observed] — Regulatory bodies impose access mandates that convert the chokepoint from a discretionary leverage position into a regulated utility — the holder retains the infrastructure but loses margin pricing power. Historical examples: US railroad common carrier requirements under the Interstate Commerce Act (1887); EU Digital Markets Act (2022) interoperability mandates on designated platform gatekeepers. Degrades into 044 (Access Economics) under regulated terms.
+- **Technological obsolescence** — [Observed] — The flow itself is redirected at a structural level that bypasses the physical or legal chokepoint through substitution of a different flow type rather than bypass investment. Maritime chokepoints lost significance for high-value cargo with commercial aviation; telegraph cable chokepoints were bypassed by radio transmission. The pattern collapses rather than degrades into an adjacent pattern.
+- **Over-extraction triggering exit** — [Inferred] — Excessive toll-taking drives dependent actors to absorb the fixed cost of bypass or accept inferior substitutes, eroding the flow volume that sustained the chokepoint's value below the threshold that makes the position worth holding. The extraction rate exceeds the captive elasticity of the dependent actor population.
 
 ### What evidence would prove/disprove key claims
 
-<!-- Dataset, case record, or cross-domain comparison that would confirm or refute the central mechanism claim. What would a contrary finding look like? -->
-
-- [Confirming evidence type]
-- [Disconfirming evidence type]
-- [Comparative test across domains]
+- **Confirms central mechanism:** Cross-domain comparison of leverage extraction rates (pricing power, compliance rates, concession rates) relative to the degree of flow concentration would confirm that positional concentration is the operative variable rather than intrinsic resource levels. Cases where small actors with minimal resources extract large concessions from much larger actors due to chokepoint position would be confirming.
+- **Disconfirms:** Cases where actors occupying structural bottlenecks systematically fail to extract leverage despite high flow concentration would require alternative explanations — possibly that the flow was not sufficiently essential, that the holder lacked capacity to enforce passage terms, or that collective action among dependents was easier than the model predicts.
+- **Tests enabling conditions:** Systematic comparison of the time-to-bypass investment relative to extraction rate across sectors (platforms, infrastructure, regulatory, biological) would test whether the over-extraction → bypass pathway operates uniformly or only under specific conditions.
+- **Tests disabling conditions:** Survey of regulatory intervention triggers across platform antitrust cases (EU, US, South Korea, Japan) would test whether mandatory access remedies reliably reduce leverage extraction or whether holders adapt by moving leverage to unregulated adjacent positions.
 
 ### Instantiations
 
-<!-- Cross-domain documented examples. Domain → specific case → source → which aspect of the pattern it illustrates. Minimum 2 domains. -->
+- **Political / US Federal — Congressional committee gatekeeping:** The House Rules Committee controls the terms under which all legislation reaches the House floor — structuring debate length, permissible amendments, and waiver of standing rules — and can prevent legislation from advancing regardless of floor majority support. The Senate Finance Committee and House Ways and Means Committee function as chokepoints for all federal tax and revenue legislation, with chairs exercising agenda power over referral, hearings, and markup scheduling. [Observed — Oleszek 2014; Cox & McCubbins 2005]
 
-- **[Domain A]:** [specific case]. [claim label — source]
-- **[Domain B]:** [specific case]. [claim label — source]
-- **[Domain C]:** [specific case]. [claim label — source]
+- **Biological / Ecological — Keystone species trophic control:** Sea otters (*Enhydra lutris*) in Pacific coastal ecosystems control sea urchin (*Strongylocentrotus* spp.) populations; without otter predation, urchin populations overgraze kelp, collapsing the kelp forest ecosystem that dozens of species depend on. The otter is a structural chokepoint in the trophic network — its positional role in the food web gives it ecosystem-level leverage disproportionate to its biomass. The conceptual framework of the keystone species was developed from field manipulation experiments removing apex predators. [Observed — Paine 1966; Estes & Palmisano 1974]
+
+- **Economic / Platform — App Store distribution architecture:** Apple's iOS App Store is the sole legal distribution channel for iOS applications under Apple's developer agreement and device architecture, giving Apple structural control over application access — including pricing commission (30% standard), approval/rejection authority, and exclusion of competing app stores. Epic Games v. Apple (N.D. Cal. 2021) documented this chokepoint architecture in detail through trial record, though the court found Apple did not hold a monopoly in the broader market; the EU Digital Markets Act (2022) subsequently designated Apple as a gatekeeper subject to interoperability and side-loading requirements. [Observed — Epic Games, Inc. v. Apple Inc., No. 4:20-cv-05640-YGR (N.D. Cal. 2021); Parker, Van Alstyne & Choudary 2016]
+
+- **Military / Geographic — Strait of Hormuz:** The Strait of Hormuz, at its narrowest approximately 21 nautical miles wide, is the transit corridor for approximately 20–21% of global petroleum liquids consumption — the largest share of any single maritime chokepoint. Bordering states (Iran, Oman) hold closure or disruption capacity; Iran has periodically threatened strait closure as a counter-leverage instrument against oil export sanctions. [Observed — EIA 2024]
+
+- **Financial / Infrastructure — SWIFT messaging network:** The Society for Worldwide Interbank Financial Telecommunication (SWIFT) network processes the majority of international financial messaging across banking systems worldwide. Exclusion from SWIFT — coordinated with the US Treasury and EU — was enacted against Iranian banks (2012, reinstated 2018) and selected Russian banks (2022) as a structural financial chokepoint sanction, severing those institutions from the global payment messaging network. The sanctions illustrate how control or influence over financial infrastructure bottlenecks translates directly into coercive statecraft capacity. [Observed — Zarate 2013; US Treasury OFAC press releases 2012, 2022]
 
 *Modframe links:* See `Modframe instances` in README for specific federal power module IDs.
 
 ### Suggested sources
 
-<!-- Full citation format: [Title]. [Author / Issuing body], [Year]. [URL or identifier]. -->
-
--
--
--
+- Food Web Complexity and Species Diversity. Robert T. Paine, The American Naturalist, 1966. https://www.jstor.org/stable/2459379
+- Sea Otters: Their Role in Structuring Nearshore Communities. James A. Estes & John F. Palmisano, Science, 1974. https://doi.org/10.1126/science.185.4156.1058
+- The Influence of Sea Power upon History, 1660–1783. Alfred Thayer Mahan, Little, Brown, and Company, 1890. https://archive.org/details/influenceofseapo00maha
+- Platform Revolution: How Networked Markets Are Transforming the Economy. Geoffrey Parker, Marshall Van Alstyne & Sangeet Paul Choudary, W.W. Norton & Company, 2016. ISBN 978-0393249132.
+- Setting the Agenda: Responsible Party Government in the U.S. House of Representatives. Gary W. Cox & Mathew D. McCubbins, Cambridge University Press, 2005. ISBN 978-0521619967.
+- Congressional Procedures and the Policy Process (9th ed.). Walter J. Oleszek, CQ Press, 2014. ISBN 978-1452240664.
+- World Oil Transit Chokepoints. U.S. Energy Information Administration, 2024. https://www.eia.gov/international/analysis/special-topics/World_Oil_Transit_Chokepoints
+- Treasury's War: The Unleashing of a New Era of Financial Warfare. Juan Zarate, PublicAffairs, 2013. ISBN 978-1610392730.
+- Epic Games, Inc. v. Apple Inc., No. 4:20-cv-05640-YGR. U.S. District Court, Northern District of California, September 10, 2021. https://www.courtlistener.com/docket/17457164/epic-games-inc-v-apple-inc/
 
 ### Analysis outline (6 parts)
 
-1. **Pattern** — [what this pattern is and what relationship structure it operates on]
-2. **Mechanism** — [why the pattern works — the structural logic]
-3. **Instantiation** — [a specific, real cross-domain case study — name it and name the domain]
-4. **Evidence** — [primary sources or data to show across domains]
-5. **Countermeasures** — [≥ 2 documented structural responses or reforms that have altered pattern outcomes — describe neutrally]
-6. **Takeaway** — [the structural insight a reader should retain]
+1. **Pattern** — Chokepoint Control is a Resource and Positioning pattern whose primary relationship structure is between an actor at a structural bottleneck and actors whose essential flows must pass through that point; the pattern's distinguishing feature is that the leverage derives from position rather than accumulated resources.
+2. **Mechanism** — The pattern operates because network, physical, or legal topology concentrates flows through a small number of positions, and the actor who occupies and holds that position controls the terms of passage; leverage is amplified by the essentiality of the flow, the absence of alternatives, and the collective action problem that prevents dependents from coordinating bypass investment.
+3. **Instantiation** — Sea otters in Pacific coastal ecosystems function as biological chokepoint controllers: by predating sea urchins whose populations would otherwise overgraze kelp, a single apex predator exercises leverage over the entire kelp forest ecosystem structure, with downstream effects on dozens of dependent species disproportionate to the otter's biomass (Estes & Palmisano 1974; biological domain).
+4. **Evidence** — Estes & Palmisano 1974 (ecological manipulation); EIA 2024 (geographic/energy flow data); Epic Games v. Apple 2021 (platform architecture trial record); Cox & McCubbins 2005 (congressional agenda-setting evidence); Zarate 2013 (financial infrastructure statecraft documentation).
+5. **Countermeasures** — Common carrier and mandatory access regulation — applied to US railroads under the Interstate Commerce Act (1887), to telecommunications under the Communications Act, and to designated platform gatekeepers under the EU Digital Markets Act (2022) — imposes access terms that convert discretionary chokepoint leverage into regulated utility pricing; interoperability mandates reduce network-effect barriers that sustain incumbent chokepoint positions. Antitrust structural remedies (forced divestiture of bottleneck infrastructure) have been applied in telecommunications (AT&T 1984 breakup) to distribute chokepoint control across competitors.
+6. **Takeaway** — The chokepoint's leverage is a function of network position, not resource accumulation — making positional analysis (who controls the bottleneck through which others must flow) more diagnostic than resource accounting (who has the most) when mapping power concentration in complex systems.
