@@ -1,84 +1,93 @@
 # Narrative Framing and Definition Control
 
-**Summary:** <!-- 3–5 sentences: what this pattern is, why it recurs across domains, what structural feature makes it recognizable. Descriptive voice — no advocacy. -->
+**Summary:** Narrative Framing and Definition Control is an informational and signaling pattern in which a deploying actor establishes the conceptual categories, definitions, and baseline comparisons used to describe an issue, thereby constraining which policy options, interpretations, and facts appear relevant or legitimate within deliberation — without contesting specific factual claims made within the imposed frame. The pattern is structurally distinct from lying or information suppression: the frame-setter need not misrepresent any individual fact, but shapes which facts count as evidence of what. It recurs across legislative agenda-setting, regulatory rulemaking, judicial doctrine construction, scientific paradigm definition, and evolutionary theory controversies because any domain requiring collective deliberation produces competition over the definitional superstructure that governs how evidence maps to conclusions. The pattern's structural signature is that once a frame is established as the default interpretive context, alternatives must bear the burden of appearing as departures from neutrality rather than competing equals.
 
-**Mechanism in one sentence:** <!-- ≤ 30 words. How the pattern operates at its core. -->
+**Mechanism in one sentence:** The deploying actor establishes the definitional and categorical baseline within which deliberation occurs, shifting what questions appear answerable and what options appear legitimate without contesting within-frame facts.
 
 ### Actors and deployment context
 
-<!-- Who deploys this pattern, against what, and in what structural position. List deploying actor, target actor, and any enabling actors. Each bullet: name → role → incentive → constraint. Claim label required. -->
-
-- **[Deploying actor type]** — [role]; incentive: [what drives deployment]; constraint: [what limits deployment]. [claim label]
-- **[Target actor type]** — [role]; response options: [what target can do]; constraint: [what limits response]. [claim label]
+- **Frame-setter (deploying actor)** — the actor who introduces, entrenches, and defends the dominant definitional and categorical structure applied to an issue; incentive: shift the terrain of deliberation so that the deployer's preferred outcomes appear neutral, necessary, or default, while alternatives appear radical or special-interest; constraint: the frame must be accepted as legitimate by the target audience, requiring that it encode shared values or prior institutional vocabulary rather than appearing as naked advocacy. [Observed]
+- **Deliberating body / audience (target)** — the legislature, court, regulatory agency, scientific community, or public audience within which the frame will structure cognition; response options: introduce competing frames, contest the definition directly, or operate within the imposed frame while seeking marginal advantage; constraint: actors embedded in an existing institutional frame bear higher legitimacy costs for frame-departure than for within-frame argument, because departing from the default frame requires explaining why the default is wrong, not merely why a preferred conclusion follows. [Observed]
+- **Validating authority (enabler)** — the institutional actor whose acceptance launders the frame as neutral or authoritative: editors, committee chairs, agency heads, senior judges, textbook authors; role: by using the frame without flagging it as contested, validators render it invisible as a choice and visible only as description. [Inferred]
+- **Counter-framer (adversarial)** — an actor attempting to introduce an alternative definitional structure; constraint: must overcome the visibility asymmetry — the incumbent frame appears as description, the challenger frame appears as advocacy. [Observed — Riker 1986]
 
 ### Operational sequence
 
-<!-- Minimum 4 steps. Each step: name → concrete action → who does it → what changes in the environment. Claim label required. -->
-
-- **Step 1 — [Phase name]:** [action]. [claim label]
-- **Step 2 — [Phase name]:** [action]. [claim label]
-- **Step 3 — [Phase name]:** [action]. [claim label]
-- **Step 4 — [Outcome phase]:** [how advantage is locked in or extended]. [claim label]
+- **Step 1 — Definitional placement:** The frame-setter introduces the conceptual vocabulary — a definition, a category, a comparison class, a baseline — at the earliest point in deliberation, before alternatives have been articulated; early introduction is critical because subsequent contributions are implicitly evaluated against the first-mover frame even if participants do not consciously adopt it. [Observed — Entman 1993]
+- **Step 2 — Institutional embedding:** The frame is encoded in official language — statute text, agency regulatory preamble, scientific journal editorial standards, journalistic style guide conventions, or court opinion dicta — such that all subsequent deliberation is conducted in the frame's vocabulary and future departures require explicit justification. [Observed — Schön & Rein 1994]
+- **Step 3 — Asymmetric burden assignment:** Once the frame is embedded, the burden of proof shifts: proposals consistent with the frame are evaluated on their merits, while proposals inconsistent with the frame must first justify departing from the default before arguing their substance. The frame-setter need not respond to alternative-frame arguments directly — the institutional structure does it automatically. [Inferred]
+- **Step 4 — Validator capture:** The frame-setter secures adoption by high-credibility institutional validators (senior academics in the dominant paradigm, committee staff who draft legislative language, agency general counsels who write rulemaking preamble), who use the frame without flagging it as contested, completing the transformation from advocacy position to descriptive default. [Observed — Bachrach & Baratz 1962]
+- **Step 5 — Counter-frame marginalization:** Actors who introduce alternative frames are classified as operating outside the normal discourse — as ideological, uninformed, or special-interest — because their departure from the embedded frame is visible as a departure while the incumbent frame's own ideological content is invisible as such. [Observed — Lakoff 2004]
 
 ### Where leverage concentrates
 
-<!-- Chokepoints, bottlenecks, veto points. Where in the sequence does the deploying actor gain disproportionate control? Claim label required. -->
-
-- **Chokepoints:** [claim label]
-- **Bottlenecks:** [claim label]
-- **Veto points:** [claim label]
+- **Chokepoints:** The definitional moment — the earliest public articulation of a novel issue or the first institutional codification of a contested concept — concentrates maximal frame-setting leverage. Actors who participate before formal deliberation begins (in drafting sessions, in standard-setting committees, in editorial agenda-setting) hold disproportionate framing power because subsequent actors inherit the vocabulary. [Observed — Riker 1986]
+- **Bottlenecks:** The institutional vocabulary repositories — statute drafting offices, agency regulatory counsels, journal editorial boards, academic curriculum gatekeepers — are the transmission points through which a frame becomes embedded in the operating language of a field; controlling access to or the personnel of these repositories gives durable leverage over frame propagation across deliberative generations. [Inferred]
+- **Veto points:** The validator class (senior figures whose adoption of a frame launders it as neutral) holds a de facto veto over whether a challenger frame can achieve default status: without adoption by high-credibility institutional validators, an alternative frame continues bearing the visibility cost of appearing as advocacy rather than description. [Observed — Schön & Rein 1994]
 
 ### Conditions of applicability
 
 **Enabling conditions** — documented when the pattern operates:
 
-- [Structural condition 1]. [claim label]
-- [Structural condition 2]. [claim label]
-- [Structural condition 3]. [claim label]
+- The issue being framed is novel or undertheorized — existing institutional vocabulary is insufficient to describe it, creating a definitional vacuum that the first credible articulation fills. [Observed]
+- The frame-setter has early access to the deliberative forum — drafts the initial proposal, chairs the first hearing, authors the first influential treatment — before alternatives have been organized. [Observed — Riker 1986]
+- The frame encodes values or categories that the target audience already accepts in adjacent domains, reducing the cognitive cost of adoption; frames that reuse existing institutional vocabulary (e.g., mapping a new regulatory domain onto an existing statutory category) face lower adoption friction. [Observed — Lakoff 2004]
+- The institutional structure rewards specialists who operate within the dominant frame and disadvantages generalists (challengers can be dismissed as uninformed about the frame's technical vocabulary). [Inferred]
+- The deliberative forum lacks a requirement to explicitly justify which frame is being used, so the embedded frame circulates as neutral description rather than contested interpretation. [Observed — Entman 1993]
 
 **Disabling conditions** — documented when the pattern fails or degrades:
 
-- [Condition under which the pattern collapses or reverses]. [claim label]
-- [Second disabling condition]. [claim label]
+- A major anomaly arises that the incumbent frame cannot absorb without obvious distortion — producing visible strain that makes the frame's artificiality apparent and creates an opening for counter-framers. This is the standard Kuhnian paradigm-failure condition in scientific contexts, documented in Kuhn 1962. [Observed]
+- Competing frames are introduced simultaneously from multiple high-credibility sources before any single frame achieves validator capture, preventing the asymmetric burden structure from forming; frame competition rather than frame dominance persists. [Observed — Schön & Rein 1994]
+- The target audience has prior institutional vocabulary that conflicts with the proposed frame, imposing a translation cost that prevents invisible embedding; the frame remains visible as a novel imposition rather than becoming descriptive default. [Inferred]
+- Cross-institutional arbitrage occurs: targets carry arguments across forum boundaries, where the incumbent frame is not yet embedded, obtaining decisions that indirectly undermine the frame's hold in the original forum. [Inferred]
 
 ### Common failure modes
 
-<!-- How and why the pattern breaks down. Name the failure mode, label the claim, describe what triggers failure and what the pattern degrades into. -->
-
-- **[Mode name]** — [claim label] — [explanation; what it degrades into]
-- **[Mode name]** — [claim label] — [explanation]
+- **Anomaly accumulation** — [Observed] — The incumbent frame must absorb an increasing volume of anomalous cases through ad hoc definitional adjustments; the accumulation of adjustments makes the frame's constructed character visible, inviting counter-frame challenges that would previously have appeared as departures from neutrality. Documented in scientific paradigm transitions (Kuhn 1962) and in statutory construction debates where courts repeatedly strain to map novel facts onto legacy categorical schemes. Degrades into frame competition followed by frame replacement.
+- **Over-extension** — [Observed] — The frame-setter applies the frame to domains where it produces outcomes inconsistent with the validator class's own interests, triggering validator defection; validators cease using the frame unreflectively and begin flagging it as contested. Documented in regulatory capture cases where agency definitional authority over categories is challenged when industry-preferred definitions produce visible public harms (Carpenter & Moss 2013). Degrades into Oversight Capture (047) or contested rulemaking.
+- **Counter-frame alliance** — [Observed] — Multiple actors disadvantaged by the incumbent frame coordinate to introduce a competing frame simultaneously from multiple credible institutional positions, preventing the asymmetric burden from operating against any single challenger; the resulting frame competition reduces the incumbent frame's default status. Documented in the group selection vs. kin selection controversy in evolutionary biology (Hull 1988) and in the Social Security framing contests of the 1980s–1990s. Degrades into sustained frame competition without dominant frame.
+- **Legibility failure** — [Inferred] — The incumbent frame requires increasingly technical vocabulary that only specialists can navigate, creating a two-tier deliberation in which specialists operate within the frame while non-specialists cannot engage, generating legitimacy pressure that challengers exploit to introduce plain-language alternative frames at lower-technical forums. This failure mode is most documented in regulatory and administrative law contexts.
 
 ### What evidence would prove/disprove key claims
 
-<!-- Dataset, case record, or cross-domain comparison that would confirm or refute the central mechanism claim. What would a contrary finding look like? -->
-
-- [Confirming evidence type]
-- [Disconfirming evidence type]
-- [Comparative test across domains]
+- **Confirms central mechanism:** Experimental framing studies comparing deliberative outcomes under alternative definitional presentations of identical factual content — documented in Kahneman & Tversky 1984 ("Asian disease problem") — confirm that categorical framing of identical outcomes produces systematically different choices, consistent with the claim that frames alter what appears legitimate without altering factual content.
+- **Disconfirms:** Systematic evidence that deliberative outcomes are robust to frame variation — that participants correct for framing effects and converge on frame-invariant conclusions — would challenge the core mechanism. Deliberative democracy studies provide partial evidence of this under conditions of extended structured deliberation (Fishkin 2009); the disconfirming condition is structured deliberation that explicitly surfaces frame alternatives.
+- **Tests institutional embedding:** Longitudinal analysis of statutory and regulatory text across deliberative generations would confirm whether frames introduced at founding moments persist in official language without re-examination; this is testable in Congressional Budget Office baseline convention histories and in FDA definitional frameworks for drug categories.
+- **Tests cross-domain generalization:** Comparison of framing effect magnitudes across scientific, judicial, legislative, and market deliberation contexts would test whether the pattern is domain-general or domain-specific; existing evidence (Entman 1993 meta-analysis) suggests domain-general operation with scale variation.
 
 ### Instantiations
 
-<!-- Cross-domain documented examples. Domain → specific case → source → which aspect of the pattern it illustrates. Minimum 2 domains. -->
+- **Political / US Federal — Social Security definitional framing:** The framing contest between "entitlement program" and "contributory social insurance" for Social Security has produced systematically different deliberative outcomes across budget debates: "entitlement" framing makes benefit levels appear as discretionary spending subject to fiscal discipline; "insurance" framing makes benefit levels appear as return on contribution, making cuts appear as contractual breach rather than fiscal adjustment. The CBO baseline convention — which counts scheduled Social Security benefits as mandatory spending — institutionally embeds a frame that generates different deficit projections than an alternative accrual accounting frame. [Observed — Riker 1986; Hacker 2002 *The Divided Welfare State*]
 
-- **[Domain A]:** [specific case]. [claim label — source]
-- **[Domain B]:** [specific case]. [claim label — source]
-- **[Domain C]:** [specific case]. [claim label — source]
+- **Scientific paradigm / Evolutionary biology — Group vs. kin selection framing:** The 1960s–1980s controversy between group selection and kin selection frameworks in evolutionary biology was a definitional contest over what counted as a "unit of selection" and what counted as "altruism." Hamilton and Maynard Smith's kin selection vocabulary became the embedded frame for four decades, such that group-selection arguments bore the burden of appearing as departures from the dominant paradigm. When multilevel selection was re-introduced (Sober & Wilson 1998), it had to be framed as a generalization of kin selection rather than as an alternative to avoid the visibility asymmetry. [Observed — Hull 1988 *Science as a Process*; Sober & Wilson 1998]
+
+- **Legal / Constitutional — Commerce Clause definitional framing:** The New Deal-era Supreme Court's shift in Commerce Clause interpretation involved a successful definitional re-framing of "commerce" from a narrow category (physical goods in interstate transit) to a broader structural category (economic activity with substantial effects on interstate commerce). Once embedded in *Wickard v. Filburn* (1942) and subsequent decisions, the broader frame became the default against which subsequent Commerce Clause challenges were measured; challengers had to justify departing from the established definitional baseline rather than arguing the merits of their preferred scope. [Observed — Sunstein 1987]
+
+- **Corporate governance — ESG definitional contest:** The contested definition of "materiality" for Environmental, Social, and Governance (ESG) factors in securities disclosure frames whether ESG risks must be disclosed as financially relevant or may be treated as non-financial. The SEC's definition of materiality as limited to factors a "reasonable investor" would consider financially significant in the short term — embedded in staff guidance and enforcement orthodoxy — structured the deliberation such that ESG disclosure proponents had to argue within a financial-materiality frame rather than introducing a stakeholder-relevance frame as a coordinate alternative. [Observed — Coffee 2021; SEC Staff Bulletin 2022]
+
+- **Ecological / Conservation — Invasive species framing:** The definitional shift from "non-native species" (a neutral geographic category) to "invasive species" (a harm-implying category) in conservation policy embedded a normative valence in what appeared to be a descriptive classification, shaping which management interventions appeared as default responses versus departures requiring justification. Davis et al. 2011 (*Nature*) documented the definitional contest directly, noting that the harm-implicating frame generated policy conclusions that a neutral geographic frame did not support. [Observed — Davis et al. 2011]
 
 *Modframe links:* See `Modframe instances` in README for specific federal power module IDs.
 
 ### Suggested sources
 
-<!-- Full citation format: [Title]. [Author / Issuing body], [Year]. [URL or identifier]. -->
-
--
--
--
+- The Art of Political Manipulation. William H. Riker, Yale University Press, 1986. ISBN 978-0300035926.
+- Frame Reflection: Toward the Resolution of Intractable Policy Controversies. Donald A. Schön & Martin Rein, Basic Books, 1994. ISBN 978-0465025121.
+- Don't Think of an Elephant! Know Your Values and Frame the Debate. George Lakoff, Chelsea Green Publishing, 2004. ISBN 978-1931498715.
+- Framing: Toward Clarification of a Fractured Paradigm. Robert M. Entman, Journal of Communication, 43(4), 1993. https://doi.org/10.1111/j.1460-2466.1993.tb01304.x
+- Two Faces of Power. Peter Bachrach & Morton S. Baratz, American Political Science Review, 56(4), 1962. https://doi.org/10.2307/1952796
+- The Structure of Scientific Revolutions. Thomas S. Kuhn, University of Chicago Press, 1962. ISBN 978-0226458083.
+- Science as a Process: An Evolutionary Account of the Social and Conceptual Development of Science. David L. Hull, University of Chicago Press, 1988. ISBN 978-0226360515.
+- Unto Others: The Evolution and Psychology of Unselfish Behavior. Elliott Sober & David Sloan Wilson, Harvard University Press, 1998. ISBN 978-0674930469.
+- Invasion Biology: Specific Problems and Possible Solutions. Mark A. Davis et al., Trends in Ecology & Evolution, 26(4), 2011. https://doi.org/10.1016/j.tree.2011.01.009
+- The Divided Welfare State: The Battle over Public and Private Social Benefits in the United States. Jacob S. Hacker, Cambridge University Press, 2002. ISBN 978-0521010658.
 
 ### Analysis outline (6 parts)
 
-1. **Pattern** — [what this pattern is and what relationship structure it operates on]
-2. **Mechanism** — [why the pattern works — the structural logic]
-3. **Instantiation** — [a specific, real cross-domain case study — name it and name the domain]
-4. **Evidence** — [primary sources or data to show across domains]
-5. **Countermeasures** — [≥ 2 documented structural responses or reforms that have altered pattern outcomes — describe neutrally]
-6. **Takeaway** — [the structural insight a reader should retain]
+1. **Pattern** — Narrative Framing and Definition Control is an informational and signaling pattern operating on the relationship between a frame-setter, a deliberating body, and the institutional validator class whose unreflective adoption of a frame transforms it from advocacy to apparent description; the pattern's structural substrate is the asymmetry between the visibility cost of departing from an incumbent frame and the invisibility of the incumbent frame's own definitional choices.
+2. **Mechanism** — The pattern operates by capturing the definitional infrastructure of deliberation before competition over conclusions begins; once categories and baselines are embedded in institutional vocabulary, the burden-of-proof asymmetry operates automatically — proposals within the frame are judged on merits, proposals departing from the frame are judged first on the legitimacy of their departure, then on their merits.
+3. **Instantiation** — Commerce Clause definitional re-framing (Legal / Constitutional domain): the New Deal Supreme Court's re-definition of "commerce" in *Wickard v. Filburn* (1942) embedded a substantially-effects-based frame in constitutional vocabulary; for six decades, Commerce Clause challenges were evaluated against this baseline, with challengers required to justify departure from the established semantic frame before arguing the merits of their preferred scope — the frame did the legal work automatically, without requiring active re-argumentation in each subsequent case.
+4. **Evidence** — Riker 1986 (political framing manipulation); Entman 1993 (framing effects meta-analysis); Kahneman & Tversky 1984 Asian disease experiment (behavioral framing evidence); Kuhn 1962 (scientific paradigm as embedded frame); Hull 1988 (kin/group selection definitional contest); Davis et al. 2011 (ecological classification framing).
+5. **Countermeasures** — Structured frame-surfacing deliberation — as documented in Fishkin's deliberative polling experiments — requires participants to explicitly identify and debate the definitional premises of a policy question before proceeding to conclusions, neutralizing the invisibility mechanism by making frame choices legible; this reduces (but does not eliminate) the incumbent frame's asymmetric burden advantage. Mandatory frame-disclosure requirements in administrative rulemaking — analogous to assumptions disclosure in Congressional Budget Office scoring — require agencies to state which definitional baseline is being used and why, creating a formal record that counter-framers can cite in administrative challenges.
+6. **Takeaway** — Definitional contests precede and determine argument contests: the actor who controls the vocabulary of a deliberative forum controls its output more durably than the actor who wins any individual argument within that vocabulary.
