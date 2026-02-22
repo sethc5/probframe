@@ -1,0 +1,384 @@
+{
+  "empty": [
+    {
+      "id": "001",
+      "name": "Direct Displacement",
+      "path": "patterns/01_Adversarial_Patterns/001_Direct_Displacement"
+    },
+    {
+      "id": "002",
+      "name": "Attrition and Resource Exhaustion",
+      "path": "patterns/01_Adversarial_Patterns/002_Attrition_and_Resource_Exhaustion"
+    },
+    {
+      "id": "003",
+      "name": "Encirclement and Isolation",
+      "path": "patterns/01_Adversarial_Patterns/003_Encirclement_and_Isolation"
+    },
+    {
+      "id": "004",
+      "name": "Divide and Fragment",
+      "path": "patterns/01_Adversarial_Patterns/004_Divide_and_Fragment"
+    },
+    {
+      "id": "005",
+      "name": "Preemptive Positioning",
+      "path": "patterns/01_Adversarial_Patterns/005_Preemptive_Positioning"
+    },
+    {
+      "id": "006",
+      "name": "Delegitimization",
+      "path": "patterns/01_Adversarial_Patterns/006_Delegitimization"
+    },
+    {
+      "id": "007",
+      "name": "Bait and Commitment Trapping",
+      "path": "patterns/01_Adversarial_Patterns/007_Bait_and_Commitment_Trapping"
+    },
+    {
+      "id": "008",
+      "name": "Proxy and Surrogate Deployment",
+      "path": "patterns/01_Adversarial_Patterns/008_Proxy_and_Surrogate_Deployment"
+    },
+    {
+      "id": "009",
+      "name": "Coalition Assembly",
+      "path": "patterns/02_Cooperative_and_Coalition_Patterns/009_Coalition_Assembly"
+    },
+    {
+      "id": "010",
+      "name": "Minimum Winning Coalition",
+      "path": "patterns/02_Cooperative_and_Coalition_Patterns/010_Minimum_Winning_Coalition"
+    },
+    {
+      "id": "011",
+      "name": "Logrolling and Side-Payment",
+      "path": "patterns/02_Cooperative_and_Coalition_Patterns/011_Logrolling_and_Side-Payment"
+    },
+    {
+      "id": "012",
+      "name": "Preference Aggregation",
+      "path": "patterns/02_Cooperative_and_Coalition_Patterns/012_Preference_Aggregation"
+    },
+    {
+      "id": "013",
+      "name": "Credible Commitment Mechanisms",
+      "path": "patterns/02_Cooperative_and_Coalition_Patterns/013_Credible_Commitment_Mechanisms"
+    },
+    {
+      "id": "014",
+      "name": "Defection Prevention and Enforcement",
+      "path": "patterns/02_Cooperative_and_Coalition_Patterns/014_Defection_Prevention_and_Enforcement"
+    },
+    {
+      "id": "015",
+      "name": "Collective Action Bootstrapping",
+      "path": "patterns/02_Cooperative_and_Coalition_Patterns/015_Collective_Action_Bootstrapping"
+    },
+    {
+      "id": "016",
+      "name": "Procedural Delay",
+      "path": "patterns/03_Procedural_and_Sequencing_Patterns/016_Procedural_Delay"
+    },
+    {
+      "id": "017",
+      "name": "Threshold and Trigger Design",
+      "path": "patterns/03_Procedural_and_Sequencing_Patterns/017_Threshold_and_Trigger_Design"
+    },
+    {
+      "id": "018",
+      "name": "Irreversibility Locking",
+      "path": "patterns/03_Procedural_and_Sequencing_Patterns/018_Irreversibility_Locking"
+    },
+    {
+      "id": "019",
+      "name": "Sequential Commitment",
+      "path": "patterns/03_Procedural_and_Sequencing_Patterns/019_Sequential_Commitment"
+    },
+    {
+      "id": "020",
+      "name": "First-Mover Advantage Capture",
+      "path": "patterns/03_Procedural_and_Sequencing_Patterns/020_First-Mover_Advantage_Capture"
+    },
+    {
+      "id": "021",
+      "name": "Process Capture and Rule-Setting",
+      "path": "patterns/03_Procedural_and_Sequencing_Patterns/021_Process_Capture_and_Rule-Setting"
+    },
+    {
+      "id": "022",
+      "name": "Precedent Creation",
+      "path": "patterns/03_Procedural_and_Sequencing_Patterns/022_Precedent_Creation"
+    },
+    {
+      "id": "023",
+      "name": "Deadline Leverage",
+      "path": "patterns/03_Procedural_and_Sequencing_Patterns/023_Deadline_Leverage"
+    },
+    {
+      "id": "024",
+      "name": "Information Asymmetry Exploitation",
+      "path": "patterns/04_Information_and_Signaling_Patterns/024_Information_Asymmetry_Exploitation"
+    },
+    {
+      "id": "025",
+      "name": "Costly Signaling",
+      "path": "patterns/04_Information_and_Signaling_Patterns/025_Costly_Signaling"
+    },
+    {
+      "id": "026",
+      "name": "Screening and Adverse Selection Management",
+      "path": "patterns/04_Information_and_Signaling_Patterns/026_Screening_and_Adverse_Selection_Management"
+    },
+    {
+      "id": "027",
+      "name": "Strategic Ambiguity",
+      "path": "patterns/04_Information_and_Signaling_Patterns/027_Strategic_Ambiguity"
+    },
+    {
+      "id": "028",
+      "name": "Disclosure Timing",
+      "path": "patterns/04_Information_and_Signaling_Patterns/028_Disclosure_Timing"
+    },
+    {
+      "id": "029",
+      "name": "Narrative Framing and Definition Control",
+      "path": "patterns/04_Information_and_Signaling_Patterns/029_Narrative_Framing_and_Definition_Control"
+    },
+    {
+      "id": "030",
+      "name": "Transparency as Weapon",
+      "path": "patterns/04_Information_and_Signaling_Patterns/030_Transparency_as_Weapon"
+    },
+    {
+      "id": "031",
+      "name": "Constraint Mapping",
+      "path": "patterns/05_Constraint_and_Boundary_Patterns/031_Constraint_Mapping"
+    },
+    {
+      "id": "032",
+      "name": "Boundary Arbitrage",
+      "path": "patterns/05_Constraint_and_Boundary_Patterns/032_Boundary_Arbitrage"
+    },
+    {
+      "id": "033",
+      "name": "Constraint Tightening on Opponents",
+      "path": "patterns/05_Constraint_and_Boundary_Patterns/033_Constraint_Tightening_on_Opponents"
+    },
+    {
+      "id": "034",
+      "name": "Veto Point Installation",
+      "path": "patterns/05_Constraint_and_Boundary_Patterns/034_Veto_Point_Installation"
+    },
+    {
+      "id": "035",
+      "name": "Safe Harbor Creation",
+      "path": "patterns/05_Constraint_and_Boundary_Patterns/035_Safe_Harbor_Creation"
+    },
+    {
+      "id": "036",
+      "name": "Jurisdiction Shopping",
+      "path": "patterns/05_Constraint_and_Boundary_Patterns/036_Jurisdiction_Shopping"
+    },
+    {
+      "id": "037",
+      "name": "Definitional Capture",
+      "path": "patterns/05_Constraint_and_Boundary_Patterns/037_Definitional_Capture"
+    },
+    {
+      "id": "038",
+      "name": "Resource Concentration",
+      "path": "patterns/06_Resource_and_Positioning_Patterns/038_Resource_Concentration"
+    },
+    {
+      "id": "039",
+      "name": "Chokepoint Control",
+      "path": "patterns/06_Resource_and_Positioning_Patterns/039_Chokepoint_Control"
+    },
+    {
+      "id": "040",
+      "name": "Dependency Creation",
+      "path": "patterns/06_Resource_and_Positioning_Patterns/040_Dependency_Creation"
+    },
+    {
+      "id": "041",
+      "name": "Option Preservation",
+      "path": "patterns/06_Resource_and_Positioning_Patterns/041_Option_Preservation"
+    },
+    {
+      "id": "042",
+      "name": "Sunk Cost Leveraging",
+      "path": "patterns/06_Resource_and_Positioning_Patterns/042_Sunk_Cost_Leveraging"
+    },
+    {
+      "id": "043",
+      "name": "Surplus Extraction",
+      "path": "patterns/06_Resource_and_Positioning_Patterns/043_Surplus_Extraction"
+    },
+    {
+      "id": "044",
+      "name": "Access Economics",
+      "path": "patterns/06_Resource_and_Positioning_Patterns/044_Access_Economics"
+    },
+    {
+      "id": "045",
+      "name": "Delegation with Deniability",
+      "path": "patterns/07_Hierarchical_and_Delegative_Patterns/045_Delegation_with_Deniability"
+    },
+    {
+      "id": "046",
+      "name": "Mandate Expansion",
+      "path": "patterns/07_Hierarchical_and_Delegative_Patterns/046_Mandate_Expansion"
+    },
+    {
+      "id": "047",
+      "name": "Oversight Capture",
+      "path": "patterns/07_Hierarchical_and_Delegative_Patterns/047_Oversight_Capture"
+    },
+    {
+      "id": "048",
+      "name": "Accountability Diffusion",
+      "path": "patterns/07_Hierarchical_and_Delegative_Patterns/048_Accountability_Diffusion"
+    },
+    {
+      "id": "049",
+      "name": "Succession and Continuity Control",
+      "path": "patterns/07_Hierarchical_and_Delegative_Patterns/049_Succession_and_Continuity_Control"
+    },
+    {
+      "id": "050",
+      "name": "Gatekeeping and Filter Installation",
+      "path": "patterns/07_Hierarchical_and_Delegative_Patterns/050_Gatekeeping_and_Filter_Installation"
+    },
+    {
+      "id": "051",
+      "name": "Escalation Path Design",
+      "path": "patterns/07_Hierarchical_and_Delegative_Patterns/051_Escalation_Path_Design"
+    },
+    {
+      "id": "052",
+      "name": "Variation and Selection",
+      "path": "patterns/08_Evolutionary_and_Iterative_Patterns/052_Variation_and_Selection"
+    },
+    {
+      "id": "053",
+      "name": "Feedback Loop Construction",
+      "path": "patterns/08_Evolutionary_and_Iterative_Patterns/053_Feedback_Loop_Construction"
+    },
+    {
+      "id": "054",
+      "name": "Ratchet Mechanisms",
+      "path": "patterns/08_Evolutionary_and_Iterative_Patterns/054_Ratchet_Mechanisms"
+    },
+    {
+      "id": "055",
+      "name": "Competitive Exclusion",
+      "path": "patterns/08_Evolutionary_and_Iterative_Patterns/055_Competitive_Exclusion"
+    },
+    {
+      "id": "056",
+      "name": "Niche Specialization",
+      "path": "patterns/08_Evolutionary_and_Iterative_Patterns/056_Niche_Specialization"
+    },
+    {
+      "id": "057",
+      "name": "Incremental Normalization",
+      "path": "patterns/08_Evolutionary_and_Iterative_Patterns/057_Incremental_Normalization"
+    },
+    {
+      "id": "058",
+      "name": "Error Correction Architecture",
+      "path": "patterns/08_Evolutionary_and_Iterative_Patterns/058_Error_Correction_Architecture"
+    },
+    {
+      "id": "059",
+      "name": "Emergency Declaration",
+      "path": "patterns/09_Crisis_and_Exception_Patterns/059_Emergency_Declaration"
+    },
+    {
+      "id": "060",
+      "name": "Crisis Exploitation",
+      "path": "patterns/09_Crisis_and_Exception_Patterns/060_Crisis_Exploitation"
+    },
+    {
+      "id": "061",
+      "name": "Manufactured Urgency",
+      "path": "patterns/09_Crisis_and_Exception_Patterns/061_Manufactured_Urgency"
+    },
+    {
+      "id": "062",
+      "name": "Exception Normalization",
+      "path": "patterns/09_Crisis_and_Exception_Patterns/062_Exception_Normalization"
+    },
+    {
+      "id": "063",
+      "name": "Speed vs Process Tradeoff",
+      "path": "patterns/09_Crisis_and_Exception_Patterns/063_Speed_vs_Process_Tradeoff"
+    },
+    {
+      "id": "064",
+      "name": "Crisis Coordination Structures",
+      "path": "patterns/09_Crisis_and_Exception_Patterns/064_Crisis_Coordination_Structures"
+    },
+    {
+      "id": "065",
+      "name": "Direct Structural Analogy",
+      "path": "patterns/10_Analogical_and_Transfer_Patterns/065_Direct_Structural_Analogy"
+    },
+    {
+      "id": "066",
+      "name": "Mechanism Transfer",
+      "path": "patterns/10_Analogical_and_Transfer_Patterns/066_Mechanism_Transfer"
+    },
+    {
+      "id": "067",
+      "name": "Model Importing",
+      "path": "patterns/10_Analogical_and_Transfer_Patterns/067_Model_Importing"
+    },
+    {
+      "id": "068",
+      "name": "Anti-Pattern Recognition",
+      "path": "patterns/10_Analogical_and_Transfer_Patterns/068_Anti-Pattern_Recognition"
+    },
+    {
+      "id": "069",
+      "name": "Domain Translation Failures",
+      "path": "patterns/10_Analogical_and_Transfer_Patterns/069_Domain_Translation_Failures"
+    },
+    {
+      "id": "070",
+      "name": "Legitimacy Construction",
+      "path": "patterns/11_Meta-Strategies/070_Legitimacy_Construction"
+    },
+    {
+      "id": "071",
+      "name": "Rule-Setter Capture",
+      "path": "patterns/11_Meta-Strategies/071_Rule-Setter_Capture"
+    },
+    {
+      "id": "072",
+      "name": "Norm Erosion",
+      "path": "patterns/11_Meta-Strategies/072_Norm_Erosion"
+    },
+    {
+      "id": "073",
+      "name": "Overhang and Future Option Denial",
+      "path": "patterns/11_Meta-Strategies/073_Overhang_and_Future_Option_Denial"
+    },
+    {
+      "id": "074",
+      "name": "Infrastructure Capture",
+      "path": "patterns/11_Meta-Strategies/074_Infrastructure_Capture"
+    },
+    {
+      "id": "075",
+      "name": "Complexity as Shield",
+      "path": "patterns/11_Meta-Strategies/075_Complexity_as_Shield"
+    },
+    {
+      "id": "076",
+      "name": "Exhaustion as Strategy",
+      "path": "patterns/11_Meta-Strategies/076_Exhaustion_as_Strategy"
+    }
+  ]
+}

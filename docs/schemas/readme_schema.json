@@ -1,0 +1,174 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "probframe README metadata schema",
+  "description": "Validates the structured metadata fields in a pattern README.md",
+  "type": "object",
+  "required": [
+    "status",
+    "pattern_class",
+    "related_patterns",
+    "degrades_into",
+    "domains",
+    "actors"
+  ],
+  "properties": {
+    "status": {
+      "type": "string",
+      "enum": [
+        "empty",
+        "scaffolded",
+        "draft",
+        "sourced",
+        "reviewed",
+        "published"
+      ]
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "examples": [
+        [
+          "adversarial",
+          "zero-sum",
+          "displacement"
+        ],
+        [
+          "coalition",
+          "coordination",
+          "positive-sum"
+        ],
+        [
+          "information",
+          "signaling",
+          "asymmetry"
+        ],
+        [
+          "constraint",
+          "rule-setting",
+          "veto"
+        ],
+        [
+          "resource",
+          "positioning",
+          "leverage"
+        ],
+        [
+          "hierarchy",
+          "delegation",
+          "accountability"
+        ],
+        [
+          "evolutionary",
+          "iterative",
+          "selection"
+        ],
+        [
+          "crisis",
+          "emergency",
+          "exception"
+        ],
+        [
+          "analogical",
+          "transfer",
+          "cross-domain"
+        ],
+        [
+          "meta",
+          "legitimacy",
+          "capture"
+        ]
+      ]
+    },
+    "pattern_class": {
+      "type": "string",
+      "enum": [
+        "01 Adversarial Patterns",
+        "02 Cooperative and Coalition Patterns",
+        "03 Procedural and Sequencing Patterns",
+        "04 Information and Signaling Patterns",
+        "05 Constraint and Boundary Patterns",
+        "06 Resource and Positioning Patterns",
+        "07 Hierarchical and Delegative Patterns",
+        "08 Evolutionary and Iterative Patterns",
+        "09 Crisis and Exception Patterns",
+        "10 Analogical and Transfer Patterns",
+        "11 Meta-Strategies"
+      ]
+    },
+    "related_patterns": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[0-9]{3}$"
+      }
+    },
+    "often_combined_with": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[0-9]{3}$"
+      }
+    },
+    "degrades_into": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[0-9]{3}$"
+      }
+    },
+    "modframe_instances": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "last_reviewed": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}$"
+    },
+    "domains": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "political",
+          "biological",
+          "economic",
+          "legal",
+          "military",
+          "organizational",
+          "ecological",
+          "technological",
+          "social"
+        ]
+      }
+    },
+    "actors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "type"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string",
+            "enum": [
+              "deployer",
+              "target",
+              "enabler",
+              "regulator",
+              "observer"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

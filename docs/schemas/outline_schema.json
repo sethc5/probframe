@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "probframe outline.md completeness schema",
+  "description": "Defines the required headings and fields for a complete pattern outline",
+  "type": "object",
+  "required_headings": [
+    "Actors and deployment context",
+    "Operational sequence",
+    "Where leverage concentrates",
+    "Conditions of applicability",
+    "Common failure modes",
+    "What evidence would prove/disprove key claims",
+    "Instantiations",
+    "Suggested sources",
+    "Analysis outline (6 parts)"
+  ],
+  "required_top_level_fields": [
+    "Summary",
+    "Mechanism in one sentence"
+  ],
+  "completeness_gates": {
+    "draft": {
+      "summary_sentences": [
+        3,
+        5
+      ],
+      "mechanism_words_max": 30,
+      "operational_steps_min": 4,
+      "enabling_conditions_min": 3,
+      "disabling_conditions_min": 2,
+      "instantiations_domains_min": 2,
+      "all_claims_labeled": true,
+      "no_placeholder_text": true
+    },
+    "sourced": {
+      "observed_claims_all_cited": true,
+      "sources_min": 3,
+      "source_fields_required": [
+        "title",
+        "author_or_body",
+        "year",
+        "url_or_id"
+      ],
+      "modframe_instances_present": true
+    }
+  }
+}
