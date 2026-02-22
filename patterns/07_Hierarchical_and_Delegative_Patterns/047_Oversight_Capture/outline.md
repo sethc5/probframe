@@ -1,84 +1,92 @@
 # Oversight Capture
 
-**Summary:** <!-- 3–5 sentences: what this pattern is, why it recurs across domains, what structural feature makes it recognizable. Descriptive voice — no advocacy. -->
+**Summary:** Oversight Capture is a hierarchical and delegative pattern in which an actor subject to monitoring and sanctioning by an oversight body deploys influence — through personnel placement, resource control, procedural manipulation, or informational dominance — to reduce the oversight body's capacity or willingness to detect, record, and sanction the actor's behavior. The pattern is structurally distinct from evasion: where evasion hides conduct from an independent monitor, oversight capture reshapes the monitor's incentives, composition, or authority so that the monitor no longer functions as an independent check. It recurs wherever a principal-agent relationship with a monitoring mechanism exists, because the monitored actor has a structural incentive to reduce the cost of oversight while the monitoring body depends on the monitored actor for information, personnel, cooperation, or resource flows. The pattern has been documented across regulatory agencies, legislative committees, judicial appointment processes, corporate audit and compliance structures, and military inspection systems.
 
-**Mechanism in one sentence:** <!-- ≤ 30 words. How the pattern operates at its core. -->
+**Mechanism in one sentence:** An actor subject to oversight gains influence over the monitoring body's personnel, resources, or jurisdiction, converting an external check into a captured function that no longer operates independently.
 
 ### Actors and deployment context
 
-<!-- Who deploys this pattern, against what, and in what structural position. List deploying actor, target actor, and any enabling actors. Each bullet: name → role → incentive → constraint. Claim label required. -->
-
-- **[Deploying actor type]** — [role]; incentive: [what drives deployment]; constraint: [what limits deployment]. [claim label]
-- **[Target actor type]** — [role]; response options: [what target can do]; constraint: [what limits response]. [claim label]
+- **Monitored actor / regulatee (deploying actor)** — the entity whose behavior the oversight body is tasked with monitoring and sanctioning; incentive: reduce effective compliance costs, suppress adverse findings, insulate from sanction; constraint: legal prohibitions on direct interference with oversight, reputational risk of visible capture efforts, competing political actors with an interest in maintaining independent oversight. [Observed]
+- **Oversight body (target)** — the institution or office responsible for monitoring, auditing, investigating, or sanctioning the deploying actor; response options: resist capture through civil service protections, whistleblower mechanisms, inter-agency reporting, congressional notification, or public disclosure; constraint: depends on the monitored actor for access, technical information, personnel pipelines, and often for budget advocacy; structural information asymmetry systematically favors the monitored actor. [Observed]
+- **Appointing or confirming authority (enabler)** — the executive, legislative, or board-level actor that selects leadership of the oversight body; role: primary vector through which the monitored actor can install sympathetic leadership without direct interference; can be lobbied, campaign-financed, or staffed by personnel from the monitored industry. [Observed]
+- **Whistleblower or external auditor (adversarial check)** — actor with access to internal oversight information who can expose capture to external audiences (Congress, press, courts); role: the primary structural check on sustained capture; constraint: faces retaliation risk and depends on legal protection frameworks that may themselves be subject to erosion. [Observed]
 
 ### Operational sequence
 
-<!-- Minimum 4 steps. Each step: name → concrete action → who does it → what changes in the environment. Claim label required. -->
-
-- **Step 1 — [Phase name]:** [action]. [claim label]
-- **Step 2 — [Phase name]:** [action]. [claim label]
-- **Step 3 — [Phase name]:** [action]. [claim label]
-- **Step 4 — [Outcome phase]:** [how advantage is locked in or extended]. [claim label]
+- **Step 1 — Personnel infiltration:** The monitored actor deploys influence at the appointment stage — through campaign contributions, lobbying of confirming authorities, provision of post-government employment (the revolving door), or placement of industry-aligned nominees — so that leadership and senior staff of the oversight body are drawn from or are sympathetic to the monitored sector. [Observed]
+- **Step 2 — Information asymmetry entrenchment:** The monitored actor becomes the primary source of technical expertise, data, and personnel that the oversight body depends on to perform its function; this is structural in many regulatory contexts where the regulated industry leads the technology curve. The oversight body's analytical capacity becomes dependent on continued cooperation from the monitored actor, creating a structural incentive to avoid adversarial postures. [Observed]
+- **Step 3 — Procedural and resource erosion:** The monitored actor, through its allies in the appointing authority or legislature, supports budget restrictions, staffing freezes, or procedural changes that reduce the oversight body's investigative capacity — fewer audits, narrowed jurisdiction, longer enforcement timelines, or weakened subpoena authority — without outright abolishing the oversight function. [Observed]
+- **Step 4 — Finding suppression and norm erosion:** Captured leadership deprioritizes, delays, or softens adverse findings against the monitored actor; enforcement actions are settled at reduced penalty levels; the oversight body's internal culture shifts toward accommodation; external actors lose confidence in the body's independence and reduce reliance on its outputs. [Observed]
+- **Step 5 — Consolidation through precedent:** Captured practices become embedded as institutional norms — informal agreements on enforcement discretion, informal communication channels between monitored actor and oversight staff, tolerance for conflicts of interest — that persist even through leadership changes, because they are not codified as violations. [Inferred]
 
 ### Where leverage concentrates
 
-<!-- Chokepoints, bottlenecks, veto points. Where in the sequence does the deploying actor gain disproportionate control? Claim label required. -->
-
-- **Chokepoints:** [claim label]
-- **Bottlenecks:** [claim label]
-- **Veto points:** [claim label]
+- **Chokepoints:** The appointment and confirmation process for oversight body leadership — a single point at which the monitored actor can shape who holds the monitoring function for an extended term. Overlaps with pattern 049 (Succession and Continuity Control). [Observed]
+- **Bottlenecks:** The information asymmetry between monitored actor and oversight body — the oversight body's dependence on the monitored actor's data, technical expertise, and personnel creates a structural bottleneck through which the quality and completeness of oversight findings must flow. [Observed]
+- **Veto points:** Congressional appropriators (budget control), inspector general independence protections, civil service tenure rules, and whistleblower statutory protections are the structural positions from which oversight capture can be blocked, reversed, or exposed. Their effectiveness depends on political will and resources at each position. [Inferred]
 
 ### Conditions of applicability
 
 **Enabling conditions** — documented when the pattern operates:
 
-- [Structural condition 1]. [claim label]
-- [Structural condition 2]. [claim label]
-- [Structural condition 3]. [claim label]
+- The oversight body depends on the monitored actor as its primary source of technical expertise, personnel, or operational data, creating a structural information asymmetry that favors the monitored actor in any disputed finding. [Observed]
+- Appointment of oversight body leadership is controlled by authorities susceptible to the monitored actor's political resources (campaign contributions, lobbying, post-government employment offers), giving the monitored actor influence over who performs the monitoring function. [Observed]
+- The monitored actor's conduct is technically complex, producing high verification costs that consume oversight body resources and invite deference to the monitored actor's own representations. [Observed]
+- The oversight body lacks independent analytical capacity (separate data sources, in-house expertise, or inter-agency verification channels) to cross-check monitored actor submissions. [Observed]
+- Penalties for documented violations are low enough relative to the benefit of non-compliance that capture is more cost-effective than compliance; capture is worth funding when the alternative is meaningful sanction. [Inferred]
 
 **Disabling conditions** — documented when the pattern fails or degrades:
 
-- [Condition under which the pattern collapses or reverses]. [claim label]
-- [Second disabling condition]. [claim label]
+- Independent whistleblowers with protected access to oversight body records expose capture to external audiences (Congress, press, courts) before the capture is fully consolidated, triggering political accountability that reverses personnel decisions or strengthens oversight's legal independence. [Observed]
+- A high-salience failure event attributable to oversight failure — a financial crisis, industrial accident, or public health catastrophe — provides political stimulus for restoring oversight independence that exceeds the monitored actor's lobbying capacity to suppress. [Observed]
+- Congressional appropriators or oversight committees with adversarial posture toward the monitored actor fund and staff the oversight body at levels that exceed the monitored actor's ability to manage through personnel capture alone. [Inferred]
+- Mandatory disclosure requirements or independent audit obligations expose oversight body outputs to external comparison, making suppressed or softened findings visible by contrast. [Inferred]
 
 ### Common failure modes
 
-<!-- How and why the pattern breaks down. Name the failure mode, label the claim, describe what triggers failure and what the pattern degrades into. -->
-
-- **[Mode name]** — [claim label] — [explanation; what it degrades into]
-- **[Mode name]** — [claim label] — [explanation]
+- **Crisis exposure** — [Observed] — A high-salience failure event directly attributable to the oversight body's failure to detect or sanction the monitored actor's conduct generates political attention sufficient to override the monitored actor's capture investment; the body's leadership is replaced and its mandate reinforced. Documented: the post-2008 financial crisis reconfiguration of banking oversight (Dodd-Frank 2010); post-Deepwater Horizon restructuring of the Minerals Management Service (split into three agencies, 2010). The pattern degrades into adversarial oversight (the inverse of capture) under sufficiently intense political pressure, though this may revert as political attention dissipates.
+- **Whistleblower disclosure** — [Observed] — An insider with protected status exposes suppressed findings or procedural corruption to external audiences before capture is consolidated; if the disclosure generates independent investigation, the capture is disrupted. The effectiveness of this failure mode depends entirely on the strength of whistleblower protections and the existence of a credible external audience. Degrades into a period of contested oversight while the political response plays out.
+- **Over-reach triggering backlash** — [Inferred] — The monitored actor's capture efforts become visible (through discovery in litigation, investigative reporting, or prior employee testimony) and produce political backlash that strengthens rather than weakens the oversight body; the capture attempt provides a focal point for reform coalitions that were previously unable to coordinate.
+- **Capture without enforcement decay** — [Observed] — The oversight body is nominally captured at the leadership level but career staff continue producing adverse findings that are suppressed internally; over time, accumulated suppressed findings create organizational memory that may be activated by future leadership changes. Characterized by a gap between formal outputs and internal documentation, creating a latent accountability reserve.
 
 ### What evidence would prove/disprove key claims
 
-<!-- Dataset, case record, or cross-domain comparison that would confirm or refute the central mechanism claim. What would a contrary finding look like? -->
-
-- [Confirming evidence type]
-- [Disconfirming evidence type]
-- [Comparative test across domains]
+- **Confirms central mechanism:** Systematic comparison of enforcement action rates, penalty levels, and adverse finding frequency across oversight bodies before and after revolving door appointments, controlling for the underlying rate of monitored actor violations, would confirm that personnel capture transmits into reduced enforcement output. Carpenter & Moss 2013 surveys this evidence base for US regulatory agencies.
+- **Disconfirms:** Cases where oversight bodies with heavy revolving door personnel flows consistently produce adversarial enforcement outcomes would require an alternative explanation — possibly that culture, civil service insulation, or public salience of the domain overrides personnel-level capture vectors.
+- **Tests appointment vector:** Comparison of enforcement outputs across oversight bodies appointed through different processes (career civil service leadership vs. political appointee leadership vs. industry-nominated leadership) would test whether appointment control is the primary transmission mechanism or whether information asymmetry is operative independently of personnel.
+- **Tests information asymmetry vector:** Cross-sector comparison of oversight effectiveness relative to technical complexity and degree of external data availability would test whether oversight body independence from monitored actor data sources predicts enforcement quality independently of appointment dynamics.
 
 ### Instantiations
 
-<!-- Cross-domain documented examples. Domain → specific case → source → which aspect of the pattern it illustrates. Minimum 2 domains. -->
+- **Political / US Federal — Minerals Management Service (MMS):** The MMS, responsible for regulating offshore oil drilling on federal lands, was documented by the Interior Department's Inspector General (2008–2010) as having a capture relationship with the oil and gas industry: agency staff accepted gifts, employment offers, and participated in industry-organized events; royalty collection was systematically under-enforced. Following the Deepwater Horizon blowout (April 2010), MMS was abolished and reconstituted as three separate agencies to structurally disrupt capture pathways. The case illustrates how revolving door personnel flows, gift relationships, and enforcement under-prioritization can co-occur within a regulatory body. [Observed — Interior OIG reports 2008–2010; National Commission on the BP Deepwater Horizon Oil Spill, 2011]
 
-- **[Domain A]:** [specific case]. [claim label — source]
-- **[Domain B]:** [specific case]. [claim label — source]
-- **[Domain C]:** [specific case]. [claim label — source]
+- **Economic / Financial — Savings and Loan regulatory capture (1980s):** The Federal Home Loan Bank Board and subsequently the Office of Thrift Supervision were documented as captured by the S&L industry during the deregulatory period of the 1980s; supervisors tolerated aggressive accounting practices, delayed closure of insolvent institutions, and resisted FDIC and external examiner findings. The resulting insolvency wave cost the US government approximately $130 billion in resolution costs. The case is extensively documented in the academic literature on financial regulatory capture. [Observed — Akerlof & Romer 1993; Kane 1989]
+
+- **Corporate governance — Audit committee capture:** Independent audit committees are required by SEC rules (post-Sarbanes-Oxley 2002) to provide external oversight of corporate financial statements; academic research documents that audit committees with financial ties to management, or dominated by directors with limited audit expertise, are systematically less likely to detect or require restatement of material misstatements. The structural parallel to regulatory capture is exact: the monitoring body's independence is degraded by the monitored actor's influence over its composition. [Observed — Agrawal & Chadha 2005; Klein 2002]
+
+- **Political / International — Inspector General suppression:** The US Intelligence Community Inspectors General system provides a layered example: the Inspector General Act of 1978 established statutory independence, but subsequent amendments and executive actions have allowed agency heads to delay, modify, and in some cases suppress IG reports by invoking national security or executive privilege. The pattern of IG suppression is documented in GAO reports on IG operational independence across the federal government. [Observed — GAO-15-773 2015; GAO-20-352 2020]
+
+- **Biological / Ecological — Parasite host behavioral manipulation:** Certain parasites (Ophiocordyceps fungi, *Toxoplasma gondii*, *Leucochloridium paradoxum*) alter the behavioral outputs of their host organism in ways that serve the parasite's reproductive interests — a biological structural analog to oversight capture, where the monitored entity (parasite) gains influence over the system nominally controlling its behavior (host neurology). The analogy illustrates that the capture of control mechanisms by the monitored entity is a recurring structural solution across biological and institutional domains. [Observed — Hughes et al. 2011; Flegr 2013]
 
 *Modframe links:* See `Modframe instances` in README for specific federal power module IDs.
 
 ### Suggested sources
 
-<!-- Full citation format: [Title]. [Author / Issuing body], [Year]. [URL or identifier]. -->
-
--
--
--
+- Regulatory Capture. George J. Stigler, Bell Journal of Economics and Management Science, 1971. https://doi.org/10.2307/3003160
+- Preventing Regulatory Capture: Special Interest Influence and How to Limit It. Daniel Carpenter & David A. Moss (eds.), Cambridge University Press, 2013. ISBN 978-1107646704.
+- Regulatory Capture: A Review. Ernesto Dal Bó, Oxford Review of Economic Policy, 2006. https://doi.org/10.1093/oxrep/grj013
+- Looting: The Economic Underworld of Bankruptcy for Profit. George Akerlof & Paul Romer, Brookings Papers on Economic Activity, 1993. https://www.brookings.edu/bpea-articles/looting-the-economic-underworld-of-bankruptcy-for-profit/
+- The S&L Insurance Mess: How Did It Happen? Edward J. Kane, Urban Institute Press, 1989. ISBN 978-0877664741.
+- Do Outside Directors with Greater Board Tenure Have Better Board Attendance? Anup Agrawal & Sahiba Chadha, Journal of Corporate Finance, 2005. https://doi.org/10.1016/j.jcorpfin.2003.06.001
+- Parasite manipulation of host behavior. David P. Hughes, Jacques Brodeur & Frédéric Thomas (eds.), Oxford University Press, 2011. ISBN 978-0199642434.
+- Inspectors General: Reporting on Independence, Effectiveness, and Expertise. U.S. Government Accountability Office, GAO-15-773, 2015. https://www.gao.gov/products/gao-15-773
+- National Commission on the BP Deepwater Horizon Oil Spill and Offshore Drilling — Final Report. National Commission, January 2011. https://www.govinfo.gov/content/pkg/GPO-OILCOMMISSION/pdf/GPO-OILCOMMISSION.pdf
 
 ### Analysis outline (6 parts)
 
-1. **Pattern** — [what this pattern is and what relationship structure it operates on]
-2. **Mechanism** — [why the pattern works — the structural logic]
-3. **Instantiation** — [a specific, real cross-domain case study — name it and name the domain]
-4. **Evidence** — [primary sources or data to show across domains]
-5. **Countermeasures** — [≥ 2 documented structural responses or reforms that have altered pattern outcomes — describe neutrally]
-6. **Takeaway** — [the structural insight a reader should retain]
+1. **Pattern** — Oversight Capture is a hierarchical and delegative pattern operating on the principal-agent-monitor relationship: the monitored actor gains influence over the monitoring body, converting an external check into a function that no longer operates independently of the interests it is designed to constrain.
+2. **Mechanism** — The pattern exploits two structural features of oversight relationships: (a) information asymmetry that makes the oversight body dependent on the monitored actor for the data it needs to perform its function, and (b) the appointment and resource dependencies that make oversight body leadership susceptible to the monitored actor's political influence. When both vectors are available, capture is self-reinforcing: captured leadership suppresses findings, reducing the salience of further oversight, reducing political demand for its independence.
+3. **Instantiation** — The Minerals Management Service prior to the Deepwater Horizon disaster (2010, political/US federal domain): MMS staff accepted gifts and employment offers from the offshore oil industry, royalty collection was systematically under-enforced, and adverse inspection findings were deprioritized — a documented case where revolving door personnel flows and enforcement under-prioritization co-occurred under regulatory capture conditions (National Commission 2011).
+4. **Evidence** — Stigler 1971 (foundational regulatory capture theory); Carpenter & Moss 2013 (empirical survey across US regulatory agencies); Akerlof & Romer 1993 (S&L regulatory failure as institutional capture case study); GAO-15-773 2015 (Inspector General independence data); National Commission 2011 (MMS capture documentation).
+5. **Countermeasures** — Statutory independence protections for oversight body leadership (fixed terms, cause-only removal, confirmed by a separate authority from the monitored actor's principal hierarchy) have been used to structurally insulate inspectors general and independent regulators from the appointment capture vector; their effectiveness depends on whether the insulating authority is itself sufficiently independent. Mandatory inter-agency review — requiring that findings by a potentially captured oversight body be reviewed by an independent agency with no dependency on the monitored actor — has been implemented in financial regulation (Federal Reserve/OCC/FDIC cross-examination of bank holding companies) to create redundancy against single-body capture.
+6. **Takeaway** — The structural vulnerability is not individual corruption but dependency: when the monitoring body depends on the monitored actor for expertise, personnel, and operational cooperation, independence becomes structurally costly to maintain regardless of the individuals involved — making capture a tendency of the system rather than a product of bad actors.

@@ -1,84 +1,88 @@
 # Ratchet Mechanisms
 
-**Summary:** <!-- 3–5 sentences: what this pattern is, why it recurs across domains, what structural feature makes it recognizable. Descriptive voice — no advocacy. -->
+**Summary:** Ratchet Mechanisms is an evolutionary and iterative pattern in which change is achieved through discrete increments that each become the new default, so that reverting to a prior state requires affirmative action against institutional inertia rather than mere passivity. The structural key is that each forward step is locked in — by legal precedent, political constituency formation, sunk cost, path dependence, or technical integration — after it is completed, converting what was a contingent gain into a structural baseline against which future moves are measured. The pattern recurs across domains because the locking-in of incremental gains is a general structural feature of systems with increasing-returns dynamics, path dependence, or precedent effects: evolutionary processes exhibit it through canalization, legal systems through stare decisis, administrative economies through baseline and reversion-point mechanics, and political systems through veto player asymmetries between expansion and rollback. The ratchet's leveraged value is that it decouples the difficulty of forward moves from the difficulty of reversal: the same political or structural forces that were required to advance a step are not required to sustain it once the new default is established.
 
-**Mechanism in one sentence:** <!-- ≤ 30 words. How the pattern operates at its core. -->
+**Mechanism in one sentence:** Each incremental advance becomes the structural baseline from which future positions are measured, so that reversal requires overcoming inertia that the advance itself created.
 
 ### Actors and deployment context
 
-<!-- Who deploys this pattern, against what, and in what structural position. List deploying actor, target actor, and any enabling actors. Each bullet: name → role → incentive → constraint. Claim label required. -->
-
-- **[Deploying actor type]** — [role]; incentive: [what drives deployment]; constraint: [what limits deployment]. [claim label]
-- **[Target actor type]** — [role]; response options: [what target can do]; constraint: [what limits response]. [claim label]
+- **Advancing actor (deploying actor)** — the actor whose preferred position is advanced by each ratchet increment; incentive: convert incremental gains into durable baselines that do not require sustained political effort to maintain; constraint: each increment requires sufficient support to overcome blocking actors at that step, even if subsequent gains require less effort. [Observed]
+- **Blocking actor (target)** — the actor whose preferred position is the prior state or a reversal; response options: prevent the increment from being taken in the first place (blocking is asymmetrically easier before an increment is locked in than after); or seek structural redesign of the system to remove the locking mechanism; constraint: after an increment is locked in, the blocking actor must affirmatively overcome institutional inertia, legal precedent, or constituency opposition — a structurally more demanding task than was required to advance the increment in the first place. [Observed]
+- **Institutional maintainer (enabling actor)** — the actor that holds or administers the structural mechanism producing lock-in: courts that apply stare decisis, agencies that enforce regulatory baselines, career personnel who implement statutory mandates, or program beneficiaries who form a political constituency opposing reversal; role: sustains the locking function after the advancing actor's direct effort has ceased. [Inferred]
+- **Reversion authority** — actor with formal power to reset a ratcheted position — legislature by statute, court by overruling precedent, president by executive order — but constrained in practice by the political costs created by constituency formation, the legal difficulty of undoing settled frameworks, and the coordination required to assemble a reversal coalition. [Observed]
 
 ### Operational sequence
 
-<!-- Minimum 4 steps. Each step: name → concrete action → who does it → what changes in the environment. Claim label required. -->
-
-- **Step 1 — [Phase name]:** [action]. [claim label]
-- **Step 2 — [Phase name]:** [action]. [claim label]
-- **Step 3 — [Phase name]:** [action]. [claim label]
-- **Step 4 — [Outcome phase]:** [how advantage is locked in or extended]. [claim label]
+- **Step 1 — Increment design:** The advancing actor packages the desired change as a discrete, bounded increment rather than a sweeping transformation, reducing the coalition required to achieve it and the visibility that would trigger maximum opposition resistance. The increment is sized to be achievable given the current force balance while moving the baseline as far as possible. [Observed]
+- **Step 2 — Locking mechanism activation:** The increment is completed through whatever process establishes it as the new default: enactment into statute, issuance as regulation, judicial ruling, physical construction, technical integration, or precedent-setting action; the locking mechanism is structural, not dependent on the advancing actor's continued active effort. [Observed]
+- **Step 3 — Constituency formation:** The new baseline generates beneficiaries — individuals, organizations, or interests that now depend on the incremented state and will actively oppose reversal; this constituency forms even without deliberate action by the advancing actor, as a structural product of the increment's existence. [Observed]
+- **Step 4 — Asymmetric reversal cost establishment:** The blocking actor now faces a reversal task that is structurally more difficult than the advancing actor's original increment task: the blocking actor must assemble a reversal coalition against the newly formed beneficiary constituency, overcome legal or precedential lock-in, and absorb the political cost of reversing a status quo rather than the advancing actor's prior cost of changing it. [Observed]
+- **Step 5 — Iteration from new baseline:** The advancing actor uses the new baseline as the launch point for the next increment, applying the same logic recursively; each successful increment resets the baseline and creates conditions for the next move, compounding gains over repeated cycles. [Observed]
 
 ### Where leverage concentrates
 
-<!-- Chokepoints, bottlenecks, veto points. Where in the sequence does the deploying actor gain disproportionate control? Claim label required. -->
-
-- **Chokepoints:** [claim label]
-- **Bottlenecks:** [claim label]
-- **Veto points:** [claim label]
+- **Chokepoints:** The locking event — the moment at which an increment shifts from a contested proposal to an established default (enactment, ruling, regulatory promulgation, physical completion) is the structural chokepoint; once it passes, the character of the conflict changes from preventing an advance to forcing a reversal. Blocking is disproportionately more effective before this point than after. [Observed]
+- **Bottlenecks:** The reversal threshold — the force balance required to overcome lock-in — is the operative bottleneck constraining blocking actors. In legislative systems with multiple veto players (Tsebelis 2002), the reversal threshold is a supermajority requirement across multiple chambers, committees, and executive approval; this bottleneck is structural and does not require the advancing actor to actively maintain it. [Observed]
+- **Veto points:** The reversion authority — the actor who could reset the baseline by statute, ruling, or order — is the point at which the ratchet can theoretically be reversed; in practice, veto players over reversal are typically more numerous than veto players over original enactment because constituency opposition must also be managed. [Inferred]
 
 ### Conditions of applicability
 
 **Enabling conditions** — documented when the pattern operates:
 
-- [Structural condition 1]. [claim label]
-- [Structural condition 2]. [claim label]
-- [Structural condition 3]. [claim label]
+- The system has increasing-returns dynamics or path dependence: prior choices raise the cost of alternative choices, so the baseline effects of each increment compound rather than erode over time. [Observed]
+- The locking mechanism is institutional rather than dependent on the advancing actor's continued effort: legal precedent, regulatory baseline, veto player asymmetry between enactment and repeal, or physical/technical integration sustains the increment without active maintenance. [Observed]
+- Increments generate beneficiary constituencies that actively oppose reversal, raising the political cost of the reversal task above the cost of the advance. [Observed]
+- Multiple veto players are required for reversal but not all the same veto players required for enactment — the reversal coalition problem is structurally harder than the advancement coalition problem. [Observed]
+- The advancing actor can sequence increments faster than the blocking actor can assemble and sustain reversal coalitions, allowing gains to compound before each prior increment is challenged. [Inferred]
 
 **Disabling conditions** — documented when the pattern fails or degrades:
 
-- [Condition under which the pattern collapses or reverses]. [claim label]
-- [Second disabling condition]. [claim label]
+- A reversion authority with sufficient political force assembles a coalition specifically designed to overcome the locking mechanism and reset the baseline; documented in statutory repeal, landmark overruling of precedent, or forced reversal through constitutional amendment. [Observed]
+- The locking mechanism is weakened before an increment is fully consolidated — through judicial voiding, regulatory rollback, or legislative suspension — preventing constituency formation from completing. [Observed]
+- Incumbent constituency dissolution: the beneficiary group that should oppose reversal loses its political coherence (through economic change, demographic shift, or organizational collapse) before the reversal coalition assembles, removing the key structural source of reversal resistance. [Inferred]
+- Catastrophic failure of the incremented system provides the political focal point for a reversal coalition that would otherwise be unable to coordinate, overcoming the structural advantages of the status quo. [Inferred]
 
 ### Common failure modes
 
-<!-- How and why the pattern breaks down. Name the failure mode, label the claim, describe what triggers failure and what the pattern degrades into. -->
-
-- **[Mode name]** — [claim label] — [explanation; what it degrades into]
-- **[Mode name]** — [claim label] — [explanation]
+- **Coalition reversal** — [Observed] — A sufficiently motivated and coordinated reversal coalition overcomes the locking mechanism and resets the baseline, unwinding prior increments. Documented in statutory repeal (Prohibition's repeal via the 21st Amendment 1933; deregulation waves in US aviation, trucking, and banking, 1978–1980s), in landmark overruling of precedent (West Coast Hotel v. Parrish 1937 terminating Lochner-era substantive due process doctrine), and in administrative rollback (EPA regulatory framework revisions across administrations). Each case illustrates that ratchets can be reversed when political force exceeds the lock-in threshold, but the reversal typically required substantially greater political effort than the original advance.
+- **Locking failure — incomplete consolidation** — [Observed] — An increment fails to fully consolidate before opposition can mobilize to prevent lock-in: a regulation is challenged and vacated before beneficiary constituencies form, or a judicial ruling is reversed before it becomes precedent through stare decisis reinforcement. Once the increment fails to lock, the pattern degrades into a contested move rather than a ratchet step.
+- **Overreach triggering correction** — [Inferred] — Increments taken too rapidly or too visibly attract reversal coalitions that would not have formed against smaller or less visible steps; the ratchet strategy fails when the pace or scale of advance provides the blocking actor with a sufficiently salient target to organize around. The pattern degrades into a contested equilibrium where the advancing actor's gains are partially reversed and the future increment path is more actively contested.
+- **Constituency attrition** — [Inferred] — Over long time horizons, the constituency supporting a locked-in increment may decline through economic, demographic, or organizational change; if the increment's locking mechanism is primarily constituency-based rather than legal or technical, attrition of the constituency opens reversal opportunities that were previously closed.
 
 ### What evidence would prove/disprove key claims
 
-<!-- Dataset, case record, or cross-domain comparison that would confirm or refute the central mechanism claim. What would a contrary finding look like? -->
-
-- [Confirming evidence type]
-- [Disconfirming evidence type]
-- [Comparative test across domains]
+- **Confirms central mechanism:** Systematic comparison of the political force required to enact an increment vs. the political force subsequently required to repeal it, across a matched set of legislative, regulatory, and judicial cases, would directly test the asymmetric reversal-cost claim. Pierson 2000 surveys this evidence base for welfare state and administrative state cases.
+- **Disconfirms:** Cases where increments are routinely reversed at approximately the same political cost as they were enacted — where no asymmetry between advance and reversal is observable — would undermine the claim that locking mechanisms are structural rather than contingent. Administrative regulation in jurisdictions without strong statutory baseline effects might approximate this condition.
+- **Tests constituency formation:** Longitudinal tracking of organized group formation relative to program enactment dates would test the claim that constituency formation is a structural product of increment completion rather than a pre-existing condition for the increment's success.
+- **Tests veto player asymmetry:** Cross-national comparison of rollback rates for comparable policy expansions across parliamentary vs. presidential systems (with different veto player structures for repeal) would test whether institutional veto player count predicts ratchet durability independently of constituency effects.
 
 ### Instantiations
 
-<!-- Cross-domain documented examples. Domain → specific case → source → which aspect of the pattern it illustrates. Minimum 2 domains. -->
-
-- **[Domain A]:** [specific case]. [claim label — source]
-- **[Domain B]:** [specific case]. [claim label — source]
-- **[Domain C]:** [specific case]. [claim label — source]
+- **Political / US Federal — Emergency powers expansion:** Crisis-period expansions of executive emergency authority (War Powers, Trading with the Enemy Act applications, post-9/11 surveillance architecture) have consistently failed to fully revert after the crisis conditions that justified them pass. The post-9/11 PATRIOT Act provisions, initially enacted as temporary with sunset clauses, were reauthorized repeatedly over two decades with modifications but without full reversion to pre-2001 baselines. The surveillance infrastructure built under those authorities created a constituency within intelligence agencies and a technical investment base that raised the reversal cost above the original enactment cost. [Observed — Posner & Vermeule 2011; Risen 2014]
+- **Political / Comparative — Welfare state ratchet:** Paul Pierson's comparative analysis of welfare state retrenchment under Thatcher (UK) and Reagan (US) documented that major social programs enacted in the postwar period proved substantially harder to roll back than they were to create, because program beneficiaries formed organized constituencies that opposed retrenchment; the political cost of rollback exceeded the political cost of original enactment in every major case studied, even when governments with ideological commitments to retrenchment held executive power for extended periods. [Observed — Pierson 1994]
+- **Legal — Common law precedent:** The common law doctrine of stare decisis — that prior rulings bind subsequent courts as precedent — is a formalized legal ratchet: each ruling becomes the baseline against which the next case is argued, creating directional pressure in doctrine that requires affirmative overruling (not mere inaction) to reverse. The Lochner-era substantive due process doctrine persisted for approximately three decades (1905–1937) before West Coast Hotel v. Parrish constituted a sufficiently clear reversal, illustrating the durability of legally-locked increments. [Observed — Landes & Posner 1976; West Coast Hotel Co. v. Parrish, 300 U.S. 379 (1937)]
+- **Biological / Evolutionary — Genetic canalization:** In evolutionary development, canalization (Waddington 1942) describes how developmental processes that are initially variable become increasingly buffered against variation over generations — a biological ratchet in which each generation of stabilizing selection makes the developmental pathway more resistant to perturbation. Dollo's Law (the empirical generalization that complex structures lost in evolution are not re-evolved in identical form) operationalizes evolutionary irreversibility across macroevolutionary timescales. [Observed — Waddington 1942; Gould 1970]
+- **Economic / Technology — Standard and network lock-in:** QWERTY keyboard layout (David 1985), VHS format, and the Windows OS market position are documented cases where early incremental adoption advantages locked in a standard against technically superior alternatives because switching costs accumulated with each additional user (“network externalities”), raising the reversal threshold above what any individual actor would absorb. The locked standard functions as a ratchet: each new adopter raises the switching cost for all other adopters, making the lead of the incumbent standard self-reinforcing after critical mass. [Observed — Arthur 1989; David 1985]
 
 *Modframe links:* See `Modframe instances` in README for specific federal power module IDs.
 
 ### Suggested sources
 
-<!-- Full citation format: [Title]. [Author / Issuing body], [Year]. [URL or identifier]. -->
-
--
--
--
+- Increasing Returns, Path Dependence, and the Study of Politics. Paul Pierson, American Political Science Review, 2000. https://doi.org/10.2307/2586011
+- Dismantling the Welfare State? Reagan, Thatcher, and the Politics of Retrenchment. Paul Pierson, Cambridge University Press, 1994. ISBN 978-0521458887.
+- Veto Players: How Political Institutions Work. George Tsebelis, Princeton University Press, 2002. ISBN 978-0691099798.
+- Competing Technologies, Increasing Returns, and Lock-In by Historical Events. W. Brian Arthur, The Economic Journal, 1989. https://doi.org/10.2307/2234208
+- Clio and the Economics of QWERTY. Paul A. David, American Economic Review, 1985. https://www.jstor.org/stable/1805621
+- The Canalisation of Development and the Inheritance of Acquired Characters. C. H. Waddington, Nature, 1942. https://doi.org/10.1038/150563a0
+- Dollo on Dollo's Law: Irreversibility and the Status of Evolutionary Laws. Stephen Jay Gould, Journal of the History of Biology, 1970. https://doi.org/10.1007/BF00137351
+- Terror in the Balance: Security, Liberty, and the Courts. Eric A. Posner & Adrian Vermeule, Oxford University Press, 2007. ISBN 978-0195347739.
+- The Setter Model and Budgetary Negotiations. Thomas Romer & Howard Rosenthal, Public Choice, 1978. https://doi.org/10.1007/BF01718471
 
 ### Analysis outline (6 parts)
 
-1. **Pattern** — [what this pattern is and what relationship structure it operates on]
-2. **Mechanism** — [why the pattern works — the structural logic]
-3. **Instantiation** — [a specific, real cross-domain case study — name it and name the domain]
-4. **Evidence** — [primary sources or data to show across domains]
-5. **Countermeasures** — [≥ 2 documented structural responses or reforms that have altered pattern outcomes — describe neutrally]
-6. **Takeaway** — [the structural insight a reader should retain]
+1. **Pattern** — Ratchet Mechanisms is an evolutionary and iterative pattern operating on the relationship between an advancing actor, a blocking actor, and the institutional structure that locks in each increment as the new default; the pattern's defining feature is asymmetry between the difficulty of forward movement and the difficulty of reversal.
+2. **Mechanism** — The pattern operates through two structural features: locking events that convert increments into baselines protected by institutional inertia, legal precedent, or technical integration; and beneficiary constituency formation that raises the political cost of reversal after each increment by creating organized opposition to rollback. Together, these features decouple the effort required to advance an increment from the effort required to sustain it, allowing incremental gains to compound over iterated cycles.
+3. **Instantiation** — US post-9/11 surveillance authority expansion (political/US federal domain): provisions of the PATRIOT Act enacted as temporary emergency measures were reauthorized repeatedly over two decades without full reversion to pre-2001 baselines; the intelligence infrastructure constructed under those authorities created technical sunk costs and intra-agency constituencies that raised reversal costs above original enactment costs, illustrating both locking mechanisms operative at once.
+4. **Evidence** — Pierson 2000 (comparative welfare state retrenchment data); Pierson 1994 (Reagan/Thatcher retrenchment case studies); Tsebelis 2002 (veto player framework); Arthur 1989 and David 1985 (economic lock-in cases); Waddington 1942 and Gould 1970 (biological canalization and Dollo's Law).
+5. **Countermeasures** — Sunset clauses — statutory provisions that automatically terminate an act or regulation unless affirmatively reauthorized by a specified date — invert the ratchet's asymmetry by making inaction the reversal mechanism rather than the lock-in mechanism; they have been applied to emergency powers, tax provisions, and regulatory pilots in US and comparative contexts, though they create their own reauthorization dynamics and may be reauthorized reflexively. Supermajority requirements for program expansion (but not for repeal) represent a structural asymmetry in the opposite direction from the ratchet's natural tilt, raising the enactment cost without raising the reversal cost; they have been applied in some state constitutional contexts to constrain fiscal expansions.
+6. **Takeaway** — The ratchet's leverage derives from asymmetry, not accumulation: it matters less that each increment is large than that each increment changes what the default state is, shifting the burden of action from the advancing actor to the blocking actor after each successful step.

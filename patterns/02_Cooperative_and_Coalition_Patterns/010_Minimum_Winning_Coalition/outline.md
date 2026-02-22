@@ -1,84 +1,94 @@
 # Minimum Winning Coalition
 
-**Summary:** <!-- 3–5 sentences: what this pattern is, why it recurs across domains, what structural feature makes it recognizable. Descriptive voice — no advocacy. -->
+**Summary:** Minimum Winning Coalition is a cooperative and coalition pattern in which a coalition builder assembles the smallest set of partners sufficient to achieve victory in a given decision, excluding all actors whose inclusion would reduce the per-member share of the resulting payoff without increasing the probability of winning. The pattern was formalized by William Riker in *The Theory of Political Coalitions* (1962) as the “size principle”: under zero-sum conditions with complete information, winning coalitions converge toward minimal size because rational actors prefer larger per-member shares, and unnecessary members reduce those shares without increasing the coalition's winning probability. The pattern recurs across legislative majority formation, military alliance construction, corporate merger approvals, regulatory coalition building, and board proxy contests because zero-sum or near-zero-sum decision environments — where winning yields a fixed prize divided among winners — create the structural conditions for size-minimization logic regardless of domain. In practice, actual coalitions are often larger than the theoretical minimum due to uncertainty about defection, imperfect information about member reliability, and repeated-game considerations that reward inclusion; these deviations are empirically documented and constitute the pattern's primary observable test.
 
-**Mechanism in one sentence:** <!-- ≤ 30 words. How the pattern operates at its core. -->
+**Mechanism in one sentence:** Under zero-sum or near-zero-sum decision conditions, a coalition builder assembles the smallest partner set that crosses the winning threshold, maximizing per-member payoff by excluding unnecessary members.
 
 ### Actors and deployment context
 
-<!-- Who deploys this pattern, against what, and in what structural position. List deploying actor, target actor, and any enabling actors. Each bullet: name → role → incentive → constraint. Claim label required. -->
-
-- **[Deploying actor type]** — [role]; incentive: [what drives deployment]; constraint: [what limits deployment]. [claim label]
-- **[Target actor type]** — [role]; response options: [what target can do]; constraint: [what limits response]. [claim label]
+- **Coalition builder (deploying actor)** — the actor who initiates and constructs the coalition; incentive: win the decision while minimizing the number of partners whose inclusion requires sharing the payoff; constraint: uncertainty about partner reliability, defection risk in zero-sum contexts, and repeated-game considerations that may make over-sized coalitions strategically rational. [Observed]
+- **Pivotal member (target/partner)** — the actor whose inclusion tips the coalition from losing to winning; their inclusion price is higher than supernumerary members because the coalition cannot win without them; incentive: extract maximum transfer or side payment as the condition of joining, precisely because they are pivotal; constraint: may be held to commitments after joining through formal agreements, reputational mechanisms, or the impossibility of profitably defecting mid-cycle. [Observed]
+- **Supernumerary member** — an actor whom the coalition builder could include but who is not necessary for victory; their inclusion dilutes the per-member payoff; role in the pattern: rational coalition builders under Riker's size principle exclude them; their exclusion generates resentment that can fuel opposition coalitions in future rounds. [Observed]
+- **Excluded actor** — an actor outside the coalition who would benefit from sharing the payoff but is deliberately left out to preserve members' shares; response options: attempt to offer side-payments to existing members to trigger defection; form a counter-coalition sufficient to block or compete; wait for opportunity to join a revised coalition in a subsequent round. [Observed]
+- **Decision authority** — the body or mechanism that determines whether the winning threshold has been crossed and allocates the payoff (the legislature, the court, the board, the market mechanism); role: defines the winning threshold and validates coalition composition. [Observed]
 
 ### Operational sequence
 
-<!-- Minimum 4 steps. Each step: name → concrete action → who does it → what changes in the environment. Claim label required. -->
-
-- **Step 1 — [Phase name]:** [action]. [claim label]
-- **Step 2 — [Phase name]:** [action]. [claim label]
-- **Step 3 — [Phase name]:** [action]. [claim label]
-- **Step 4 — [Outcome phase]:** [how advantage is locked in or extended]. [claim label]
+- **Step 1 — Payoff and threshold mapping:** The coalition builder identifies the winning threshold (simple majority, two-thirds, unanimous consent), enumerates the available potential coalition members sorted by acquisition cost, and calculates the minimum-cost set of members that crosses the threshold — not the minimum-count set, since members have different prices. [Observed]
+- **Step 2 — Pivotal member identification:** The builder identifies which actors are pivotal — whose exclusion drops the coalition below the winning threshold — and which are supernumerary. Pivotal members command a price premium commensurate with their indispensability; the builder must assess how many pivotal members exist and whether any chain of substitutions can reduce the price of the pivotal set. [Observed]
+- **Step 3 — Sequential recruitment under information concealment:** The builder recruits members sequentially, concealing as long as possible whether the coalition has reached winning size, to prevent pivotal members from extracting maximum rents by revealing their pivot status. In legislative contexts, whip operations track private commitments before public vote announcements to prevent defectors from knowing their own pivotality until momentum is irreversible. [Inferred]
+- **Step 4 — Defection prevention and commitment lock-in:** Once minimally complete, the coalition locks in commitments through procedural mechanisms (scheduled public votes, recorded commitments, side-payment disbursement), reputational stakes (members' public association with the coalition), or structural features that make defection costly after the threshold is crossed. [Observed]
+- **Step 5 — Payoff allocation weighted toward pivotal members:** The payoff is divided with a premium to the pivotal members whose inclusion was strictly necessary and a discount to members who were more easily substitutable; the allocation reflects the ex-ante bargaining power that the size principle distributes in proportion to pivot value. [Observed]
 
 ### Where leverage concentrates
 
-<!-- Chokepoints, bottlenecks, veto points. Where in the sequence does the deploying actor gain disproportionate control? Claim label required. -->
-
-- **Chokepoints:** [claim label]
-- **Bottlenecks:** [claim label]
-- **Veto points:** [claim label]
+- **Chokepoints:** The pivotal member position — the actor whose inclusion or exclusion determines whether the coalition crosses the winning threshold — concentrates bargaining leverage regardless of that actor's intrinsic resources or organizational weight. In any coalition bargaining round, identifying who holds the pivotal position is the primary analytical task. [Observed]
+- **Bottlenecks:** Information about other members' commitments and the coalitionbuilder's current count — when potential members cannot observe whether the coalition is already minimally complete, their leverage diminishes; when they can observe it, each potential member knows their own pivot status and can price accordingly. The information management bottleneck is why whip operations maintain count security in legislative contexts. [Observed]
+- **Veto points:** Excluded actors with sufficient resources to recruit away pivotal members — offering them higher side-payments or a superior coalition position in a counter-coalition — are the structural veto over the initial coalition's formation. Counter-coalitions are particularly viable when the winning threshold is a simple majority and excluded actors can assemble an alternative majority. [Inferred]
 
 ### Conditions of applicability
 
 **Enabling conditions** — documented when the pattern operates:
 
-- [Structural condition 1]. [claim label]
-- [Structural condition 2]. [claim label]
-- [Structural condition 3]. [claim label]
+- The decision environment is zero-sum or near-zero-sum: winning produces a fixed, divisible prize, so including additional members reduces each existing member's share without increasing the probability of winning. [Observed]
+- A defined winning threshold exists (majority, supermajority, plurality) that the coalition builder can calculate and target precisely; the threshold is known to all participants. [Observed]
+- Coalition members' commitments are sufficiently binding (through formal agreements, recorded votes, or reputational stakes) that defection after the coalition is assembled is costly, preventing the coalition from dissolving before the decision is taken. [Observed]
+- The number of potential coalition members is large enough relative to the winning threshold that genuine size-minimization is possible — the builder has multiple viable pathways to the minimum, creating competition among potential members that drives down the acquisition cost. [Observed]
+- The payoff from winning is large relative to the transaction costs of coalition management, making the investment in precise size-minimization worthwhile rather than defaulting to an over-sized coalition for security. [Inferred]
 
 **Disabling conditions** — documented when the pattern fails or degrades:
 
-- [Condition under which the pattern collapses or reverses]. [claim label]
-- [Second disabling condition]. [claim label]
+- Uncertainty about member reliability under uncertainty (vote-counting uncertainty in secret ballots, uncertainty about legislative defection) induces coalition builders to overshoot the minimum to maintain a buffer against defection; actual coalition size is observed to exceed the theoretical minimum in proportion to defection uncertainty. [Observed]
+- Non-zero-sum considerations dominate: in repeated games, coalition builders may include supernumerary members to build reputation for inclusiveness, to preempt their defection to a counter-coalition in future rounds, or to maintain governing capacity after the decisive vote. [Observed]
+- The winning threshold is itself contestable and uncertain — ambiguity about whether a proposed coalition crosses the threshold pushes builders toward over-sized coalitions to avoid threshold disputes. [Inferred]
+- The domain involves non-divisible payoffs — where the prize is a single indivisible outcome rather than a divisible pool — reducing the relevance of size-minimization because there is no per-member share to maximize through exclusion. [Inferred]
 
 ### Common failure modes
 
-<!-- How and why the pattern breaks down. Name the failure mode, label the claim, describe what triggers failure and what the pattern degrades into. -->
-
-- **[Mode name]** — [claim label] — [explanation; what it degrades into]
-- **[Mode name]** — [claim label] — [explanation]
+- **Defection below the winning threshold** — [Observed] — A coalition assembled at exactly the minimum size is highly vulnerable to defection, because a single defection drops it below the threshold; empirically, legislative coalitions built to exact minimums fail more often than those with a small buffer. The failure mode is the direct structural consequence of size-minimization: every member excluded for efficiency is a potential acquisition for the opposition counter-coalition. Degrades into coalition reassembly or defeat.
+- **Pivotal member extraction** — [Observed] — A pivotal member who accurately assesses their own indispensability extracts side-payments or policy concessions that substantially dilute the payoff for other members; if multiple pivotal members compete to extract maximum rents simultaneously, the coalition may become too expensive to assemble at all. Documented in parliamentary coalition formation research as a driver of coalition formation failure (de Swaan 1973).
+- **Counter-coalition formation by excluded actors** — [Inferred] — Actors excluded from the minimum winning coalition, facing the direct cost of exclusion, pool resources to offer pivotal members a higher bid — either inviting them into a counter-coalition or simply making the current coalition's commitments too expensive to hold. The excluded actors' structural incentive to break the coalition is precisely calibrated to the size-minimization benefit the coalition builder gained by excluding them.
+- **Threshold change** — [Observed] — The winning threshold is changed (by constitutional amendment, house rule revision, or reinterpretation) after a minimum winning coalition is assembled, invalidating the builder's calculation; the pattern is disrupted by external rule changes rather than internal dynamics. Documented in cases where supermajority requirements were introduced mid-process to block an assembled simple majority coalition.
 
 ### What evidence would prove/disprove key claims
 
-<!-- Dataset, case record, or cross-domain comparison that would confirm or refute the central mechanism claim. What would a contrary finding look like? -->
-
-- [Confirming evidence type]
-- [Disconfirming evidence type]
-- [Comparative test across domains]
+- **Confirms central mechanism:** Empirical comparison of actual coalition sizes in parliamentary government formation relative to theoretical minimums across a large cross-national dataset would test whether coalition builders consistently target size-minimization. Laver & Schofield 1990 and Warwick & Druckman 2006 provide this evidence and document systematic over-sizing relative to strict Rikerian predictions.
+- **Disconfirms:** Systematic observation of coalition sizes consistently and significantly larger than the minimum in zero-sum single-decision environments — where non-zero-sum considerations cannot account for the deviation — would challenge the core rational actor premise of the size principle. The documented over-sizing in parliamentary coalitions requires supplementary explanations (uncertainty, reputation) that partially qualify the original model.
+- **Tests pivotality premium:** Within a fixed coalition formation round, comparison of payoff allocations (portfolio shares, policy concessions, side payments) relative to measured pivotality of each member would confirm whether pivotal members consistently receive a share premium; Warwick & Druckman 2006 provide direct tests of this within European coalition cabinets.
+- **Tests domain generalization:** Comparison of coalition size relative to minimum across legislative, corporate (shareholder coalitions), regulatory, and military alliance contexts would test whether the structural logic generalizes across domains or is specific to legislative majority systems.
 
 ### Instantiations
 
-<!-- Cross-domain documented examples. Domain → specific case → source → which aspect of the pattern it illustrates. Minimum 2 domains. -->
+- **Political / US Federal — Senate cloture coalition management:** US Senate cloture requires 60 votes (under Rule XXII as of 2024 for most legislation) to terminate debate. Majority leaders managing cloture coalitions face a 60-vote minimum threshold in a 100-member body; in periods of narrow majority, leadership has been documented targeting exactly the 60-vote threshold with specific side-payment structures (policy concessions, committee assignments, project grants) for the decisive senators, while withholding concessions from senators whose votes were already secured or unnecessary. The 2009–2010 Affordable Care Act cloture coalition (60-vote Democratic caucus, exactly the minimum at that composition) illustrates both the precision of minimum-coalition targeting and its vulnerability: a single member defection would have forced renegotiation. [Observed — Binder & Smith 1997; Kaiser 2013]
 
-- **[Domain A]:** [specific case]. [claim label — source]
-- **[Domain B]:** [specific case]. [claim label — source]
-- **[Domain C]:** [specific case]. [claim label — source]
+- **Political / Comparative — Parliamentary government formation:** Studies of European parliamentary coalition formation across the postwar period consistently find that minimum winning coalitions — those that would lose majority status with the removal of any one partner — form more frequently than would be predicted by chance, and that surplus majorities (coalitions larger than minimally necessary) are associated with higher policy uncertainty and higher bargaining costs. Laver & Schofield (1990) survey 313 government formations across 12 European democracies. [Observed — Laver & Schofield 1990; de Swaan 1973]
+
+- **Corporate governance — Proxy contest coalition building:** In hostile proxy contests (campaigns to replace corporate board directors by soliciting shareholder votes), activist investors target exactly the coalition of shares required to win the relevant vote (majority, plurality, or supermajority depending on the bylaw structure), concentrating side-payment and argument resources on the pivotal institutional shareholder blocs whose votes are genuinely in play rather than on large shareholders already committed to either side. ICT/Glenview/Legion Partners contests document this precision in targeting pivotal index fund and institutional investor blocks. [Observed — Bebchuk & Weisbach 2010; Gillan & Starks 2000]
+
+- **Military / Strategic — World War I alliance architecture:** Riker applied the size principle historically to the World War I alliance configuration, arguing that each major power sought to add allies sufficient to achieve military superiority while limiting the coalition to avoid diluting victory payoffs; the historical clustering into two roughly balanced blocs of approximately equal size is consistent with minimum-winning-coalition dynamics, though alternative accounts (commitment problems, ideological alignment, geographic contiguity) are also documented. [Observed — Riker 1962; Christensen & Snyder 1990]
+
+- **Biological / Evolutionary — Mutualistic partnership formation:** In mutualistic relationships (mycorrhizal fungi-plant networks, cleaner fish-client fish relationships), species minimize the number of mutualistic partners to the set sufficient for resource acquisition, avoiding over-investment in partner maintenance costs; field studies document that cleaner wrasse stations serve the minimum client fish density required for sustenance rather than maximizing client access when client density is declining. This is a structural analog to the size principle in a biological exchange economy, though the mechanistic basis is ecological rather than strategic. [Inferred — Cheney & Molly 2008; Noë & Hammerstein 1994]
 
 *Modframe links:* See `Modframe instances` in README for specific federal power module IDs.
 
 ### Suggested sources
 
-<!-- Full citation format: [Title]. [Author / Issuing body], [Year]. [URL or identifier]. -->
-
--
--
--
+- The Theory of Political Coalitions. William H. Riker, Yale University Press, 1962. ISBN 978-0300004243.
+- Multiparty Government: The Politics of Coalition in Europe. Michael Laver & Norman Schofield, Oxford University Press, 1990. ISBN 978-0198273288.
+- Coalition Theories and Cabinet Formations. Abram de Swaan, Elsevier, 1973. ISBN 978-0444105912.
+- Conflict of Interest: A Theory of Divergent Goals with Applications to Politics. Robert Axelrod, Markham, 1970. ISBN 978-0841000544.
+- The Logic of Collective Action. Mancur Olson, Harvard University Press, 1965. ISBN 978-0674537514.
+- Measuring Portfolio Salience in Western European Parliamentary Democracies. Paul V. Warwick & James N. Druckman, European Journal of Political Research, 2006. https://doi.org/10.1111/j.1475-6765.2005.00298.x
+- Politics or Principle? Filibustering in the United States Senate. Sarah A. Binder & Steven S. Smith, Brookings Institution Press, 1997. ISBN 978-0815709206.
+- Act of Congress: How America's Essential Institution Works, and How It Doesn't. Robert G. Kaiser, Knopf, 2013. ISBN 978-0307701879.
+- Chasing the Minimum Winning Coalition: Strategic Alliance Formation and Military Conflict. Thomas J. Christensen & Jack Snyder, World Politics, 1990. https://doi.org/10.2307/2010569
+- The Governance of Large Corporations: Implications and Challenges. Lucian A. Bebchuk & Michael S. Weisbach, Review of Financial Studies, 2010. https://doi.org/10.1093/rfs/hhp072
 
 ### Analysis outline (6 parts)
 
-1. **Pattern** — [what this pattern is and what relationship structure it operates on]
-2. **Mechanism** — [why the pattern works — the structural logic]
-3. **Instantiation** — [a specific, real cross-domain case study — name it and name the domain]
-4. **Evidence** — [primary sources or data to show across domains]
-5. **Countermeasures** — [≥ 2 documented structural responses or reforms that have altered pattern outcomes — describe neutrally]
-6. **Takeaway** — [the structural insight a reader should retain]
+1. **Pattern** — Minimum Winning Coalition is a cooperative and coalition pattern operating on the relationship between a coalition builder, its necessary partners, and excluded actors in a zero-sum decision environment; the pattern's defining feature is that coalition size is a strategic variable whose minimization increases per-member payoff at the cost of coalition fragility.
+2. **Mechanism** — The pattern operates through the size principle: in a zero-sum environment where winning yields a fixed divisible prize, each additional coalition member above the minimum reduces every existing member's share without reducing the probability of winning; rational actors therefore prefer the smallest winning coalition, and rational coalition builders compete to assemble the minimum rather than the maximum set of necessary partners.
+3. **Instantiation** — US Senate cloture coalition for the Affordable Care Act (2009–2010, political/US federal domain): the 60-vote Democratic caucus constituted exactly the minimum required for cloture under Rule XXII; Senate leadership (Reid) managed targeted policy concessions to individual pivotal senators (Nelson, Lieberman, Lincoln) whose votes were not secured until the final stages, concentrating side-payment resources on the pivotal set rather than distributing them uniformly (Kaiser 2013).
+4. **Evidence** — Riker 1962 (foundational theory and historical cases); Laver & Schofield 1990 (313 European government formations); Warwick & Druckman 2006 (portfolio allocation as pivot-premium test); Binder & Smith 1997 (Senate cloture dynamics); Christensen & Snyder 1990 (military alliance formation test).
+5. **Countermeasures** — Supermajority requirements that set the winning threshold above simple majority structurally expand the minimum winning coalition and distribute pivotality across more members, reducing the leverage of any single pivotal actor and increasing the coalition's fragility resistance by requiring a larger defection set to drop below the threshold. Consensus or unanimity rules (as in EU Council votes for constitutional matters and WTO decision-making) push the minimum winning coalition to encompass all participants, eliminating exclusion as a strategy but imposing the coordination costs of universal buy-in.
+6. **Takeaway** — The pivotal member — not the largest or most powerful member — holds the highest leverage in any coalition negotiation: the structural premium accrues to indispensability, not to raw resources, making the identification of who is actually pivotal the primary analytical move in coalition bargaining.

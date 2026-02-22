@@ -2,9 +2,9 @@
 
 Purpose: Assemble the smallest coalition sufficient to win, maximizing each member's share.
 
-Status: empty
+Status: draft
 
-Tags:
+Tags: coalition, bargaining, size-principle, pivot, zero-sum, legislative, alliance
 
 Pattern class: 02 Cooperative and Coalition Patterns
 
@@ -12,22 +12,33 @@ Outline: see `outline.md`
 
 Contributors:
 
-Related patterns:
-Often combined with:
-Degrades into:
-Modframe instances:
-Last reviewed:
+Related patterns: 009, 011, 016, 029, 039
+Often combined with: 016, 039, 029
+Degrades into: 011, 022
+Modframe instances: [pending — requires Modframe INDEX review]
+Last reviewed: 2025-07
 
 Domains:
-  -
+  - Political / US Federal
+  - Political / Comparative
+  - Corporate governance
+  - Military / Strategic
+  - Biological / Evolutionary
 
 Actors:
-  - name:
-    type:
+  - name: Coalition builder
+    type: Deploying actor
+  - name: Pivotal member
+    type: Target / partner
+  - name: Supernumerary member
+    type: Potential partner (excluded by size logic)
+  - name: Excluded actor
+    type: Adversarial / counter-coalition potential
+  - name: Decision authority
+    type: Enabling structure
 
 How to contribute:
 
-- Use docs/prompts/draft_module.md to generate initial content
-- Add citations under "Suggested sources" in outline.md
-- Populate Modframe instances with relevant Modframe module IDs
-- Propose visuals in figures/ and link from here
+- Add Modframe instance IDs once Modframe INDEX is reviewed
+- Add figures/ illustrating pivot value distributions across coalition sizes
+- Extend instantiations with corporate proxy contest dataset evidence (Warwick & Druckman followup)

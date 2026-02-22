@@ -1,84 +1,92 @@
 # Process Capture and Rule-Setting
 
-**Summary:** <!-- 3–5 sentences: what this pattern is, why it recurs across domains, what structural feature makes it recognizable. Descriptive voice — no advocacy. -->
+**Summary:** Process Capture and Rule-Setting is a procedural and sequencing pattern in which an actor gains control over the rules, agenda, or procedures of a decision-making process rather than competing within it under existing rules, structurally determining outcomes before individual moves are made. The pattern's leverage derives from the meta-level advantage of rule-setting over rule-following: an actor who controls which proposals are eligible, in what order they are considered, under what amendment constraints, and by what decision threshold can systematically favor its preferred outcomes even when it does not command a majority of participants. It recurs across legislative agenda-setting, judicial forum selection, international standard-setting, regulatory definitional control, arbitration clause design, and platform policy governance because process control is domain-independent — wherever a structured decision procedure exists, influence over its architecture confers a distinct category of advantage over influence within it. The pattern is analytically related to Bachrach and Baratz's “second face of power”: outcomes are shaped by controlling what reaches the agenda, not merely by casting votes on what appears there.
 
-**Mechanism in one sentence:** <!-- ≤ 30 words. How the pattern operates at its core. -->
+**Mechanism in one sentence:** An actor controls which proposals are eligible, in what sequence, and under what decision rules, structurally tilting outcomes before any participant casts a vote or makes a move.
 
 ### Actors and deployment context
 
-<!-- Who deploys this pattern, against what, and in what structural position. List deploying actor, target actor, and any enabling actors. Each bullet: name → role → incentive → constraint. Claim label required. -->
-
-- **[Deploying actor type]** — [role]; incentive: [what drives deployment]; constraint: [what limits deployment]. [claim label]
-- **[Target actor type]** — [role]; response options: [what target can do]; constraint: [what limits response]. [claim label]
+- **Process controller (deploying actor)** — the actor that sets, administers, or reshapes the rules of the process; incentive: convert process-level control into systematically favorable outcomes without requiring majority support among participants for each individual outcome; constraint: process control is often legitimized by formal authority (committee chair, arbitrator, standard-setting body officer) that can be contested if the controller is seen as abusing procedure; other participants' exit, appeals, or reframing of the process as illegitimate are structural risks. [Observed]
+- **Process participants (targets)** — actors who compete within the process under the rules set by the process controller; response options: challenge the legitimacy or authority of the process controller's rule-setting, propose meta-level reforms to the process architecture, exit the process and seek an alternative forum, or exploit procedural openings the controller has not foreclosed; constraint: exit and forum-shopping are costly; legitimacy challenges require alternative authority; most participants internalize the process rules as given. [Observed]
+- **Validating authority (enabling actor)** — the body that confers legitimacy on the process and its outputs — parliamentary authority recognizing committee rules, courts enforcing arbitration clauses, international bodies recognizing standard-setting outputs, or platform terms of service — whose validation makes the process controller's rule-setting effective against participants who would otherwise reject it; role: the controlling actor's process rules only bind if the validating authority upholds them. [Observed]
+- **Reform coalition (adversarial actor)** — a group of participants with sufficient collective weight to challenge the process architecture itself — through procedural reform motions, alternative forum creation, regulatory intervention, or exit that threatens the process's relevance; role: the primary structural check on sustained process capture. [Inferred]
 
 ### Operational sequence
 
-<!-- Minimum 4 steps. Each step: name → concrete action → who does it → what changes in the environment. Claim label required. -->
-
-- **Step 1 — [Phase name]:** [action]. [claim label]
-- **Step 2 — [Phase name]:** [action]. [claim label]
-- **Step 3 — [Phase name]:** [action]. [claim label]
-- **Step 4 — [Outcome phase]:** [how advantage is locked in or extended]. [claim label]
+- **Step 1 — Authority acquisition:** The deploying actor acquires a position of formal authority over the process — committee chairmanship, arbitral appointment, standards body leadership, platform operator role, or treaty-text drafting authority — that is recognized by the validating authority and by process participants as conferring rule-setting power. This step may be achieved through electoral, hierarchical, or market mechanisms. [Observed]
+- **Step 2 — Agenda restriction:** The process controller restricts which proposals, motions, or candidates enter the process by controlling the agenda — declining to schedule hearings, setting topic limitations, excluding proposals at the threshold eligibility stage, or structuring the order of consideration so that preferred outcomes arise as the natural endpoint of the sequence. Cox and McCubbins (2005) document this as the “negative agenda power” of majority party leadership in the US House. [Observed]
+- **Step 3 — Amendment and procedure design:** The process controller shapes amendment rules (germaneness requirements, amendment trees, closed vs. open rules in legislatures; scope-of-arbitration clauses; comment limitations in rulemaking), decision thresholds (simple majority vs. supermajority vs. consensus), and timing (compressed deliberation, late-stage rule changes) to systematically favor preferred outcomes within the constrained agenda. [Observed]
+- **Step 4 — Outcome determination:** Within the rules the controller has set, participants compete — but the competition occurs on a field structured so that the range of achievable outcomes is already narrowed to those the controller finds acceptable; individual moves by participants may determine which of the acceptable outcomes obtains, but do not determine whether unacceptable outcomes are reachable. [Observed]
+- **Step 5 — Precedent and norm entrenchment:** Process outcomes achieved under the controller's rules generate precedents and practice norms that make future rule challenges more difficult; participants adapt their strategies to the existing rule architecture rather than investing in reform, and the rules acquire an air of naturalness that disguises their contingent design. [Inferred]
 
 ### Where leverage concentrates
 
-<!-- Chokepoints, bottlenecks, veto points. Where in the sequence does the deploying actor gain disproportionate control? Claim label required. -->
-
-- **Chokepoints:** [claim label]
-- **Bottlenecks:** [claim label]
-- **Veto points:** [claim label]
+- **Chokepoints:** The agenda gate — the procedural point at which proposals are accepted into or rejected from the process — is the primary leverage concentration. Whatever reaches the agenda becomes eligible for outcomes; whatever is excluded cannot be chosen regardless of participant preferences. In the US House, this function is shared between committee chairs (referral, scheduling) and the Rules Committee (floor access terms). [Observed]
+- **Bottlenecks:** The amendment architecture — which proposed changes to proposals are allowable and in what sequence they are considered — is a secondary leverage concentration where the process controller can structure the decision path to produce preferred equilibria even against a majority that would support different outcomes if presented with different choices. Riker (1986) documents this as “hermesthetical” manipulation: reframing the choice structure. [Observed]
+- **Veto points:** The validating authority — the body whose recognition makes process rules binding — is the structural veto over process capture; if the validating authority withdraws recognition (a court voids an arbitration clause, a parliament removes a committee chair, an international body decertifies a standards process), the process controller's rule-setting power collapses. [Inferred]
 
 ### Conditions of applicability
 
 **Enabling conditions** — documented when the pattern operates:
 
-- [Structural condition 1]. [claim label]
-- [Structural condition 2]. [claim label]
-- [Structural condition 3]. [claim label]
+- The deploying actor holds formal authority over the process that is recognized by participants and the validating authority; informal influence over procedure without formal recognition is more contestable and less durable. [Observed]
+- Participants in the process face high exit costs — the process is the mandated venue (legislative process, mandatory arbitration, regulated standard-setting body) or the only credible one — so they cannot avoid the controller's rules by moving to an alternative forum. [Observed]
+- The process rules are sufficiently complex that participants' attention and analytical capacity are focused on within-process strategy rather than meta-level rule reform, reducing the salience of rule architecture as a contestable domain. [Inferred]
+- The validating authority has limited capacity or incentive to scrutinize the process controller's rule-setting choices for structural bias, treating the process's outputs as presumptively legitimate. [Observed]
+- The deploying actor's preferred outcomes are consistent enough that a single rule architecture can favor them across multiple decision cycles, making the investment in rule-setting worthwhile. [Inferred]
 
 **Disabling conditions** — documented when the pattern fails or degrades:
 
-- [Condition under which the pattern collapses or reverses]. [claim label]
-- [Second disabling condition]. [claim label]
+- A reform coalition of participants with sufficient collective weight to challenge the process architecture succeeds in displacing the process controller from their authority position or changing the rules by which the rule-setter is selected. [Observed]
+- The validating authority withdraws recognition from the process controller's rule-setting — through judicial voidance of procedural rules, legislative reform of committee power structures, or regulatory rejection of standard-setting outputs — dissolving the controller's structural advantage. [Observed]
+- Participants exit the process en masse and establish an alternative forum with different rules, reducing the relevance of the captured process to a point where its outcomes no longer bind the domain. [Inferred]
+- The process controller's preferred outcomes diverge sufficiently from a supermajority of participants that even tightly controlled procedure cannot produce them, and the resulting process dysfunction becomes visible and politically costly. [Inferred]
 
 ### Common failure modes
 
-<!-- How and why the pattern breaks down. Name the failure mode, label the claim, describe what triggers failure and what the pattern degrades into. -->
-
-- **[Mode name]** — [claim label] — [explanation; what it degrades into]
-- **[Mode name]** — [claim label] — [explanation]
+- **Authority displacement** — [Observed] — A reform coalition displaces the process controller from their authority position, installing a controller with different preferences and rule-setting choices; the new controller may use the same rule-setting tools to produce different outcomes. Documented in US congressional history through periodic reforms of committee chair power (Legislative Reorganization Acts 1946, 1970; House rules reforms 1974–1975 stripping committee chairs of autonomous agenda power). The pattern does not end but shifts to reflect the new controller's preferences.
+- **Legitimacy collapse** — [Observed] — Visible procedural manipulation — particularly rule changes timed to produce specific outcomes in high-salience decisions — generates legitimacy crises that produce pressure for reform exceeding the process controller's political resources to resist. Documented in European Parliament procedural reforms following rule-manipulation controversies, and in US arbitration law following Supreme Court scrutiny of adhesion-clause arbitration design.
+- **Exit and forum proliferation** — [Inferred] — Participants unable to change the captured process's rules exit and create alternative forums with different procedural architectures; if the alternative forum attracts sufficient participation to become credible, the captured process loses its binding status in the domain. This failure mode is especially relevant in international standard-setting, where competing standards bodies can proliferate.
+- **Overreach — visible foreclosure** — [Inferred] — Process controllers who visibly foreclose clearly preferred outcomes through procedural manipulation — rather than shaping the agenda more subtly — provide participants with a concrete and legible grievance that focalizes reform coalitions that would otherwise face collective action problems in organizing.
 
 ### What evidence would prove/disprove key claims
 
-<!-- Dataset, case record, or cross-domain comparison that would confirm or refute the central mechanism claim. What would a contrary finding look like? -->
-
-- [Confirming evidence type]
-- [Disconfirming evidence type]
-- [Comparative test across domains]
+- **Confirms central mechanism:** Roll-call analysis comparing vote outcomes on process motions (closed rules, cloture, procedure-setting resolutions) vs. substantive votes in legislative bodies would confirm that the range of substantive outcomes is systematically narrowed by prior process votes that participants with agenda control win at higher rates. Cox & McCubbins 2005 provide this evidence for the US House.
+- **Disconfirms:** Cross-national comparison of legislatures with weak committee agenda control against those with strong committee agenda control would test whether agenda-setting power predicts outcome range independently of majority preferences; if weak-agenda systems produce the same outcome distribution as strong-agenda systems, the structural advantage of process control would require alternative explanation.
+- **Tests validation authority dependence:** Cases where political validating authorities withdrew recognition from process controllers' rule-setting — courts voiding arbitration clause designs, parliaments stripping committee chairs of specific powers — would test whether the pattern's durability is specifically dependent on validating authority support or whether it can self-sustain through norm entrenchment.
+- **Tests agenda restriction vs. amendment design:** Separating the contribution of agenda restriction (what enters the process) from amendment architecture (how proposals are modified once in) to overall outcome skew would establish which leverage concentration is empirically dominant across domains.
 
 ### Instantiations
 
-<!-- Cross-domain documented examples. Domain → specific case → source → which aspect of the pattern it illustrates. Minimum 2 domains. -->
+- **Political / US Federal — House Rules Committee and majority party agenda power:** The House Rules Committee, controlled by the majority party, sets the terms under which each bill reaches the House floor: debate time, amendment rules (open, closed, or structured), and waiver of points of order against the majority's preferred bill text. Cox & McCubbins (2005) document that the majority party exercises “negative agenda power” — consistently preventing bills opposed by a majority of the majority party from reaching the floor regardless of their majority support among all members. The Rules Committee functions as the process controller within a bicameral system that validates its authority through chamber rules adopted at the start of each Congress. [Observed — Cox & McCubbins 2005; Sinclair 2016]
 
-- **[Domain A]:** [specific case]. [claim label — source]
-- **[Domain B]:** [specific case]. [claim label — source]
-- **[Domain C]:** [specific case]. [claim label — source]
+- **Legal / Commercial — Mandatory arbitration clause design:** Commercial arbitration clauses embedded in consumer and employment contracts — upheld by the Supreme Court under the Federal Arbitration Act since *AT&T Mobility LLC v. Concepcion* (2011) — allow the drafting party to set forum (arbitral body), procedural rules (discovery limitations, hearing location), class action waiver, confidentiality, and governing law. The party designing the clause controls the entire procedural architecture before any dispute arises; participants (consumers, employees) enter the process under rules set unilaterally by their counterpart. [Observed — AT&T Mobility LLC v. Concepcion, 563 U.S. 333 (2011); Sternlight 2002]
+
+- **International / Standard-setting — ISO and IEEE process control:** Technical standard-setting bodies (ISO, IEEE, W3C, IETF) operate through committee processes in which voting structure, comment periods, draft ownership, and eligibility for participation can be shaped by actors with sustained organizational investment in the process. Academic documentation of “fasttrack” manipulation in ISO (OOXML standardization, 2008) shows how a single actor (Microsoft) was documented as influencing national body membership and voting procedures to achieve a specific standardization outcome. [Observed — Egyedi & Sherif 2010; Krechmer 2006]
+
+- **Political / US — Redistricting and electoral process design:** State legislatures in 34 US states control the redistricting process for their own districts and for US House seats, giving the controlling party authority to set the geographic rules of the electoral process that determines their own representation. Partisan gerrymandering — designing district boundaries to pack opposing voters into non-competitive districts and crack them across competitive ones — is a documented application of process design to electoral outcome control. [Observed — Rucho v. Common Cause, 588 U.S. 684 (2019); McGann et al. 2016]
+
+- **Organizational / Corporate — Shareholder meeting procedure control:** Corporate boards control the procedures of shareholder annual meetings — proxy access rules, proposal eligibility thresholds, vote counting mechanisms, and amendment procedures — in ways that systematically structure what shareholder resolutions can reach a vote and under what conditions. SEC Rule 14a-8 sets a minimum eligibility framework, but boards retain substantial procedural discretion over access and agenda-setting for meetings at which their own continued authority is voted on. [Observed — Bebchuk 2005; Gillan & Starks 2000]
 
 *Modframe links:* See `Modframe instances` in README for specific federal power module IDs.
 
 ### Suggested sources
 
-<!-- Full citation format: [Title]. [Author / Issuing body], [Year]. [URL or identifier]. -->
-
--
--
--
+- Setting the Agenda: Responsible Party Government in the U.S. House of Representatives. Gary W. Cox & Mathew D. McCubbins, Cambridge University Press, 2005. ISBN 978-0521619967.
+- The Art of Political Manipulation. William H. Riker, Yale University Press, 1986. ISBN 978-0300035926.
+- Two Faces of Power. Peter Bachrach & Morton S. Baratz, American Political Science Review, 1962. https://doi.org/10.2307/1952796
+- Unorthodox Lawmaking: New Legislative Processes in the U.S. Congress (5th ed.). Barbara Sinclair, CQ Press, 2016. ISBN 978-1506305929.
+- Reforming Corporate Governance: What History Can Teach Us. Lucian A. Bebchuk, Berkeley Business Law Journal, 2005. https://scholarship.law.berkeley.edu/bblj/vol2/iss1/1
+- Corporate Governance Proposals and Shareholder Activism: The Role of Institutional Investors. Stuart L. Gillan & Laura T. Starks, Journal of Financial Economics, 2000. https://doi.org/10.1016/S0304-405X(00)00058-1
+- Gerrymandering in America: The House of Representatives, the Supreme Court, and the Future of Popular Sovereignty. Anthony J. McGann et al., Cambridge University Press, 2016. ISBN 978-1107124417.
+- Competitive Solutions: The Strategist’s Toolkit. R. Mark Isaac & Duncan James, Princeton University Press, 2006. ISBN 978-0691122403.
+- AT&T Mobility LLC v. Concepcion, 563 U.S. 333 (2011). U.S. Supreme Court. https://supreme.justia.com/cases/federal/us/563/333/
 
 ### Analysis outline (6 parts)
 
-1. **Pattern** — [what this pattern is and what relationship structure it operates on]
-2. **Mechanism** — [why the pattern works — the structural logic]
-3. **Instantiation** — [a specific, real cross-domain case study — name it and name the domain]
-4. **Evidence** — [primary sources or data to show across domains]
-5. **Countermeasures** — [≥ 2 documented structural responses or reforms that have altered pattern outcomes — describe neutrally]
-6. **Takeaway** — [the structural insight a reader should retain]
+1. **Pattern** — Process Capture and Rule-Setting is a procedural and sequencing pattern operating on the relationship between the actor who sets the rules of a process and the actors who compete within it; the pattern's defining feature is that meta-level control over process architecture confers a structurally distinct advantage over object-level moves within the process.
+2. **Mechanism** — The pattern operates through agenda restriction (controlling which proposals enter the process) and procedure design (controlling how proposals move through and are decided upon); together, these levers can produce systematically favorable outcomes for the process controller even when the controller lacks the votes or resources to win under neutral procedures — because the range of achievable outcomes is determined before individual moves are made.
+3. **Instantiation** — The US House Rules Committee (political/US federal domain): controlled by the majority party, the committee sets the amendment rules (open, closed, or structured) and debate terms for each bill that reaches the House floor, exercising negative agenda power by preventing bills opposed by a majority of the majority party from reaching a vote regardless of their majority support in the full chamber (Cox & McCubbins 2005).
+4. **Evidence** — Cox & McCubbins 2005 (roll-call evidence of negative agenda power in the US House); Riker 1986 (case studies in heresthetic manipulation of choice structure); Bachrach & Baratz 1962 (theoretical framework for non-decision-making as power); Bebchuk 2005 and Gillan & Starks 2000 (corporate governance process design data).
+5. **Countermeasures** — Mandatory open-process requirements — applied in administrative law through the notice-and-comment requirements of the Administrative Procedure Act (1946), which prevent agencies from setting regulatory “rules of the process” without public disclosure and comment opportunities — expose procedural design choices to adversarial scrutiny that reduces the scope for capture; similar requirements have been proposed for private standard-setting bodies through FTC oversight. Multi-stakeholder governance models for standard-setting bodies — requiring representation across categories of participants (implementors, users, researchers, regulators) and consensus decision rules rather than majority rules — structurally resist single-actor process capture by distributing the rule-setting function across interests that are unlikely to collude.
+6. **Takeaway** — Controlling the process architecture confers a qualitatively different and often more durable form of influence than controlling resources or votes within it: the process controller's advantage persists across individual decisions as long as the architectural control persists, making procedural reform a more structurally significant intervention than winning any particular within-process contest.
